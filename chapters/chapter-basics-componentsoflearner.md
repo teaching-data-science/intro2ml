@@ -2,7 +2,7 @@
 title: 'Chapter 1.6: Components of a Learner'
 description:
   ' description...'
-prev: /chapter1.5
+prev: /chapter-basics-lossesandriskminimization
 next: /the_end
 type: chapter
 id: 1

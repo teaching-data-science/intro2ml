@@ -2,8 +2,8 @@
 title: 'Chapter 1.2: Supervised Learning'
 description:
   ' description...'
-prev: /chapter1.1
-next: /chapter1.3
+prev: /chapter-basics-whatisml
+next: /chapter-basics-tasksanddata
 type: chapter
 id: 1
 ---

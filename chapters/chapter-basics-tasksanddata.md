@@ -2,8 +2,8 @@
 title: 'Chapter 1.3: Tasks and Data'
 description:
   ' description...'
-prev: /chapter1.2
-next: /chapter1.4
+prev: /chapter-basics-supervisedlearning
+next: /chapter-basics-modelsandlearners
 type: chapter
 id: 1
 ---

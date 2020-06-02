@@ -2,8 +2,8 @@
 title: 'Chapter 1.5: Losses and Risk Minimization'
 description:
   ' description...'
-prev: /chapter1.4
-next: /chapter1.6
+prev: /chapter-basics-modelsandlearners
+next: /chapter-basics-componentsoflearner
 type: chapter
 id: 1
 ---

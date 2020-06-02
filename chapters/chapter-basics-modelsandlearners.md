@@ -2,8 +2,8 @@
 title: 'Chapter 1.4: Models & Learners'
 description:
   ' description...'
-prev: /chapter1.3
-next: /chapter1.5
+prev: /chapter-basics-tasksanddata
+next: /chapter-basics-lossesandriskminimization
 type: chapter
 id: 1
 ---
