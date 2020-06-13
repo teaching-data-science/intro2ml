@@ -32,7 +32,7 @@ Which statements about CART are true?
 </opt>
 <opt text="With trees it is easy to handle missing values." correct="true">
 </opt>
-<opt text="A simple tree is everything you need to fit a linear function y≈a+b∗x with numeric target.">
+<opt text="A simple tree is everything you need to fit a linear function `y≈a+b∗x` with numeric target.">
 </opt>
 </choice>
 </exercise>

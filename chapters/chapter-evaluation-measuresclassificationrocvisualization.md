@@ -37,7 +37,7 @@ Which statements are true?
 </opt>
 <opt text="The confusion matrix tabulates the true against predicted classes." correct="true">
 </opt>
-<opt text="A misclassification error rate of 0.5% is always great.">
+<opt text="A misclassification error rate of `0.5%` is always great.">
 </opt>
 </choice>
 </exercise>
@@ -153,9 +153,9 @@ We only want to consider the complete cases. Use the `filter` method combined wi
 <exercise id="6" title="Quiz">
 Which statements are true?
 <choice>
-<opt text="The AUC with about 86 % is good." correct="true">
+<opt text="The AUC with about `86%` is good." correct="true">
 </opt>
-<opt text="The model is able to classify 74 out of 130 correct as negative.">
+<opt text="The model is able to classify `74` out of `130` correct as negative.">
 </opt>
 <opt text="Using the prediction of the train data is the ordinary and correct way of calculating the ROC.">
 </opt>

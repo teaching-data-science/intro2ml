@@ -27,7 +27,7 @@ Which statements are true?
 <choice>
 <opt text="Machine learning is a branch of statistics and computer science." correct="true">
 </opt>
-<opt text="A model f is a mapping from the feature space to the target space." correct="true">
+<opt text="A model `f` is a mapping from the feature space to the target space." correct="true">
 </opt>
 <opt text="The goal of an ML algorithm is to yield a model that reproduces the already seen data as accurately as possible.">
 </opt>

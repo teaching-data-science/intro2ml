@@ -27,7 +27,7 @@ id: 1
 <exercise id="3" title="Quiz">
 Which statements are true?
 <choice>
-<opt text="To compute permutation variable importance for feature j, we permute the feature and see how the performance changes (in OOB observations)." correct="true">
+<opt text="To compute permutation variable importance for feature `j`, we permute the feature and see how the performance changes (in OOB observations)." correct="true">
 </opt>
 <opt text="The higher the variable importance, the more important the variable is for the model/ the prediction." correct="true">
 </opt>

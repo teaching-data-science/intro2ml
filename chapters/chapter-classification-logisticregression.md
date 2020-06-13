@@ -30,7 +30,7 @@ Which statements are true?
 </opt>
 <opt text="Logistic regression follows a generative approach">
 </opt>
-<opt text="In logistic regression, the parameter vector θ that maximizes the model's likelihood is identical to the one minimizing its empirical risk." correct="true">
+<opt text="In logistic regression, the parameter vector `θ` that maximizes the model's likelihood is identical to the one minimizing its empirical risk." correct="true">
 </opt>
 </choice>
 </exercise>

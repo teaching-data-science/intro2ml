@@ -31,15 +31,15 @@ Which statements are true?
 </opt>
 <opt text="k-NN can only be used for classification tasks.">
 </opt>
-<opt text="Nk(x)Nk(x) contains the subset of the feature space XX that is at least as close to xx as the kk-th closest neighbor of xx in the training data set." correct="true">
+<opt text="`Nk(x)` contains the subset of the feature space `X` that is at least as close to `x` as the `k`-th closest neighbor of `x` in the training data set." correct="true">
 </opt>
 <opt text="1-NN always 'predicts' perfectly on observations of the training data set." correct="true">
 </opt>
-<opt text="k-NN with k=nk=n always predicts the same target variable value for all possible inputs xx." correct="true">
+<opt text="k-NN with `k=n` always predicts the same target variable value for all possible inputs `x`." correct="true">
 </opt>
-<opt text="The Gower distance between two observations which have different values for all features is always 1.">
+<opt text="The Gower distance between two observations which have different values for all features is always `1`.">
 </opt>
-<opt text="The Gower distance between two observations which have the same values for all features is always 0." correct="true">
+<opt text="The Gower distance between two observations which have the same values for all features is always `0`." correct="true">
 </opt>
 <opt text="If you use the Euclidean distance, k-NN results do not change if you rescale the features.">
 </opt>

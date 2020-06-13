@@ -28,9 +28,9 @@ Which statements are true?
 <choice>
 <opt text="Classification is part of supervised learning." correct="true">
 </opt>
-<opt text="Scoring classifiers output numbers between 0 and 1">
+<opt text="Scoring classifiers output numbers between `0` and `1`">
 </opt>
-<opt text="Probabilistic classifiers output numbers between 0 and 1" correct="true">
+<opt text="Probabilistic classifiers output numbers between `0` and `1`" correct="true">
 </opt>
 <opt text="With scoring classifiers one can obtain class labels by using a threshold" correct="true">
 </opt>

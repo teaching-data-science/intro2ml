@@ -38,7 +38,7 @@ Which statements are true?
 </opt>
 <opt text="Constraining the hypothesis space helps the learner to find a good hypothesis.">
 </opt>
-<opt text="Goodness-of-fit measures like R2R2, likelihood, AIC, BIC and deviance are all based on the test error">
+<opt text="Goodness-of-fit measures like `R2`, likelihood, AIC, BIC and deviance are all based on the test error">
 </opt>
 </choice>
 </exercise>

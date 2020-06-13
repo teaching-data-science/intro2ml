@@ -28,11 +28,11 @@ Which statements are true?
 <choice>
 <opt text="The MSE is used in the conventional linear model to find the best parameter estimates." correct="true">
 </opt>
-<opt text="R2 can be smaller than 0 or greater than 1 for linear models." correct="true">
+<opt text="`R2` can be smaller than `0` or greater than `1` for linear models." correct="true">
 </opt>
-<opt text="The MAE is equivalent to the L1-loss." correct="true">
+<opt text="The MAE is equivalent to the `L1`-loss." correct="true">
 </opt>
-<opt text="The MSE is equivalent to the L1-loss.">
+<opt text="The MSE is equivalent to the `L1`-loss.">
 </opt>
 </choice>
 </exercise>

@@ -38,7 +38,7 @@ Which statements are true?
 </opt>
 <opt text="QDA requires estimation of more parameters than LDA" correct="true">
 </opt>
-<opt text="Naive Bayes assumes that the features are independent within each outcome class y." correct="true">
+<opt text="Naive Bayes assumes that the features are independent within each outcome class `y`." correct="true">
 </opt>
 <opt text="Naive Bayes follows a generative approach" correct="true">
 </opt>
