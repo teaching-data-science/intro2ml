@@ -1,7 +1,7 @@
 ---
 title: 'Exercise Sheets'
 description:
-'This section contains the exercise sheets and their corresponding solutions.'
+  'This section contains the exercise sheets and their corresponding solutions.'
 prev: /code-demos
 next: /cheat-sheets
 type: chapter
