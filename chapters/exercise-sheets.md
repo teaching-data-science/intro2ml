@@ -8,9 +8,11 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="Exercise 1">
-<object data="exercise-sheets/exercise_1.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="exercise-sheets/exercise_1.pdf" type="application/pdf" />
+
+
+<exercise id="1" title="Sheet 1">
+<object data="exercise-sheets/sheet_1.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/sheet_1.pdf" type="application/pdf" />
 </object>
 </exercise>
 
@@ -22,9 +24,9 @@ id: 1
 </exercise>
 
 
-<exercise id="3" title="Exercise 2">
-<object data="exercise-sheets/exercise_2.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="exercise-sheets/exercise_2.pdf" type="application/pdf" />
+<exercise id="3" title="Sheet 2">
+<object data="exercise-sheets/sheet_2.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/sheet_2.pdf" type="application/pdf" />
 </object>
 </exercise>
 
@@ -35,9 +37,9 @@ id: 1
 </exercise>
 
 
-<exercise id="5" title="Exercise 3">
-<object data="exercise-sheets/exercise_3.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="exercise-sheets/exercise_3.pdf" type="application/pdf" />
+<exercise id="5" title="Sheet 3">
+<object data="exercise-sheets/sheet_3.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/sheet_3.pdf" type="application/pdf" />
 </object>
 </exercise>
 
@@ -48,9 +50,9 @@ id: 1
 </exercise>
 
 
-<exercise id="7" title="Exercise 4">
-<object data="exercise-sheets/exercise_4.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="exercise-sheets/exercise_4.pdf" type="application/pdf" />
+<exercise id="7" title="Sheet 4">
+<object data="exercise-sheets/sheet_4.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/sheet_4.pdf" type="application/pdf" />
 </object>
 </exercise>
 
@@ -61,8 +63,8 @@ id: 1
 </exercise>
 
 
-<exercise id="9" title="Exercise 5">
-<object data="exercise-sheets/exercise_5.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="exercise-sheets/exercise_5.pdf" type="application/pdf" />
+<exercise id="9" title="Sheet 5">
+<object data="exercise-sheets/sheet_5.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/sheet_5.pdf" type="application/pdf" />
 </object>
 </exercise>
