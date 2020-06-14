@@ -2,7 +2,7 @@
 title: 'Exercise Sheets'
 description:
   'This section contains the exercise sheets and their corresponding solutions.'
-prev: /code-demos
+prev: /chapter-07_06-tuning-nestedresampling
 next: /cheat-sheets
 type: chapter
 id: 1

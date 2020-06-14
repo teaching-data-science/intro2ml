@@ -3,7 +3,7 @@ title: 'Cheat Sheets'
 description:
   'Some useful cheat sheets are provided in this section.'
 prev: /exercise-sheets
-next: null
+next: /contents
 type: chapter
 id: 1
 ---
