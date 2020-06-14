@@ -1,3 +1,7 @@
 install.packages("tidyverse")
 install.packages("rjson")
 install.packages("mlr3")
+install.packages("randomForest")
+install.packages("rpart")
+install.packages("ranger")
+install.packages("tidymodels")
