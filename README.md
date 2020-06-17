@@ -18,5 +18,3 @@ To create a new course create a fork of this repository and start building :tada
 Please check out our [contributing guidelines](CONTRIBUTING.md).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teaching-data-science/course-template/binder)
-
-

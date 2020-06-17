@@ -1,0 +1,13 @@
+learner <- ...
+param_set <- ...
+res_desc <- ...
+evals50 <- term(...)
+  
+instance <- TuningInstance$new(
+  task = ...,
+  learner = ...,
+  resampling = ...,
+  measures = ...,
+  param_set = ...,
+  terminator = ...
+)

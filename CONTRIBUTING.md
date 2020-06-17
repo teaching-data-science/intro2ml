@@ -433,3 +433,84 @@ the solution code.
 For more details on how it all works behind the scenes, see
 [the original course repo](https://github.com/ines/spacy-course).
 Further docs can be found in the [python course template](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
+
+
+
+
+## Gatsby Installation on Ubuntu (setup for the first time):
+
+1. Make sure your Linux distribution is ready to go run an update and an upgrade:
+
+`sudo apt update`
+`sudo apt -y upgrade`
+
+2. Install `curl` which allows you to transfer data and download additional dependencies:
+
+`sudo apt-get install curl`
+
+3. After it finishes installing, download the latest nvm version:
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
+
+4. Confirm this has worked. The output should be a version number.
+
+`nvm --version`
+
+5. Set default Node.js version
+
+`nvm install 10`
+`nvm use 10`
+
+6. Confirm that this worked:
+
+`npm --version`
+`node --version`
+
+7. Installing the Gatsby CLI:
+
+`npm install -g gatsby-cli`
+
+8. Create a Gatsby site:
+
+`gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world`
+
+9. Change into the working directory:
+
+`cd hello-world`
+
+10. Start the development mode:
+
+`gatsby develop`
+
+You’ll be able to visit the site locally at http://localhost:8000/ for as long as your development server is running.
+
+
+## Running a Gatsby website which has already been created:
+
+1. Set default Node.js version:
+
+`nvm use 10`
+
+2. Change into the working directory:
+
+`cd hello-world`
+
+4. Start the development mode:
+
+`gatsby develop`
+
+**Note 1:** There are usually some errors when one tries to run the gatsby. Clearing the `npm cache` as well as `updating` old packages can be usefull in such situations:
+
+1. To clear the cache:
+
+`npm cache clean --force`
+
+2. To find and update the outdated packages, run 
+
+`npm outdated`
+
+3. Compare the list of current and wanted versions. Edit the package.json file, and run
+
+`npm install`
+
+**Note 2:** [This link](https://www.gatsbyjs.org/tutorial/) provides more advanced instructions for working with Gatsby.
