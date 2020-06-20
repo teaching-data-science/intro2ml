@@ -1,7 +1,5 @@
 # Contributing guide
 
-Contributors welcome!
-
 This guide helps you to get started in working with this repo.
 
 ## Workflow
@@ -26,70 +24,87 @@ Thank you so much :sunflower:
    [`static`](static) as needed.
 6. Deploy the app, e.g. to [Netlify](https://netlify.com).
 
-### Running the app
 
-To start the local development server, install [Gatsby](https://gatsbyjs.org)
-and then all other dependencies. This should serve up the app on
-`localhost:8000`.
+### Installing Gatsby on Ubuntu (for the first time):
 
-```bash
-npm install -g gatsby-cli  # Install Gatsby globally
-npm install                # Install dependencies
-npm run dev                # Run the development server
+1. Make sure your Linux distribution is ready to go run an update and an upgrade:
+
+```bash       
+sudo apt update 
+sudo apt -y upgrade               
 ```
-on Windows and Mac you may need to use `yarn` instead of `npm`. 
+
+2. Install `curl`:
+
+`sudo apt-get install curl`
+
+3. Download the latest nvm version:
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
+
+4. Confirm this has worked. The output should be a version number.
+
+`nvm --version`
+
+5. Set default Node.js version:
+
+```bash       
+nvm install 10
+nvm use 10              
+```
+
+6. Confirm that this worked:
+
+```bash       
+npm --version
+node --version           
+```
+
+7. Installing the Gatsby CLI:
+
+`npm install -g gatsby-cli`
+
+8. Create a Gatsby site:
+
+`gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world`
+
+9. Change into the working directory:
+
+`cd hello-world`
+
+10. Start the development mode:
+
+`gatsby develop`
+
+You’ll be able to visit the site locally at http://localhost:8000/ for as long as your development server is running.
+
+## Running a Gatsby website (that has already been created):
+
+1. Set default Node.js version:
+
+`nvm use 10`
+
+2. Change into the working directory:
+
+`cd hello-world`
+
+4. Start the development mode:
+
+`gatsby develop`
+
+
+### 💡Note
+
+On Windows and Mac you may need to use `yarn` instead of `npm`. 
 You can alo [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
 
-## 💡Introduction
+
+
 
 ### How does this repo work?
 
-The course repository works with two components: Gatsby (front-end), and Binder
-(back-end). We'll go over both of these to understand how it works as a whole.
-
-### What is Gatsby?
-
-[Gatsby](https://www.gatsbyjs.org/) is a JavaScript/react.js based web page
-building framework, like Hugo, or Jekyll. The nice thing about it being
-JavaScript is that JavaScript widgets that you build are tightly integrated.
-
-You can think of Gatsby as being the client side of the lesson framework. All
-code, solutions, tests, and chapter.md files are handled by Gatsby.
-
-### What is Binder?
-
-[Binder](https://gke.mybinder.org/) is a way of building Docker containers from
-repositories that can be launched on a remote server/cluster (such as
-mybinder.org). This Docker container can be based on a Dockerfile, or R image.
-The thing about Binder is that the containers are ephemeral - if they're not
-used, they're deleted off the Binder servers. The main applications of Binder
-are:
-
-1. Reproducible Research (shareable notebooks) and
-2. Education (shareable notebooks)
-
-You can think of Binder as being the server side of the lesson framework. It
-needs the instructions on how to build the docker container (which is in the
-`binder/` folder), and the data you want to use for the lessons (in the `data/`
-folder).
-
-The only thing you need to get started with R and Binder is a repo that has a
-`runtime.txt` file, or a Dockerfile. The rest, such as datafiles, are optional,
-but are usually contained in a Binder repository.
-
-### How does Gatsby work with Binder?
-
-![code-execution](https://user-images.githubusercontent.com/3315629/60834090-b49d5980-a174-11e9-9d69-966084ba97b9.png)
-
-Ines was super clever and designed a JavaScript plugin for Gatsby called
-[Juniper](https://github.com/ines/juniper) to handle communication to and from
-the Binder container using Jupyter kernels. That's how code gets executed on the
-Binder container, and how code output (such as terminal messages, images, etc)
-are received from the Binder container.
 
 ## Branches of this repo
-
-![Course-repo](https://user-images.githubusercontent.com/3315629/60834054-a18a8980-a174-11e9-930d-c61df5faba7b.png)
 
 There are two branches of this repo, which are used for different tasks:
 
@@ -128,9 +143,6 @@ You can view the binder container here:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ines/course-starter-r/binder)
 or at: https://mybinder.org/v2/gh/ines/course-starter-r/binder
 
-- you can launch an Rstudio instance to test the container by using the "new"
-  tab in the top right corner, and selecting 'Rstudio'. This is super helpful if
-  you want to test if code will work in the binder container.
 
 ### Adding Packages
 
@@ -140,26 +152,6 @@ properly by clicking the binder link above.
 
 Currently, `tidyverse` is installed in the binder container.
 
-### `data/` folder
-
-If you want to access datasets in the data folder, you can always refer to this
-folder as `data/`. For example, to use `data/pets.csv`:
-
-```
-pets <- read.csv("data/pets.csv")
-```
-
-Remember, if you need to add a dataset to the repo, it needs to be done in the
-`binder` branch into the `data/` folder.
-
-### Using `decampr` to transfer your DataCamp repository
-
-If you would like to transfer your courses from DataCamp, there is a package
-made for that: [`decampr`](http://github.com/laderast/decampr). It will scan
-your repository and attempt to extract exercise instructions, quizzes, exercise
-code, and solutions and write them to the appropriate directory for your
-project. For more info, please check out the `decampr` repo:
-http://github.com/laderast/decampr
 
 ## 🎨 Customization
 
@@ -256,26 +248,7 @@ type: slides
 The **first and last slide** use a special layout and will display the headline
 in the center of the slide. **Speaker notes** (in this case, the script) can be
 added at the end of a slide, prefixed by `Notes:`. They'll then be shown on the
-right next to the slides. Here's an example slides file:
-
-```markdown
----
-type: slides
----
-
-# Processing pipelines
-
-Notes: This is a slide deck about processing pipelines.
-
----
-
-# Next slide
-
-- Some bullet points here
-- And another bullet point
-
-<img src="/image.jpg" alt="An image located in /static" />
-```
+right next to the slides. 
 
 ### Custom Elements
 
@@ -294,13 +267,6 @@ Container of a single exercise.
 | `type`       | string          | Optional type. `"slides"` makes container wider and adds icon. |
 | **children** | -               | The contents of the exercise.                                  |
 
-```markdown
-<exercise id="1" title="Introduction to spaCy">
-
-Content goes here...
-
-</exercise>
-```
 
 #### `<codeblock>`
 
@@ -312,13 +278,6 @@ Content goes here...
 | `test`       | string          | Name of the test file (without file extension). Defaults to `test_${id}` if not set.         |
 | **children** | string          | Optional hints displayed when the user clicks "Show hints".                                  |
 
-```markdown
-<codeblock id="02_03">
-
-This is a hint!
-
-</codeblock>
-```
 
 #### `<slides>`
 
@@ -328,10 +287,6 @@ Container to display slides interactively using Reveal.js and a Markdown file.
 | -------- | ------ | --------------------------------------------- |
 | `source` | string | Name of slides file (without file extension). |
 
-```markdown
-<slides source="chapter1_01_introduction-to-spacy">
-</slides>
-```
 
 #### `<choice>`
 
@@ -341,15 +296,6 @@ Container for multiple-choice question.
 | ------------ | --------------- | -------------------------------------------------------------------------------------------- |
 | `id`         | string / number | Optional unique ID. Can be used if more than one choice question is present in one exercise. |
 | **children** | nodes           | Only `<opt>` components for the options.                                                     |
-
-```markdown
-<choice>
-
-<opt text="Option one">You have selected option one! This is not good.</opt>
-<opt text="Option two" correct="true">Yay! </opt>
-
-</choice>
-```
 
 #### `<opt>`
 
@@ -429,88 +375,3 @@ The string answer is available as `.solution`, and the test also has access to
 the solution code.
 
 ---
-
-For more details on how it all works behind the scenes, see
-[the original course repo](https://github.com/ines/spacy-course).
-Further docs can be found in the [python course template](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
-
-
-
-
-## Gatsby Installation on Ubuntu (setup for the first time):
-
-1. Make sure your Linux distribution is ready to go run an update and an upgrade:
-
-`sudo apt update`
-`sudo apt -y upgrade`
-
-2. Install `curl` which allows you to transfer data and download additional dependencies:
-
-`sudo apt-get install curl`
-
-3. After it finishes installing, download the latest nvm version:
-
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
-
-4. Confirm this has worked. The output should be a version number.
-
-`nvm --version`
-
-5. Set default Node.js version
-
-`nvm install 10`
-`nvm use 10`
-
-6. Confirm that this worked:
-
-`npm --version`
-`node --version`
-
-7. Installing the Gatsby CLI:
-
-`npm install -g gatsby-cli`
-
-8. Create a Gatsby site:
-
-`gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world`
-
-9. Change into the working directory:
-
-`cd hello-world`
-
-10. Start the development mode:
-
-`gatsby develop`
-
-You’ll be able to visit the site locally at http://localhost:8000/ for as long as your development server is running.
-
-
-## Running a Gatsby website which has already been created:
-
-1. Set default Node.js version:
-
-`nvm use 10`
-
-2. Change into the working directory:
-
-`cd hello-world`
-
-4. Start the development mode:
-
-`gatsby develop`
-
-**Note 1:** There are usually some errors when one tries to run the gatsby. Clearing the `npm cache` as well as `updating` old packages can be usefull in such situations:
-
-1. To clear the cache:
-
-`npm cache clean --force`
-
-2. To find and update the outdated packages, run 
-
-`npm outdated`
-
-3. Compare the list of current and wanted versions. Edit the package.json file, and run
-
-`npm install`
-
-**Note 2:** [This link](https://www.gatsbyjs.org/tutorial/) provides more advanced instructions for working with Gatsby.
