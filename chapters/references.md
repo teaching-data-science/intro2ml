@@ -1,9 +1,8 @@
 ---
 title: 'References'
-description:
-  'You can find a list of references that are relevant to this course.'
-prev: /contents
-next: /team-and-license
+description: null
+prev: null
+next: null
 type: chapter
 id: 1
 ---

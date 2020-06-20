@@ -1,9 +1,8 @@
 ---
 title: 'Team and License'
-description:
-  'Here, you can find a list of references that are relevant to this course.'
-prev: /references
-next: /exercise-sheets
+description: null
+prev: null
+next: null
 type: chapter
 id: 1
 ---
@@ -22,7 +21,7 @@ id: 1
   is a PhD at Bernd's group and organized the first round of the inverted classroom in spring 2018, including the first round of videos.
 
 
-_Student Assistants_
+### Student Assistants
 
 - Tobias Pielok
 - Rifat Mehreen Amin
