@@ -2,7 +2,7 @@
     "courseId": "Intro-ML",
     "title": "Introduction to Machine Learning",
     "slogan": "A free online course",
-    "description": "<p>The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. The accompanying exercises, demos and tutorials are a mix of theoretical and practical assignments, the latter in **`R`** (mostly with <a href='https://mlr3.mlr-org.com/'> `mlr3`</a>).</p>",
+    "description": "The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. The accompanying exercises, demos and tutorials are a mix of theoretical and practical assignments, the latter in R.",
     "bio": "We are a big team collaboratively creating the course. Main contributors include Bernd Bischl, Fabian Scheiple, Heidi Seibold, Daniel Schalk and Christoph Molnar.",
     "siteUrl": "https://introduction-to-machine-learning.netlify.app/",
     "twitter": "spacy_io",
