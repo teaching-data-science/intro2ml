@@ -93,18 +93,11 @@ You’ll be able to visit the site locally at http://localhost:8000/ for as long
 `gatsby develop`
 
 
-### 💡Note
-
 On Windows and Mac you may need to use `yarn` instead of `npm`. 
 You can alo [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
 
 
-
-
 ### How does this repo work?
-
-
-## Branches of this repo
 
 There are two branches of this repo, which are used for different tasks:
 
