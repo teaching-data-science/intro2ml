@@ -21,22 +21,10 @@ export default ({ data }) => {
                 <h1 className={classes.subtitle}>Introduction to Machine Learning (I2ML)</h1>
                 <div className={classes.introduction}>
                 <p>
-                    This course offers an introductory and applied overview of <strong>supervised</strong> Machine Learning. This includes:
+                    This course offers an introductory and applied overview of <strong>supervised</strong> Machine Learning. The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. 
                 </p>
                 <p>
-                    <ul>
-                        <li>ML Basics</li>
-                        <li>Supervised Regression</li>
-                        <li>Supervised Classification</li>
-                        <li>Performance Evaluation</li>
-                        <li>Classification and Regression Trees</li>
-                        <li>Random Forests</li>
-                        <li>Parameter Tuning</li>
-                        <li>Practical Advice</li>
-                    </ul>
-                </p>
-                <p>
-                    The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. The accompanying exercises, demos and tutorials are a mix of theoretical and p ractical assignments, the latter in R (mostly with <strong>mlr3</strong>).
+                    The accompanying exercises, demos and tutorials are a mix of theoretical and p ractical assignments, the latter in R (mostly with <strong>mlr3</strong>). Now let's get started!
                 </p>
                 </div>
             </section>
