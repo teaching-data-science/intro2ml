@@ -1,7 +1,6 @@
 ---
 title: 'Contents'
-description:
-  'Here, you can find a list of references that are relevant to this course.'
+description: null
 prev: /cheat-sheets
 next: /references
 type: chapter
