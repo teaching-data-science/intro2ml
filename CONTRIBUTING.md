@@ -29,22 +29,28 @@ Thank you so much :sunflower:
 
 1. Make sure your Linux distribution is ready to go run an update and an upgrade:
 
-```bash       
+```bash     
 sudo apt update 
 sudo apt -y upgrade               
 ```
 
 2. Install `curl`:
 
-`sudo apt-get install curl`
+```bash 
+sudo apt-get install curl
+```
 
 3. Download the latest nvm version:
 
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
+```bash 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+```
 
 4. Confirm this has worked. The output should be a version number.
 
-`nvm --version`
+```bash 
+nvm --version
+```
 
 5. Set default Node.js version:
 
@@ -62,88 +68,68 @@ node --version
 
 7. Installing the Gatsby CLI:
 
-`npm install -g gatsby-cli`
+```bash 
+npm install -g gatsby-cli
+```
 
 8. Create a Gatsby site:
 
-`gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world`
+```bash 
+gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
 
 9. Change into the working directory:
 
-`cd hello-world`
+```bash 
+cd hello-world
+```
 
 10. Start the development mode:
 
-`gatsby develop`
+```bash 
+gatsby develop
+```
 
 You’ll be able to visit the site locally at http://localhost:8000/ for as long as your development server is running.
 
-## Running a Gatsby website (that has already been created):
+### Running a Gatsby website (that has already been created):
 
 1. Set default Node.js version:
 
-`nvm use 10`
+```bash       
+nvm use 10              
+```
 
 2. Change into the working directory:
 
-`cd hello-world`
+```bash 
+cd hello-world
+```
 
 4. Start the development mode:
 
-`gatsby develop`
-
+```bash 
+gatsby develop
+```
 
 On Windows and Mac you may need to use `yarn` instead of `npm`. 
 You can alo [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
 
+## How to access different homepage parts?
 
-### How does this repo work?
+![code-execution](https://github.com/teaching-data-science/intro2ml/blob/Primary_Changes/screenshot.png)
 
-There are two branches of this repo, which are used for different tasks:
+The five indicated parts can be costomized by changing the following files:
 
-- **master** - this is what the course is served out of via netlify:
-  http://r-bootcamp.netlify.com - any changes to exercises in this branch will
-  show up on the netlify page. The netlify page uses a JavaScript framework
-  called Gatsby to build the pages. Gatsby submits code to binder and receives
-  the output. It also handles the code checking. The parts of the repo that are
-  handled by Gatsby include:
+1. `statis/logo.csv`
 
-1. exercises/solutions/tests
-2. chapter.md files
-3. slides (using reveal.js)
+2. `src/pages/index.js`
 
-- **binder** - this is what the Binder image is built from. The reason they're
-  different is that binder forces a Docker container rebuild when a branch is
-  updated. So, if we served our container out of master, it would rebuild
-  everytime we modified a `chapter.md` or an exercise. If you need to add
-  packages, you will add them to the `binder/install.R` for this branch, and if
-  you need to add datasets, you can add them to the `data/` folder. The parts of
-  the repo handled by Binder include:
+3. `src/components/layout.js`
 
-1. datasets in data/ folder (the container needs access to these to load data
-   from submitted code)
-2. installation instructions in the binder/ folder for installing dependencies
+4. `static/profile.jpg`
 
-I would say that the easiest thing to do is to occasionally merge `master` into
-`binder` when you need to update the data:
-
-Note that rebuilding the binder container can take a little bit of time (usually
-on the order of 5 or 10 minutes or so), since it is installing/compiling
-`tidyverse` for the container. You can always check the build status of the
-container by clicking the badge below and looking at the log.
-
-You can view the binder container here:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ines/course-starter-r/binder)
-or at: https://mybinder.org/v2/gh/ines/course-starter-r/binder
-
-
-### Adding Packages
-
-If you need to add packages, add the appropriate `install.packages()` statement
-into `binder/install.R`. When you do, check that the container was built
-properly by clicking the binder link above.
-
-Currently, `tidyverse` is installed in the binder container.
+5. `meta.json`
 
 
 ## 🎨 Customization
@@ -368,3 +354,52 @@ The string answer is available as `.solution`, and the test also has access to
 the solution code.
 
 ---
+
+
+### How does the repo work?
+
+There are two branches of this repo, which are used for different tasks:
+
+- **master** - this is what the course is served out of via netlify:
+  http://r-bootcamp.netlify.com - any changes to exercises in this branch will
+  show up on the netlify page. The netlify page uses a JavaScript framework
+  called Gatsby to build the pages. Gatsby submits code to binder and receives
+  the output. It also handles the code checking. The parts of the repo that are
+  handled by Gatsby include:
+
+1. exercises/solutions/tests
+2. chapter.md files
+3. slides (using reveal.js)
+
+- **binder** - this is what the Binder image is built from. The reason they're
+  different is that binder forces a Docker container rebuild when a branch is
+  updated. So, if we served our container out of master, it would rebuild
+  everytime we modified a `chapter.md` or an exercise. If you need to add
+  packages, you will add them to the `binder/install.R` for this branch, and if
+  you need to add datasets, you can add them to the `data/` folder. The parts of
+  the repo handled by Binder include:
+
+1. datasets in data/ folder (the container needs access to these to load data
+   from submitted code)
+2. installation instructions in the binder/ folder for installing dependencies
+
+I would say that the easiest thing to do is to occasionally merge `master` into
+`binder` when you need to update the data:
+
+Note that rebuilding the binder container can take a little bit of time (usually
+on the order of 5 or 10 minutes or so), since it is installing/compiling
+`tidyverse` for the container. You can always check the build status of the
+container by clicking the badge below and looking at the log.
+
+You can view the binder container here:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ines/course-starter-r/binder)
+or at: https://mybinder.org/v2/gh/ines/course-starter-r/binder
+
+
+### Adding Packages
+
+If you need to add packages, add the appropriate `install.packages()` statement
+into `binder/install.R`. When you do, check that the container was built
+properly by clicking the binder link above.
+
+Currently, `tidyverse` is installed in the binder container.
