@@ -121,7 +121,7 @@ You can alo [run the app using Docker](https://ines.github.io/course-starter-pyt
 
 The five indicated parts can be costomized by changing the following files:
 
-1. `statis/logo.csv`
+1. `static/logo.csv`
 
 2. `src/pages/index.js`
 
