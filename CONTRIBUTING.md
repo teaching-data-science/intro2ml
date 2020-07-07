@@ -112,8 +112,8 @@ cd hello-world
 gatsby develop
 ```
 
-On Windows and Mac you may need to use `yarn` instead of `npm`. 
-You can alo [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
+On Windows and Mac you may need to use `yarn` instead of `npm`.
+You can also [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
 
 ## How to access different homepage parts?
 
