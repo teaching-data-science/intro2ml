@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 7.6: Losses and Risk Minimization'
+title: 'Chapter 7.6: Nested Resampling'
 description:
   ' description...'
 prev: /chapter-07_05-tuning-trainingvalidationtesting

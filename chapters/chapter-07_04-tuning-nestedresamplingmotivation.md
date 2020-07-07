@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 7.4: Losses and Risk Minimization'
+title: 'Chapter 7.4: Nested Resampling Motivation'
 description:
   ' description...'
 prev: /chapter-07_03-tuning-basictechniques

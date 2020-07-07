@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 7.5: Losses and Risk Minimization'
+title: 'Chapter 7.5: Training - Validation - Testing'
 description:
   ' description...'
 prev: /chapter-07_04-tuning-nestedresamplingmotivation
