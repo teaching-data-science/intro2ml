@@ -1,8 +1,8 @@
 ---
 title: 'Cheat Sheets'
 description: null
-prev: /exercise-sheets
-next: /contents-and-references
+prev: null
+next: null
 type: chapter
 id: 1
 ---

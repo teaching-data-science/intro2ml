@@ -3,13 +3,13 @@ title: 'Chapter 1: ML Basics'
 description:
   ' This is a test Chapter!'
 prev: null
-next: null
+next: /chapter-01_01-basics-whatisml
 type: chapter
 id: 1
 ---
 
 
-<exercise id="1" title="Video Lecture">
+<exercise id="1" title="Video: What is ML?">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/CCzx4UDkzpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
@@ -23,7 +23,7 @@ id: 1
 </exercise>
 
 
-<exercise id="3" title="Video Lecture">
+<exercise id="3" title="Video: Supervised Learning">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/R_HZBY9RMmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
@@ -37,7 +37,7 @@ id: 1
 
 
 
-<exercise id="5" title="Quiz">
+<exercise id="5" title="Quiz 1">
 Which statements are true?
 <choice>
 <opt text="Machine learning is a branch of statistics and computer science." correct="true">
@@ -57,7 +57,7 @@ Which statements are true?
 
 
 
-<exercise id="6" title="Video Lecture">
+<exercise id="6" title="Video: Tasks and Data">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/d9YbO6P4AdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
@@ -71,7 +71,7 @@ Which statements are true?
 
 
 
-<exercise id="8" title="Quiz">
+<exercise id="8" title="Quiz 2">
 Which statements are true?
 <choice>
 <opt text="Classification is a supervised learning task." correct="true">
@@ -89,7 +89,7 @@ Which statements are true?
 
 
 
-<exercise id="9" title="Coding">
+<exercise id="9" title="Coding 1">
 
 For this exercise, take a look at the [`iris` dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). Define a new classification task called `iris_task` based on the `iris` dataset with target variable `Species` and just two features `Sepal.Width` and `Petal.Width`:
 
@@ -109,7 +109,7 @@ For this exercise, take a look at the [`iris` dataset](https://en.wikipedia.org/
 
 
 
-<exercise id="10" title="Video Lecture">
+<exercise id="10" title="Video: Models and Learners">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/UW1E4xO0hJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
@@ -123,7 +123,7 @@ For this exercise, take a look at the [`iris` dataset](https://en.wikipedia.org/
 
 
 
-<exercise id="12" title="Quiz">
+<exercise id="12" title="Quiz 3">
 Which statements are true?
 <choice>
 <opt text="We use the terms 'model' and 'hypothesis' synonymously." correct="true">
@@ -138,7 +138,7 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="13" title="Video Lecture">
+<exercise id="13" title="Video: Losses and Risk Minimization">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/2b4x765XbUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
@@ -152,7 +152,7 @@ Which statements are true?
 
 
 
-<exercise id="15" title="Quiz">
+<exercise id="15" title="Quiz 4">
 Which statements are true?
 <choice>
 <opt text="Measures for model performance can be used as loss functions." correct="true">
@@ -178,7 +178,7 @@ Which statements are true?
 
 
 
-<exercise id="16" title="Video Lecture">
+<exercise id="16" title="Video: Components of a Learner">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/zaB7WioK1Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
@@ -191,7 +191,7 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="18" title="Quiz">
+<exercise id="18" title="Quiz 5">
 Which statements are true?
 <choice>
 <opt text="For a given hypothesis class `H`, different optimization procedures can be used to find the best model `f∈H`." correct="true">
@@ -204,5 +204,3 @@ Which statements are true?
 </opt>
 </choice>
 </exercise>
-
-

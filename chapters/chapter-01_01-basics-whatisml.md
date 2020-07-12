@@ -2,7 +2,7 @@
 title: 'Chapter 1.1: What is ML?'
 description:
   ' This Chapter will explain what ML is.'
-prev: null
+prev: /chapter-1
 next: /chapter-01_02-basics-supervisedlearning
 type: chapter
 id: 1

@@ -1,8 +1,8 @@
 ---
 title: 'Exercise Sheets'
 description: null
-prev: /chapter-07_06-tuning-nestedresampling
-next: /cheat-sheets
+prev: null
+next: null
 type: chapter
 id: 1
 ---

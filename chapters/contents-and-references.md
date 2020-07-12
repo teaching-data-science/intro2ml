@@ -1,8 +1,8 @@
 ---
 title: 'Contents and References'
 description: null
-prev: /cheat-sheets
-next: /team-and-license
+prev: null
+next: null
 type: chapter
 id: 1
 ---
