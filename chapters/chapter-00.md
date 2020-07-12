@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 1: ML Basics'
+title: 'Chapter 0.1: ML Basics'
 description:
   ' This is a test Chapter!'
 prev: null
