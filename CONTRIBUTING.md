@@ -27,6 +27,9 @@ Thank you so much :sunflower:
 
 ### Installing Gatsby on Ubuntu (for the first time):
 
+0. On Windows and Mac you may need to use `yarn` instead of `npm`.
+You can also [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
+
 1. Make sure your Linux distribution is ready to go run an update and an upgrade:
 
 ```bash     
@@ -75,13 +78,13 @@ npm install -g gatsby-cli
 8. Create a Gatsby site:
 
 ```bash 
-gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+gatsby new local-site https://github.com/teaching-data-science/intro2ml
 ```
 
 9. Change into the working directory:
 
 ```bash 
-cd hello-world
+cd local-site
 ```
 
 10. Start the development mode:
@@ -92,7 +95,7 @@ gatsby develop
 
 You’ll be able to visit the site locally at http://localhost:8000/ for as long as your development server is running.
 
-### Running a Gatsby website (that has already been created):
+### Running a previously created Gatsby website:
 
 1. Set default Node.js version:
 
@@ -103,7 +106,7 @@ nvm use 10
 2. Change into the working directory:
 
 ```bash 
-cd hello-world
+cd local-site
 ```
 
 4. Start the development mode:
@@ -112,8 +115,7 @@ cd hello-world
 gatsby develop
 ```
 
-On Windows and Mac you may need to use `yarn` instead of `npm`.
-You can also [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
+
 
 ## How to access different homepage parts?
 
@@ -131,6 +133,7 @@ The five indicated parts can be costomized by changing the following files:
 
 5. `meta.json`
 
+<img src="https://github.com/teaching-data-science/intro2ml/blob/master/static/screenshot.png" width="200" height="200" />
 
 ## 🎨 Customization
 
