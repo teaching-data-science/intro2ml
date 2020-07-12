@@ -115,11 +115,9 @@ cd local-site
 gatsby develop
 ```
 
-
-
 ## How to access different homepage parts?
 
-![code-execution](https://github.com/teaching-data-science/intro2ml/blob/Primary_Changes/screenshot.png)
+![code-execution](https://github.com/teaching-data-science/intro2ml/blob/master/static/screenshot.png)
 
 The five indicated parts can be costomized by changing the following files:
 
@@ -133,7 +131,6 @@ The five indicated parts can be costomized by changing the following files:
 
 5. `meta.json`
 
-<img src="https://github.com/teaching-data-science/intro2ml/blob/master/static/screenshot.png" width="200" height="200" />
 
 ## 🎨 Customization
 
