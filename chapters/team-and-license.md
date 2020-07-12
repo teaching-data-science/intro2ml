@@ -1,8 +1,8 @@
 ---
 title: 'Team and License'
 description: null
-prev: null
-next: null
+prev: /contents-and-references
+next: /chapter-1
 type: chapter
 id: 1
 ---
