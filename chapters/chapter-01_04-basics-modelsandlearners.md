@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.4: Models & Learners'
 description:
-  ' description...'
+  ' This chapter introduces the notions of learners and models. In a nutshell, a "model" maps features to predictions, and a "learner" takes a training set and gives back a model.'
 prev: /chapter-01_03-basics-tasksanddata
 next: /chapter-01_05-basics-lossesandriskminimization
 type: chapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.3: Growing a Tree'
 description:
-  ' description...'
+  ' In this chapter, you will learn how to grow a tree starting with an empty tree, a root node containing all the data. It will be shown that trees are grown by recursively applying greedy optimization to each node.'
 prev: /chapter-05_02-trees-splittingcriteria
 next: /chapter-05_04-trees-computationalaspects
 type: chapter

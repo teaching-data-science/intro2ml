@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.3: Measures Classification'
 description:
-  ' description...'
+  ' A classifier predicts either class labels or class probabilities. Hence, its performance can be evaluated based on these two notions. This chapter teaches you some simple performance measures for classification, including the misclassification error rate (MCE), accuracy (ACC), confusion matrix, and Brier score (BS).'
 prev: /chapter-04_02-evaluation-measuresregression
 next: /chapter-04_04-evaluation-measuresclassificationroc
 type: chapter

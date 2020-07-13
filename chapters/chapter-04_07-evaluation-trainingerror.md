@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.7: Training Error'
 description:
-  ' description...'
+  ' There are two types of errors: training error and test error. The focus of this chapter is on the former. We will see that many evaluating measures (such as R2, likelihood, AIC, BIC) are based on the training error.'
 prev: /chapter-04_06-evaluation-overfitting
 next: /chapter-04_08-evaluation-testerror
 type: chapter

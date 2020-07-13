@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.4: Feature Importance'
 description:
-  ' description...'
+  ' By how much would the random forest performance decrease if a specific feature were removed or rendered useless? The basic idea of this chapter is to examine this question. You will also learn what feature importance is and how to compute it.'
 prev: /chapter-06_03-forests-benchmarking
 next: /chapter-06_05-forests-proximitis
 type: chapter

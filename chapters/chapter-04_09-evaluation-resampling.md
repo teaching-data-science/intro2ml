@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.9: Resampling'
 description:
-  ' description...'
+  ' In the present chapter, you would understand the idea of resampling and would get familiar with cross-validation, bootstrapping, and subsampling. You would also learn how to define and conduct a resampling strategy with mlr3. Additionally, you can find out how to apply benchmark experiments and interpret the benchmark results.'
 prev: /chapter-04_08-evaluation-testerror
 next: /chapter-05_01-trees-introduction
 type: chapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.1: Introduction'
 description:
-  ' description...'
+  ' Decision trees are an important type of algorithms for predictive modeling ML. Decision trees are of two main types: classification tree, regression tree. The term Classification And Regression Tree (CART) analysis is an umbrella term used to refer to both of the said procedures. This chapter gives you the idea of CART.'
 prev: /chapter-04_09-evaluation-resampling
 next: /chapter-05_02-trees-splittingcriteria
 type: chapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.1: Bagging Ensembles'
 description:
-  ' description...'
+  ' Bagging (bootstrap aggregation) is a method for combining many models into a meta-model, which often works much better than its individual components. This chapter teaches you the basic idea of bagging and explains why and when bagging works.'
 prev: /chapter-05_06-trees-discussion
 next: /chapter-06_02-forests-introduction
 type: chapter

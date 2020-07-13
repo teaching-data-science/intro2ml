@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 2.2:Linear Regression Models'
 description:
-  ' description...'
+  ' By exploiting a linear transformation of features, one can predict a numerical target variable. In this chapter, we show you how linear regression models work and how they fit into the machine learning world.'
 prev: /chapter-02_01-regression-lossfunctions
 next: /chapter-02_03-regression-polynomialregmodels
 type: chapter

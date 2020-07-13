@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.6: Discussion'
 description:
-  ' description...'
+  ' This chapter aims to elucidate the pros and cons of random forests. It will be shown that all advantages of trees also apply to random forests: not much preprocessing required, missing value handling, etc.'
 prev: /chapter-06_05-forests-proximitis
 next: /chapter-07_01-tuning-introduction
 type: chapter

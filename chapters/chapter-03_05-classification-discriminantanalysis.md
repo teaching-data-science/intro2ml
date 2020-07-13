@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.5: Discriminant Analysis'
 description:
-  ' description...'
+  ' Linear discriminant analysis (LDA) follows a generative approach to find a linear combination of features that characterizes or separates two or more classes of objects or events. We can formally show that LDA is a linear classifier. QDA is a direct generalization of LDA, where the class densities are Gaussians with unequal covariances. This chapter investigates LDA and QDA.'
 prev: /chapter-03_04-classification-logisticregression
 next: /chapter-03_06-classification-naviebayes
 type: chapter

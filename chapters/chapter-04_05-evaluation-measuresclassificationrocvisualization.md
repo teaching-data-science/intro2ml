@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.5: Measures Classification ROC Visualisation'
 description:
-  ' description...'
+  ' In this chapter, you learn how to deal with unbalanced binary classification problems and how to visualize some ROC curves. As a practical task, you would calculate and plot the ROC.'
 prev: /chapter-04_04-evaluation-measuresclassificationroc
 next: /chapter-04_06-evaluation-overfitting
 type: chapter

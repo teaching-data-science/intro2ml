@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.1: Introduction'
 description:
-  ' description...'
+  ' How well does a model perform on data from the same data generating process? ML performance evaluation provides clear protocols for model validation. By completing this chapter, you would know what performance estimation is and why it is essential.'
 prev: /chapter-03_07-classification-knn
 next: /chapter-04_02-evaluation-measuresregression
 type: chapter

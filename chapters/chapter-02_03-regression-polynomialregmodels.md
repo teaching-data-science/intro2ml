@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 2.3: Polynomial Regression Models'
 description:
-  ' description...'
+  ' Linear regression models can be made more flexible if one uses polynomials. After completing this chapter, you would know how polynomial regression models work. In particular, you would be able to transform a linear regression into a non-linear regression.'
 prev: /chapter-02_02-regression-linearregmodels
 next: /chapter-02_04-regression-knn
 type: chapter

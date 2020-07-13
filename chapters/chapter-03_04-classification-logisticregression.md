@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.4: Logistic Regression'
 description:
-  ' description...'
+  ' This chapter helps you understand how logistic regression works and what logistic function is. Additionally, you will learn the Bernoulli loss. Your practical task is to train a logistic regression with R and mlr3, and you can practice transforming linear classifiers into non-linear classifiers.'
 prev: /chapter-03_03-classification-linearclassifiers
 next: /chapter-03_05-classification-discriminantanalysis
 type: chapter

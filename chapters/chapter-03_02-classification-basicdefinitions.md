@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.2: Basic Definitions'
 description:
-  ' description...'
+  ' Classifiers should be distinguished from the perspective of producing labels, probabilities, and scores. This chapter argues that we should differentiate between scoring and probabilistic classifiers. Additionally, we explain two fundamental approaches for constructing classifiers: the generative approach and the discriminant approach.'
 prev: /chapter-03_01-classification-classificationtasks
 next: /chapter-03_03-classification-linearclassifiers
 type: chapter

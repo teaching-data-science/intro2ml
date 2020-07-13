@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.3: Linear Classifiers'
 description:
-  ' description...'
+  ' Linear classifiers are an essential subclass of classification models. This section provides a mathematical definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.'
 prev: /chapter-03_02-classification-basicdefinitions
 next: /chapter-03_04-classification-logisticregression
 type: chapter

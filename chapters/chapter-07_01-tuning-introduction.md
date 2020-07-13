@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.1: Introduction'
 description:
-  ' description...'
+  ' It is critical to understand the difference between model parameters and hyperparameters. While model parameters are optimized during training (typically via loss minimization), hyperparameters are specified before the training. In this chapter, you will see all hyperparameters that can be tuned and given as input to the model.'
 prev: /chapter-06_06-forests-discussion
 next: /chapter-07_02-tuning-problemdefinition
 type: chapter

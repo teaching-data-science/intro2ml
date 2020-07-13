@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.6: Discussion'
 description:
-  ' description...'
+  ' This chapter aims to elucidate the pros and cons of trees. As a practical task, you would train a model for classification and regression with CART using mlr3. You would also visualize the tree structure and decision boundaries for different data situations.'
 prev: /chapter-05_05-trees-stoppingcriteria
 next: /chapter-06_01-forests-baggingensembles
 type: chapter

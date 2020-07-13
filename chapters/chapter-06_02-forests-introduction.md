@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.2: Introduction'
 description:
-  ' description...'
+  ' The introduction of random forests proper was first made in a paper by Leo Breiman. This chapter investigates the modern practice of random forests, which exploits out-of-bag error as an estimate of the generalization error and measures variable importance through permutation.'
 prev: /chapter-06_01-forests-baggingensembles
 next: /chapter-06_03-forests-benchmarking
 type: chapter

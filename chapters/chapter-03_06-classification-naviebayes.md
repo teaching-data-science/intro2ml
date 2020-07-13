@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.6: Naive Bayes'
 description:
-  ' description...'
+  ' In this chapter, you are going to get familiar with an important type of classifier, namely the Naive Bayes. For some types of probability models, naive Bayes classifiers can be trained very efficiently in a supervised learning setting.'
 prev: /chapter-03_05-classification-discriminantanalysis
 next: /chapter-03_07-classification-knn
 type: chapter

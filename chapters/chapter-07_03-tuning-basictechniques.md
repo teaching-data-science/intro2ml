@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.3: Basic Techniques'
 description:
-  ' description...'
+  ' This chapter makes you familiar with different tuning strategies and discusses the advantages and disadvantages of the said strategies. In particular, grid search and random search are presented.'
 prev: /chapter-07_02-tuning-problemdefinition
 next: /chapter-07_04-tuning-nestedresamplingmotivation
 type: chapter
