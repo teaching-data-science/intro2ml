@@ -9,7 +9,7 @@
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
     "juniper": {
-        "repo": "HeidiSeibold/course-starter-r",
+        "repo": "teaching-data-science/intro2ml",
         "branch": "master",
         "lang": "r",
         "kernelType": "ir",
@@ -18,7 +18,7 @@
     "showProfileImage": true,
     "footerLinks": [
         { "text": "Main Course Website", "url": "https://introduction-to-machine-learning.netlify.app/" },
-        { "text": "Source Code on GitHub", "url": "https://github.com/teaching-data-science/intro2ml" },
+        { "text": "Source Code", "url": "https://github.com/teaching-data-science/intro2ml" },
         { "text": "Built with ♥ and Open Source", "url": "https://github.com/ines/course-starter-r" }
     ],
     "theme": "#de7878"
