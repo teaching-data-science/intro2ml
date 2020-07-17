@@ -1,7 +1,7 @@
 {
-    "name": "course-starter-r",
+    "name": "Introduction-to-Machine-Learning",
     "private": true,
-    "description": "Starter package to build interactive R courses",
+    "description": "Introduction to Machine Learning",
     "version": "0.0.1",
     "author": "Ines Montani <ines@explosion.ai>",
     "dependencies": {
@@ -13,6 +13,7 @@
         "classnames": "^2.2.6",
         "codemirror": "^5.43.0",
         "gatsby": "^2.1.4",
+        "gatsby-cli": "^2.7.39",
         "gatsby-image": "^2.0.29",
         "gatsby-plugin-manifest": "^2.0.17",
         "gatsby-plugin-offline": "^2.0.23",
@@ -52,6 +53,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ines/course-starter-python"
+        "url": "https://github.com/teaching-data-science/intro2ml"
     }
 }
