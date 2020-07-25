@@ -1,15 +1,15 @@
 {
-    "courseId": "course-template",
-    "title": "My cool online course",
-    "slogan": "A free online course",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec velit nec, consectetur placerat enim.",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna.",
-    "siteUrl": "https://course-starter-r.netlify.com",
-    "twitter": "spacy_io",
+    "courseId": "I2ML",
+    "title": "Introduction to Machine Learning",
+    "slogan": "A Free Interactive Course",
+    "description": "The course is organized as a digital lecture, which should be as self-contained and enable self-study as much as possible. The major part of the material is provided as slide sets with lecture videos. We have also prepared interactive tutorials where you can answer multiple choice questions, and learn how to apply the covered methods in R on some short coding exercises. Our plan is to extend this self-study material over the next months and years.",
+    "bio": "We are a big team collaboratively creating the course. Main contributors include Bernd Bischl, Fabian Scheipl, Heidi Seibold, Daniel Schalk and Christoph Molnar.",
+    "siteUrl": "https://introduction-to-machine-learning.netlify.app/",
+    "twitter": "BBischl",
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
     "juniper": {
-        "repo": "HeidiSeibold/course-starter-r",
+        "repo": "teaching-data-science/intro2ml",
         "branch": "binder",
         "lang": "r",
         "kernelType": "ir",
@@ -17,9 +17,9 @@
     },
     "showProfileImage": true,
     "footerLinks": [
-        { "text": "Website", "url": "https://spacy.io" },
-        { "text": "Source", "url": "https://github.com/ines/course-starter-r" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
+        { "text": "Main Course Website", "url": "https://introduction-to-machine-learning.netlify.app/" },
+        { "text": "Source Code", "url": "https://github.com/teaching-data-science/intro2ml" },
+        { "text": "Built Open Source", "url": "https://github.com/ines/course-starter-r" }
     ],
     "theme": "#de7878"
 }
