@@ -19,7 +19,7 @@
     "footerLinks": [
         { "text": "Main Course Website", "url": "https://introduction-to-machine-learning.netlify.app/" },
         { "text": "Source Code", "url": "https://github.com/teaching-data-science/intro2ml" },
-        { "text": "Built Open Source", "url": "https://github.com/ines/course-starter-r" }
+        { "text": "Open Source", "url": "https://github.com/ines/course-starter-r" }
     ],
     "theme": "#de7878"
 }
