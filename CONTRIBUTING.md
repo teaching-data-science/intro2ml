@@ -2,14 +2,6 @@
 
 This guide helps you to get started in working with this repo.
 
-## Workflow
-
-Found a problem? Open an issue.
-
-Fixed a  problem? Create a pull request.
-
-Thank you so much :sunflower:
-
 
 ## ✅ Quickstart
 
@@ -25,95 +17,59 @@ Thank you so much :sunflower:
 6. Deploy the app, e.g. to [Netlify](https://netlify.com).
 
 
-### Installing Gatsby on Ubuntu (for the first time):
+### Local Installation (on Ubuntu):
 
-0. On Windows and Mac you may need to use `yarn` instead of `npm`.
-You can also [run the app using Docker](https://ines.github.io/course-starter-python/#creating-your-website-without-installing-dependencies-using-docker-compose).
-
-1. Make sure your Linux distribution is ready to go run an update and an upgrade:
-
-```bash     
-sudo apt update 
-sudo apt -y upgrade               
-```
-
-2. Install `curl`:
+1. Install `curl` and download the latest `npm` version:
 
 ```bash 
 sudo apt-get install curl
-```
-
-3. Download the latest nvm version:
-
-```bash 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 ```
 
-4. Confirm this has worked. The output should be a version number.
-
-```bash 
-nvm --version
-```
-
-5. Set default Node.js version:
+2. Set default Node.js version:
 
 ```bash       
 nvm install 10
 nvm use 10              
 ```
 
-6. Confirm that this worked:
-
-```bash       
-npm --version
-node --version           
-```
-
-7. Installing the Gatsby CLI:
+3. Install the Gatsby CLI:
 
 ```bash 
 npm install -g gatsby-cli
 ```
 
-8. Create a Gatsby site:
+4. Create a Gatsby site:
 
 ```bash 
 gatsby new local-site https://github.com/teaching-data-science/intro2ml
 ```
 
-9. Change into the working directory:
+5. Change the working directory and start the development mode:
 
 ```bash 
 cd local-site
-```
-
-10. Start the development mode:
-
-```bash 
 gatsby develop
 ```
 
 You’ll be able to visit the site locally at http://localhost:8000/ for as long as your development server is running.
 
-### Running a previously created Gatsby website:
 
-1. Set default Node.js version:
-
-```bash       
-nvm use 10              
-```
-
-2. Change into the working directory:
+### Local Installation (on Windows and Mac): 
+1. You may need to use `yarn` instead of `npm`:
 
 ```bash 
-cd local-site
+brew install yarn
 ```
 
-4. Start the development mode:
+2. Install the Gatsby CLI using `yarn`:
 
 ```bash 
-gatsby develop
+yarn global add gatsby-cli
 ```
+
+3. Do the fourth and fifth steps of the local installation on ubuntu. 
+
 
 ## How to access different homepage parts?
 
@@ -392,14 +348,9 @@ on the order of 5 or 10 minutes or so), since it is installing/compiling
 container by clicking the badge below and looking at the log.
 
 You can view the binder container here:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ines/course-starter-r/binder)
-or at: https://mybinder.org/v2/gh/ines/course-starter-r/binder
-
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teaching-data-science/intro2ml/binder)
 ### Adding Packages
 
 If you need to add packages, add the appropriate `install.packages()` statement
 into `binder/install.R`. When you do, check that the container was built
 properly by clicking the binder link above.
-
-Currently, `tidyverse` is installed in the binder container.
