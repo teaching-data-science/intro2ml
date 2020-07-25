@@ -1,4 +1,5 @@
 library(titanic)
+
 my_titanic <- na.omit(titanic_train[, c("Survived", "Age", "Fare")])
 my_titanic$Survived <- factor(my_titanic$Survived)
 task_titanic <- TaskClassif$new(id = "titanic_task", backend = my_titanic, 

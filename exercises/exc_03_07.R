@@ -1,4 +1,6 @@
 set.seed(123)
+library(mlr3viz)
+
 task <- tsk("iris")
 task$select(c("Sepal.Length", "Sepal.Width"))
 

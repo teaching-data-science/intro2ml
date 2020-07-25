@@ -1,3 +1,5 @@
+library(mlr3viz)
+
 set.seed(123)
 class <- sample(c(1, 2), size = 100, replace = TRUE)
 df_sim <- data.frame(x = rnorm(100, mean = 2*class, sd = class), y = rnorm(100, mean = 2*class, sd = class), class = as.character(class))
