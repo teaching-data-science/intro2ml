@@ -55,6 +55,7 @@ For this exercise we are, again, using simulated data. Here we use the package `
 
 - Define the task
 `spirals_task <- TaskClassif$new(id = "spirals_task", backend = spirals, target = "classes")`
+
 </codeblock>
 
 
@@ -106,6 +107,7 @@ You can use the function `rpart.plot()` from the package of the same name `rpart
 
 - Call `plotLearnerPrediction()` on the learner and task to get decision boundaries
 `plot_learner_prediction(learner = learner_cart, task = spirals_task)`
+
 </codeblock>
 
 
@@ -121,12 +123,14 @@ To see how trees behave on the same data situation but different data constellat
 
 - Use different data situation, e.g. via sampling:
 `train_idx <- sample(1:500, size = 500, replace = TRUE)`
+
 </codeblock>
+
 </exercise>
 
 
-
 <exercise id="5" title="Quiz">
+
 Which statements are true?
 <choice>
 <opt text="The data situation is still the same, we are just using less unique data points." correct="true">
@@ -136,6 +140,7 @@ Which statements are true?
 <opt text="The decision boundaries for different data situations remain the same.">
 </opt>
 </choice>
+
 </exercise>
 
 
@@ -148,6 +153,7 @@ Finally, visualize the tree structure and decision boundaries for varying hyperp
 <codeblock id="05_06_05">
 
 </codeblock>
+
 </exercise>
 
 
@@ -163,6 +169,7 @@ Which statements are true?
 <opt text="The bigger the tree the more unstable its structure becomes." correct="true">
 </opt>
 </choice>
+
 </exercise>
 
 
