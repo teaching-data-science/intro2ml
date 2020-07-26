@@ -55,6 +55,7 @@ and transform `Survived` into a factor variable:
 
 - Transform `Survived` into a factor variable:
 `my_titanic$Survived <- factor(my_titanic$Survived)`
+
 </codeblock>
 
 
@@ -72,6 +73,7 @@ Now define a classification task `task_titanic` on that dataset with target `Sur
 
 - Finally we have to train the learner:
 `learner_logreg$train(task_titanic)`
+
 </codeblock>
 
 
@@ -87,6 +89,7 @@ The next demonstration shows how to include the features `Age` and `Fare` as pol
 
 <codeblock id="03_04_04">
 </codeblock>
+
 </exercise>
 
 

@@ -54,6 +54,7 @@ For this exercise we want to evaluate the learner with 10-fold cross-validation.
 
 - The parameter are also listed in the help page. To define how many folds use the `folds` argument:
 `folds = 10`
+
 </codeblock>
 
 
@@ -77,6 +78,7 @@ Now it is time to evaluate the LDA learner (`"classif.lda`") with 10-fold cross-
 
 - Finally, use resample on all the components to evaluate the learner
 `res  <- resample(learner = learner, task = task, resampling = res_desc)`
+
 </codeblock>
 
 
@@ -103,6 +105,7 @@ It might be interesting to compare LDA, QDA, and naive Bayes on the iris task. I
 
 - Finally call benchmark
 `bmr <- benchmark(design)`
+
 </codeblock>
 
 
@@ -113,6 +116,7 @@ Finally, visualize the benchmark result with `autoplot()`
 <codeblock id="04_09_04">
 
 </codeblock>
+
 </exercise>
 
 <exercise id="5" title="Quiz">

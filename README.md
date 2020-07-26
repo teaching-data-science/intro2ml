@@ -12,7 +12,7 @@ The course is organized as a digital lecture, which should be as self-contained 
 The site itself is built on an amazing framework created by <a href='https://ines.io/'>Ines Montani</a>, originally created for her [spaCy course](https://course.spacy.io). The front-end is powered by
 [Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the back-end code execution uses [Binder](https://mybinder.org).</p>
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teaching-data-science/intro2ml/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teaching-data-science/intro2ml/binder)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/92453b22-5bf0-485f-aad0-a430f95b5435/deploy-status)](https://app.netlify.com/sites/introduction-to-machine-learning/deploys)
 

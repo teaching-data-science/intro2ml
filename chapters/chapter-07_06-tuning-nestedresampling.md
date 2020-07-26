@@ -82,7 +82,6 @@ Now, define the parameter set with:
 - To see all available parameter, it's type, the range, and if it is tuneable or not
 `learner$param_set`
 
-
 </codeblock>
 
 
@@ -107,6 +106,7 @@ Set 50 iterations as the stopping criterion for the tuner. For the resampling of
 
 - The measure we want to optimize is the AUC
 `msr("classif.auc")`
+
 </codeblock>
 
 
@@ -131,7 +131,9 @@ Finally, create a random search tuner und use it to tune the tuning scenario `in
 
 - Tune the tuning scenario
 `tuner$tune(instance)`
+
 </codeblock>
+
 </exercise>
 
 

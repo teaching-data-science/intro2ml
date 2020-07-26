@@ -69,10 +69,13 @@ Now define a learner. Use a regression learner of the `lm` function.
 <codeblock id="02_03_03">
 
 **Hints**
+
 - To see all available learners you can simply call `mlr_learners`
+
 </codeblock>
 
 #### *(P)* Train the linear model
+
 
 <codeblock id="02_03_04">
 </codeblock>
@@ -91,6 +94,8 @@ To draw the curve you can use the code below, try different values for `degree`.
 - `lm_learner <- lrn("regr.lm")`
 
 - `lm_learner$train(mtcars_task)`
+
 </codeblock>
+
 </exercise>
 

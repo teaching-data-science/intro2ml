@@ -1,3 +1,5 @@
+library(e1071)
+
 learners <- list(lrn("classif.lda"), 
                  lrn("classif.qda"), 
                  lrn("classif.naive_bayes"))

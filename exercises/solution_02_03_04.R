@@ -1,3 +1,4 @@
+library (mlr3)
 
 polynomialTrafo <- function (data, feature, degree) {
   feature_idx <- which(feature == names(data))
@@ -11,4 +12,4 @@ task_data <- polynomialTrafo(data = mtcars[, c("mpg", "hp")], feature = "hp", de
 mtcars_task <- TaskRegr$new(id = "mtcars_task", backend = task_data, target = "mpg")
 lm_learner <- lrn("regr.lm")
 
-lm_learner$train(mtcars_task)
+print(lm_learner$train(mtcars_task))

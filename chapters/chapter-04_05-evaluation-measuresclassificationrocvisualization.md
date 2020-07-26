@@ -78,6 +78,7 @@ We only want to consider the complete cases. Use the `filter` method combined wi
 **Hints**
 - With `which` we get the indices of the complete cases
 `which(complete.cases(pima_task$data()))`
+
 </codeblock>
 
 #### *(P)* A first model
@@ -96,6 +97,7 @@ We only want to consider the complete cases. Use the `filter` method combined wi
 
 - Use the pima task defined before
 `task = pima_task`
+
 </codeblock>
 
 
@@ -113,6 +115,7 @@ We only want to consider the complete cases. Use the `filter` method combined wi
 
 - Predict using the learner object
 `model_prediction <- learner$predict(task = pima_task)`
+
 </codeblock>
 
 
@@ -123,6 +126,7 @@ We only want to consider the complete cases. Use the `filter` method combined wi
 **Hints**
 - Use the `TaskClassif$new()` function of mlr3. The identifier for the task `id` can be arbitrarily chosen, but must be set.
 `iris_task <- TaskClassif$new(id = ..., backend = ..., target = ...)`
+
 </codeblock>
 
 
@@ -146,11 +150,14 @@ We only want to consider the complete cases. Use the `filter` method combined wi
 
 - To set the threshold of a prediction object use its class method `set_threshold()`
 `model_prediction$set_threshold(0.2)`
+
 </codeblock>
+
 </exercise>
 
 
 <exercise id="6" title="Quiz">
+
 Which statements are true?
 <choice>
 <opt text="The AUC with about `86%` is good." correct="true">
@@ -164,6 +171,7 @@ Which statements are true?
 <opt text="The AUC is not effected by the threshold whereas the mmce is." correct="true">
 </opt>
 </choice>
+
 </exercise>
 
 
@@ -241,9 +249,9 @@ Using just the train dataset for predictions leads to overoptimistic ROC and AUC
 
 **Note** that the ROC and performance measures for each fold can also be directly computed from a Resampling object:
 
-
 <codeblock id="04_05_010">
 </codeblock>
+
 </exercise>
 
 

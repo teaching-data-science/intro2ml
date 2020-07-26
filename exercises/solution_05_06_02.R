@@ -7,3 +7,4 @@ spirals_task <- TaskClassif$new(id = "spirals_task", backend = spirals, target =
 
 learner_cart <- lrn("classif.rpart", minsplit = 20, cp = 0.01)
 learner_cart$train(spirals_task)
+print(learner_cart$train(spirals_task))
