@@ -9,5 +9,5 @@ install.packages("rpart")
 install.packages("mlr3learners")
 install.packages("titanic")
 install.packages("mlr3viz")
-
 install.packages("kknn")
+install.packages("e1071")
