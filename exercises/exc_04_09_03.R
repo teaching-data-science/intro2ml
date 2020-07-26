@@ -1,3 +1,5 @@
+library(e1071)
+
 learners <- list(...)
 task <-
 res_desc <-

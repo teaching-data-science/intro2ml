@@ -1,6 +1,7 @@
-set.seed(123)
+library(ggplot2)
 library(mlr3viz)
 
+set.seed(123)
 task <- tsk("iris")
 task$select(c("Sepal.Length", "Sepal.Width"))
 

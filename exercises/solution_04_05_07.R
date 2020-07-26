@@ -4,3 +4,5 @@ task$filter(rows = which(complete.cases(task$data())))
 res_desc <- rsmp("cv", folds = 3L)
 set.seed(123)
 res <- resample(task, learner, res_desc)
+
+print(res)

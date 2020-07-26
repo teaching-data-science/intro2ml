@@ -1,3 +1,5 @@
+library(mlr3viz)
+
 learner <- lrn("classif.log_reg", predict_type = "prob")
 task <-  tsk("pima")
 task$filter(rows = which(complete.cases(task$data())))

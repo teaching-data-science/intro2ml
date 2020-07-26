@@ -1,4 +1,7 @@
+library(mlr3)
 library(mlr3viz)
+library(mlr3learners)
+library(kknn)
 
 set.seed(123)
 class <- sample(c(1, 2), size = 100, replace = TRUE)

@@ -1,4 +1,5 @@
 library (mlr3)
+
 polynomialTrafo <- function (data, feature, degree) {
   feature_idx <- which(feature == names(data))
   # function 'poly' creates numerically well-behaved polynomials: orthogonal, etc.
@@ -9,3 +10,4 @@ polynomialTrafo <- function (data, feature, degree) {
 
 task_data <- polynomialTrafo(data = mtcars[, c("mpg", "hp")], feature = "hp", degree = 3)
 mtcars_task <- TaskRegr$new(id = "mtcars_task", backend = task_data, target = "mpg")
+print (mtcars_task)

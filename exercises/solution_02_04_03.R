@@ -1,5 +1,6 @@
 library(mlr3)
 library(mlr3learners)
+library(mlr3viz)
 
 iris_task <- TaskClassif$new(id = "iris_task", 
                              backend = iris[,c("Species", "Sepal.Width", "Petal.Width")], 

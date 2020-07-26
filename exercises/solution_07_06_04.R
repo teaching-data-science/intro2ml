@@ -1,3 +1,5 @@
+library("mlr3tuning")
+
 learner <- lrn("classif.ranger", predict_type = "prob")
 param_set <- ParamSet$new(list(
    ParamInt$new("mtry", lower = 1L, upper = 30L), 
