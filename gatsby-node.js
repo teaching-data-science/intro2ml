@@ -73,5 +73,15 @@ exports.createPages = ({ actions, graphql }) => {
                 context: { slug: node.fields.slug },
             })
         })
+        const subposts = result.data.allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.type == 'subchapter'
+        )
+        subposts.forEach(({ node }) => {
+            createPage({
+                path: replacePath(node.fields.slug),
+                component: chapterTemplate,
+                context: { slug: node.fields.slug },
+            })
+        })
     })
 }
