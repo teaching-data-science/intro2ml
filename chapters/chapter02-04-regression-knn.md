@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 2.4: k-NN'
 description:
-  ' The k-nearest neighbors algorithm (k-NN) is a type of learning, where the function is approximated locally, and all computation is deferred until function evaluation. The present chapter aims to show what k-NN is and how it works. As a practical task, you will train a k-NN model using mlr3.'
+  ' This Section introduces k-nearest neighbors regression. We will explain in which sense this approach is fundamentally different to the previous chapters. We will introduce the concept of distance measures and give examples for different types of data.'
 prev: /chapter02-03-regression-polynomialregmodels
 next: /chapter03-01-classification-classificationtasks
 type: subchapter
