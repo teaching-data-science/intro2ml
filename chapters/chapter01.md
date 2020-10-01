@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1: '
 description:
-  "Bla bla bla bla"
+  " This Chapter introduces the basic concepts of Machine Learning. We focus on supervised learning, explain the difference between regression and classification, show how to evaluate and compare Machine Learning models and formalize the concept of learning."
 type: chapter
 prev: dummy
 next: /chapter02

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.2: Supervised Learning'
 description:
-  ' The primary focus of this course is on the so-called "supervised" ML, i.e., we would like to use ML to predict something. In the present chapter, we explain what supervised ML is and what goals it has.'
+  ' The primary focus of this course is supervised learning. In supervised learning, the value of a random variable shall be predicted by a ML model using input data. In this section, we explain the components of supervised learning.'
 prev: /chapter01-01-basics-whatisml
 next: /chapter01-03-basics-tasksanddata
 type: subchapter

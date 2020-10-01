@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.3: Tasks and Data'
 description:
-  ' Supervised learning comes in two flavors: regression and classification. After studying this chapter, you should be able to differentiate between regression and classification tasks. We explain to you what the data generating process is, and you can create tasks in mlr3.'
+    ' The tasks of supervised learning can roughly be divided in two categories: regression (for continuous outcome) and classification (for categorical outcome). You will see some examples and get to know the notation used in this course.'
 prev: /chapter01-02-basics-supervisedlearning
 next: /chapter01-04-basics-modelsandlearners
 type: subchapter

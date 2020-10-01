@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.5: Losses and Risk Minimization'
 description:
-  ' In order to measure the performance of a model, we need to define a suitable criterion. How can we do so? The goal of this chapter is to introduce some methods for evaluating error. In particular, you are going to understand the role of risk minimization for machine learning as well as the definition of a loss function.'
+  ' In order to find "good" ML models, we need a concept to evaluate and compare models. To this end, the concepts of "loss function", "empirical risk" and "empirical risk minimization" are introduced.'
 prev: /chapter01-04-basics-modelsandlearners
 next: /chapter01-06-basics-componentsoflearner
 type: subchapter

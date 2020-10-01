@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.1: What is ML?'
 description:
-  ' Machine learning is a branch of statistics and computer science. In this chapter, you are going to know what machine learning is about and what it means for a computer program to "learn.'
+  ' Machine Learning is a branch of statistics and computer science. In this Section, you will see some typical examples of where Machine Learning is applied and several fundamental questions which we will answer later in this course.'
 prev: /chapter00
 next: /chapter01-02-basics-supervisedlearning
 type: subchapter
