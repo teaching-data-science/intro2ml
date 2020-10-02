@@ -1,7 +1,7 @@
 ---
-title: 'Chapter 3: '
+title: 'Chapter 3: Supervised Classification'
 description:
-  "Bla bla bla bla"
+  " This Chapter treats the supervised classification task in more detail. We will see examples of binary and multiclass classification and the difference of the discriminative and the generative approach. Especially, we will treat logistic regression, linear and quadratic discriminant analysis, naive bayes and k-NN classification."
 type: chapter
 prev: /chapter02
 next: /chapter04

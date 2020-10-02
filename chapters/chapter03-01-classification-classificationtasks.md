@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.1: Classification Tasks'
 description:
-  ' Classification is a type of ML task in which learn functions assign class labels to observation/feature vectors. In this chapter, you will get an idea about the meaning of classification as well as the structure of classification problems. We will do so by providing some examples of binary and multiclass classification tasks.'
+  ' In classification, the task is to predict a categorical (binary or multiclass) label. In this Section, we illustrate the concept of classification with some typical examples.'
 prev: /chapter02-04-regression-knn
 next: /chapter03-02-classification-basicdefinitions
 type: subchapter

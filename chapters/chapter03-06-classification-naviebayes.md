@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.6: Naive Bayes'
 description:
-  ' In this chapter, you are going to get familiar with an important type of classifier, namely the Naive Bayes. For some types of probability models, naive Bayes classifiers can be trained very efficiently in a supervised learning setting.'
+  ' Naive Bayes is a generative approach for constructing a classifier and closely related to LDA and QDA.'
 prev: /chapter03-05-classification-discriminantanalysis
 next: /chapter03-07-classification-knn
 type: subchapter

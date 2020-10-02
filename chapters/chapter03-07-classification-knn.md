@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.7: 	K-Nearest Neighbors'
 description:
-  ' k-NN is a lazy classifier which has no real training step; it merely stores the complete data required during predictions. As will be shown in this chapter, because of not being based on distributional or strong functional assumptions, k-NN can theoretically model situations with arbitrary complexity. As a practical task, you would also learn how to fit different classifiers in mlr3.'
+  '  This Section introduces k-nearest neighbors classification. We will explain in which sense this approach is fundamentally different to the previous Sections and illustrate the effect of the hyperparameter k.'
 prev: /chapter03-06-classification-naviebayes
 next: /chapter04-01-evaluation-introduction
 type: subchapter

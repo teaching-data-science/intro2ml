@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.4: Logistic Regression'
 description:
-  ' This chapter helps you understand how logistic regression works and what logistic function is. Additionally, you will learn the Bernoulli loss. Your practical task is to train a logistic regression with R and mlr3, and you can practice transforming linear classifiers into non-linear classifiers.'
+  ' Logistic regression is a discrimant approach for constructing a classifier. We will motivate logistic regression via the logistic function, define the log loss for optimization and illustrate the approach in 1D and 2D.'
 prev: /chapter03-03-classification-linearclassifiers
 next: /chapter03-05-classification-discriminantanalysis
 type: subchapter
