@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.6: Overfitting'
 description:
-  ' Because of too many hypotheses and not enough data to tell them apart, it is possible to have overfitting. This happens when algorithms model patterns beyond the data generating process. In this chapter, you will get to know when exactly overfitting happens, and your practical task is to examine how k-NN overfits for small ks.'
+  ' When a machine learning model performs well on training data, but doesn't generalize on the test data, we speak of overfitting. We will show you examples of overfitting and how to diagnose overfitting.'
 prev: /chapter04-05-evaluation-measuresclassificationrocvisualization
 next: /chapter04-07-evaluation-trainingerror
 type: subchapter

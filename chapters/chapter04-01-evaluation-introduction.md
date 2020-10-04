@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.1: Introduction'
 description:
-  ' How well does a model perform on data from the same data generating process? ML performance evaluation provides clear protocols for model validation. By completing this chapter, you would know what performance estimation is and why it is essential.'
+  ' It is a crucial part of Machine Learning to evaluate the performance of a model. We will explain the concept of generalization error and the difference between inner and outer loss.'
 prev: /chapter03-07-classification-knn
 next: /chapter04-02-evaluation-measuresregression
 type: subchapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.2: Measures Regression'
 description:
-  ' This chapter makes you familiar with simple performance measures for regression. In particular, mean squared error (MSE), mean absolute error (MAE), and a straightforward generalization of R2 are discussed.'
+  ' In this Section we make you familiar with essential performance measures for regression. In particular, mean squared error (MSE), mean absolute error (MAE), and a straightforward generalization of R2 are discussed.'
 prev: /chapter04-01-evaluation-introduction
 next: /chapter04-03-evaluation-measuresclassification
 type: subchapter

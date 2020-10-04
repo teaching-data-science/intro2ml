@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.8: Test Error'
 description:
-  ' In ML, we are usually given one complete data set, and we would like to fit one model on that data set. The training error evaluation does not work in this situation since it cannot be used to estimate the future performance of the model. Measuring the test error would be a solution. This chapter argues that we would also need splitting and resampling tools.'
+  ' There are two types of errors: training error and test error. The focus of this Section is on the test error and difficulties related with it.'
 prev: /chapter04-07-evaluation-trainingerror
 next: /chapter04-09-evaluation-resampling
 type: subchapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4: '
 description:
-  "Bla bla bla bla"
+  " This Chapter treats the challenge of evaluating the performance of a model. We will introduce different performance measures for regression and classification tasks, explain the problem of overfitting, the difference between training and test error and finally present a variety of resampling techniques."
 type: chapter
 prev: /chapter03
 next: /chapter05

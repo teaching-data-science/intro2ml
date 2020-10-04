@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.4: Measures Classification ROC'
 description:
-  ' From the confusion matrix (binary case), we can calculate "ROC" metrics. Historically, ROC was developed by engineers during world war II for detecting enemy objects in battlefields. This chapter makes you familiar with the ROC.'
+  ' From the confusion matrix, we can calculate a variety of "ROC" metrics. Among others, we will explain True Positive Rate, Negative Predictive Value and the F1-Measure.'
 prev: /chapter04-03-evaluation-measuresclassification
 next: /chapter04-05-evaluation-measuresclassificationrocvisualization
 type: subchapter
