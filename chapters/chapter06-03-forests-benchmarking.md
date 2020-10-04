@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.3: Benchmarking Trees, Forests, and Bagging K-NN'
 description:
-  ' The goal of this chapter is to compare the performance of random forest against stable and unstable methods. We explain the differences between trees, forest, and bagging. You would also train a random forest model using mlr3.'
+  ' In this Section we compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.'
 prev: /chapter06-02-forests-introduction
 next: /chapter06-04-forests-featureimportance
 type: subchapter

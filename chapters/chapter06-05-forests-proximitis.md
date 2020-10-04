@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.5: Proximities'
 description:
-  ' The term "proximity" means the "closeness" between pairs of cases. Proximities are calculated for each pair of observations derived from random forests. You will find in this chapter that if two instances occupy the same terminal node through one tree, their proximity is increased by one.'
+  ' The term "proximity" means the "closeness" between pairs of cases. Proximities are calculated for each pair of observations and can be derived directly from random forests.'
 prev: /chapter06-04-forests-featureimportance
 next: /chapter06-06-forests-discussion
 type: subchapter

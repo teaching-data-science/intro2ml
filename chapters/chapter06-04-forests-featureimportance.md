@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.4: Feature Importance'
 description:
-  ' By how much would the random forest performance decrease if a specific feature were removed or rendered useless? The basic idea of this chapter is to examine this question. You will also learn what feature importance is and how to compute it.'
+  ' In a complex machine learning model, the contributions of the different features to the model performance are difficult to evaluate. The concept of feature importance allows to quantify this for random forests.'
 prev: /chapter06-03-forests-benchmarking
 next: /chapter06-05-forests-proximitis
 type: subchapter
