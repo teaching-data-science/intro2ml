@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.4: Computational Aspects of Finding Splits'
 description:
-  ' By completing this chapter, you would grasp the computational aspects of the node-splitting procedure. In particular, you will learn how CART automatically deals with missing values in features.'
+  ' In this Section, we explain the computational aspects of the node-splitting procedure, especially for nominal features. Additionally we illustrate how to deal with missing values.'
 prev: /chapter05-03-trees-growingatree
 next: /chapter05-05-trees-stoppingcriteria
 type: subchapter

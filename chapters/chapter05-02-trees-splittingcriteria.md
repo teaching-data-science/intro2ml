@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.2: Splitting Criteria'
 description:
-  ' CART algorithms require splitting criteria for trees, which are usually defined in terms of "impurity reduction." After studying this chapter, you would understand splitting rules for both regression and classification trees.'
+  ' CART algorithms require splitting criteria for trees, which are usually defined in terms of "impurity reduction". In this Section we formalize the idea of splitting criteria and explain the details of splitting for both regression and classification.'
 prev: /chapter05-01-trees-introduction
 next: /chapter05-03-trees-growingatree
 type: subchapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.5: Stopping criteria & pruning'
 description:
-  ' The recursive partitioning procedure used to grow a CART usually leads to problems such as exponential growth of computations, overfitting, and the horizon effect. To deal with these problems, we can use stopping criteria and pruning. In this chapter, you will be explained the basis of these two solutions.'
+  ' The recursive partitioning procedure used to grow a CART usually leads to problems such as exponential growth of computations, overfitting, and the horizon effect. To deal with these problems, we can use stopping criteria and pruning. In this Section, we explain the basis of these two solutions.'
 prev: /chapter05-04-trees-computationalaspects
 next: /chapter05-06-trees-discussion
 type: subchapter
