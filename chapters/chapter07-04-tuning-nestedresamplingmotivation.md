@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.4: Nested Resampling Motivation'
 description:
-  ' Selecting the best model from a set of potential candidates is an important part of most machine learning problems. By examining an instructive and problematic example, this chapter introduces the untouched test set principle.'
+  ' Selecting the best model from a set of potential candidates is an important part of most machine learning problems. By examining an instructive and problematic example, we introduce the untouched test set principle.'
 prev: /chapter07-03-tuning-basictechniques
 next: /chapter07-05-tuning-trainingvalidationtesting
 type: subchapter

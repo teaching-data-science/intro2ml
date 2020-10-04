@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.6: Nested Resampling'
 description:
-  ' Just like we can generalize holdout splitting to resampling to get more reliable estimates of the predictive performance, we can generalize the training/validation/test approach to "nested resampling." In this chapter, you will learn why and how nested resampling is done. As a practical task, you will define the search space for parameter tuning and will conduct tuning for a specific learner.'
+  '  In this Section, we will explain why and how nested resampling is done.'
 prev: /chapter07-05-tuning-trainingvalidationtesting
 next: null
 type: subchapter

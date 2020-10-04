@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.2: Problem Definition'
 description:
-  ' Hyperparameter tuning is the process of finding good model hyperparameters. This chapter formalizes the problem of tuning and explains why tuning is computationally hard.'
+  ' Hyperparameter tuning is the process of finding good model hyperparameters. In this Section we formalize the problem of tuning and explain why tuning is computationally hard.'
 prev: /chapter07-01-tuning-introduction
 next: /chapter07-03-tuning-basictechniques
 type: subchapter

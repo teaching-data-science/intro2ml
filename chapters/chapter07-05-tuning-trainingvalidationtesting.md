@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.5: Training - Validation - Testing'
 description:
-  ' The simplest method to achieve an untouched test set is a 3-way split: a learner is first trained on the "training set" and then evaluated on the "validation set." After selecting the best model, the joint set (training+validation) will be trained again and the performance will be evaluated on the "test set." '
+  ' The simplest method to achieve an untouched test set is a 3-way split: the models are first learned on the "training set" and then evaluated and compared on the "validation set." After selecting the best model, the performance will be evaluated on the "test set." '
 prev: /chapter07-04-tuning-nestedresamplingmotivation
 next: /chapter07-06-tuning-nestedresampling
 type: subchapter
