@@ -25,6 +25,14 @@ This guide helps you to get started in working with this repo.
 sudo apt-get install curl
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 ```
+Note that the install sktipt adds the following lines to your `.bashrc`:  
+
+```bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+If you use a different shell (`fish`, `zsh`, ...) then you have to add these files manually.
 
 2. Set default Node.js version:
 

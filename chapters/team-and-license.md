@@ -20,9 +20,8 @@ id: 1
 - [Christoph Molnar](https://www.compstat.statistik.uni-muenchen.de/people/molnar) 
   is a PhD at Bernd's group and organized the first round of the inverted classroom in spring 2018, including the first round of videos.
 - [Tobias Pielok](https://www.compstat.statistik.uni-muenchen.de/people/) 
-  is a PhD at Bernd's group...
-
-
+  is a PhD at Bernd's group and contributed to the code demos and exercises; he also presented the code demos at the classes held in spring 2020.
+  
 ### Student Assistants
 
 - Omid Charrakh
