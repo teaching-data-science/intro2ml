@@ -12,6 +12,7 @@ updateFile = function (section_file) {
   sub_files = sub_files[!grepl(section_file, sub_files)]
 
   for (fn in sub_files) {
+    cat(" -- Processing sub file", fn, "\n")
     yaml_meta = rmarkdown::yaml_front_matter(fn)
     link = strsplit(x = fn, split = "[.]")[[1]][2]
     code_add = paste0("
@@ -35,6 +36,7 @@ files = list.files(full.names = TRUE)
 chapter = paste0("chapter0", seq_len(7), ".md")
 
 for (fn in chapter) {
+  cat("Processing file", fn, "\n")
   txt = updateFile(fn)
 
   #fileConn = file(paste0("tst_", fn))

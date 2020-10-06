@@ -15,7 +15,7 @@ id: 1
 
   </h2>
   <p class="index-module-chapter-desc-de526628">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-01-forests-baggingensembles"> Bagging (bootstrap aggregation) is a method for combining many models into a meta-model, which often works much better than its individual components. This chapter teaches you the basic idea of bagging and explains why and when bagging works.</a>
+  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-01-forests-baggingensembles"> Bagging (bootstrap aggregation) is a method for combining many models into a meta-model, which often works much better than its individual components. In this Section, we present the basic idea of bagging and explain why and when bagging works.</a>
   </p>
 </section>
 
@@ -29,7 +29,7 @@ id: 1
 
   </h2>
   <p class="index-module-chapter-desc-de526628">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-02-forests-introduction"> The introduction of random forests proper was first made in a paper by Leo Breiman. This chapter investigates the modern practice of random forests, which exploits out-of-bag error as an estimate of the generalization error and measures variable importance through permutation.</a>
+  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-02-forests-introduction"> In this Section we investigate random forests, a modification of bagging for trees. We illustrate the effect of the ensemble size and show how to compute out-of-bag error estimates.</a>
   </p>
 </section>
 
@@ -43,7 +43,7 @@ id: 1
 
   </h2>
   <p class="index-module-chapter-desc-de526628">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-03-forests-benchmarking"> The goal of this chapter is to compare the performance of random forest against stable and unstable methods. We explain the differences between trees, forest, and bagging. You would also train a random forest model using mlr3.</a>
+  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-03-forests-benchmarking"> In this Section we compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.</a>
   </p>
 </section>
 
@@ -57,7 +57,7 @@ id: 1
 
   </h2>
   <p class="index-module-chapter-desc-de526628">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-04-forests-featureimportance"> By how much would the random forest performance decrease if a specific feature were removed or rendered useless? The basic idea of this chapter is to examine this question. You will also learn what feature importance is and how to compute it.</a>
+  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-04-forests-featureimportance"> In a complex machine learning model, the contributions of the different features to the model performance are difficult to evaluate. The concept of feature importance allows to quantify this for random forests.</a>
   </p>
 </section>
 
@@ -71,7 +71,7 @@ id: 1
 
   </h2>
   <p class="index-module-chapter-desc-de526628">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-05-forests-proximitis"> The term "proximity" means the "closeness" between pairs of cases. Proximities are calculated for each pair of observations derived from random forests. You will find in this chapter that if two instances occupy the same terminal node through one tree, their proximity is increased by one.</a>
+  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-05-forests-proximitis"> The term "proximity" means the "closeness" between pairs of cases. Proximities are calculated for each pair of observations and can be derived directly from random forests.</a>
   </p>
 </section>
 
@@ -85,7 +85,7 @@ id: 1
 
   </h2>
   <p class="index-module-chapter-desc-de526628">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-06-forests-discussion"> This chapter aims to elucidate the pros and cons of random forests. It will be shown that all advantages of trees also apply to random forests: not much preprocessing required, missing value handling, etc.</a>
+  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-06-forests-discussion"> In this Section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.</a>
   </p>
 </section>
 

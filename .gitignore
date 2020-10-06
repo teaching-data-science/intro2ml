@@ -1,0 +1,16 @@
+node_modules
+.cache
+
+public/page-data/
+public/icons/
+
+package-lock.json
+public/favicon-32x32.png
+public/icon.png
+public/icon_check.svg
+public/icon_slides.svg
+public/logo.svg
+public/profile.jpg
+public/screenshot.png
+public/index.html
+public/manifest.webmanifest

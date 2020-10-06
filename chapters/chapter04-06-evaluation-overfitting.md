@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.6: Overfitting'
 description:
-  ' When a machine learning model performs well on training data, but doesn't generalize on the test data, we speak of overfitting. We will show you examples of overfitting and how to diagnose overfitting.'
+  "When a machine learning model performs well on training data, but doesn't generalize on the test data, we speak of overfitting. We will show you examples of overfitting and how to diagnose overfitting."
 prev: /chapter04-05-evaluation-measuresclassificationrocvisualization
 next: /chapter04-07-evaluation-trainingerror
 type: subchapter
