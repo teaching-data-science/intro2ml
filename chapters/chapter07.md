@@ -11,7 +11,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter07-01-tuning-introduction">Chapter 7.1: Introduction</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter07-01-tuning-introduction">Chapter 7.1: Introduction</a>
 
   </h2>
   <p class="de526628">
@@ -25,7 +25,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter07-02-tuning-problemdefinition">Chapter 7.2: Problem Definition</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter07-02-tuning-problemdefinition">Chapter 7.2: Problem Definition</a>
 
   </h2>
   <p class="de526628">
@@ -39,7 +39,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter07-03-tuning-basictechniques">Chapter 7.3: Basic Techniques</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter07-03-tuning-basictechniques">Chapter 7.3: Basic Techniques</a>
 
   </h2>
   <p class="de526628">
@@ -53,7 +53,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter07-04-tuning-nestedresamplingmotivation">Chapter 7.4: Nested Resampling Motivation</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter07-04-tuning-nestedresamplingmotivation">Chapter 7.4: Nested Resampling Motivation</a>
 
   </h2>
   <p class="de526628">
@@ -67,7 +67,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter07-05-tuning-trainingvalidationtesting">Chapter 7.5: Training - Validation - Testing</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter07-05-tuning-trainingvalidationtesting">Chapter 7.5: Training - Validation - Testing</a>
 
   </h2>
   <p class="de526628">
@@ -81,7 +81,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter07-06-tuning-nestedresampling">Chapter 7.6: Nested Resampling</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter07-06-tuning-nestedresampling">Chapter 7.6: Nested Resampling</a>
 
   </h2>
   <p class="de526628">

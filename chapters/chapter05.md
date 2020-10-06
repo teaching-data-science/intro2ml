@@ -11,7 +11,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter05-01-trees-introduction">Chapter 5.1: Introduction</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter05-01-trees-introduction">Chapter 5.1: Introduction</a>
 
   </h2>
   <p class="de526628">
@@ -25,7 +25,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter05-02-trees-splittingcriteria">Chapter 5.2: Splitting Criteria</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter05-02-trees-splittingcriteria">Chapter 5.2: Splitting Criteria</a>
 
   </h2>
   <p class="de526628">
@@ -39,7 +39,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter05-03-trees-growingatree">Chapter 5.3: Growing a Tree</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter05-03-trees-growingatree">Chapter 5.3: Growing a Tree</a>
 
   </h2>
   <p class="de526628">
@@ -53,7 +53,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter05-04-trees-computationalaspects">Chapter 5.4: Computational Aspects of Finding Splits</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter05-04-trees-computationalaspects">Chapter 5.4: Computational Aspects of Finding Splits</a>
 
   </h2>
   <p class="de526628">
@@ -67,7 +67,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter05-05-trees-stoppingcriteria">Chapter 5.5: Stopping criteria & pruning</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter05-05-trees-stoppingcriteria">Chapter 5.5: Stopping criteria & pruning</a>
 
   </h2>
   <p class="de526628">
@@ -81,7 +81,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter05-06-trees-discussion">Chapter 5.6: Discussion</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter05-06-trees-discussion">Chapter 5.6: Discussion</a>
 
   </h2>
   <p class="de526628">

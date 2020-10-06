@@ -11,7 +11,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-01-forests-baggingensembles">Chapter 6.1: Bagging Ensembles</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-01-forests-baggingensembles">Chapter 6.1: Bagging Ensembles</a>
 
   </h2>
   <p class="de526628">
@@ -25,7 +25,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-02-forests-introduction">Chapter 6.2: Introduction</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-02-forests-introduction">Chapter 6.2: Introduction</a>
 
   </h2>
   <p class="de526628">
@@ -39,7 +39,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-03-forests-benchmarking">Chapter 6.3: Benchmarking Trees, Forests, and Bagging K-NN</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-03-forests-benchmarking">Chapter 6.3: Benchmarking Trees, Forests, and Bagging K-NN</a>
 
   </h2>
   <p class="de526628">
@@ -53,7 +53,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-04-forests-featureimportance">Chapter 6.4: Feature Importance</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-04-forests-featureimportance">Chapter 6.4: Feature Importance</a>
 
   </h2>
   <p class="de526628">
@@ -67,7 +67,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-05-forests-proximitis">Chapter 6.5: Proximities</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-05-forests-proximitis">Chapter 6.5: Proximities</a>
 
   </h2>
   <p class="de526628">
@@ -81,7 +81,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter06-06-forests-discussion">Chapter 6.6: Discussion</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-06-forests-discussion">Chapter 6.6: Discussion</a>
 
   </h2>
   <p class="de526628">

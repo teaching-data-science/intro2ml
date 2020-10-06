@@ -11,7 +11,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-01-classification-classificationtasks">Chapter 3.1: Classification Tasks</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-01-classification-classificationtasks">Chapter 3.1: Classification Tasks</a>
 
   </h2>
   <p class="de526628">
@@ -25,7 +25,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-02-classification-basicdefinitions">Chapter 3.2: Basic Definitions</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-02-classification-basicdefinitions">Chapter 3.2: Basic Definitions</a>
 
   </h2>
   <p class="de526628">
@@ -39,7 +39,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-03-classification-linearclassifiers">Chapter 3.3: Linear Classifiers</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-03-classification-linearclassifiers">Chapter 3.3: Linear Classifiers</a>
 
   </h2>
   <p class="de526628">
@@ -53,7 +53,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-04-classification-logisticregression">Chapter 3.4: Logistic Regression</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-04-classification-logisticregression">Chapter 3.4: Logistic Regression</a>
 
   </h2>
   <p class="de526628">
@@ -67,7 +67,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-05-classification-discriminantanalysis">Chapter 3.5: Discriminant Analysis</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-05-classification-discriminantanalysis">Chapter 3.5: Discriminant Analysis</a>
 
   </h2>
   <p class="de526628">
@@ -81,7 +81,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-06-classification-naviebayes">Chapter 3.6: Naive Bayes</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-06-classification-naviebayes">Chapter 3.6: Naive Bayes</a>
 
   </h2>
   <p class="de526628">
@@ -95,7 +95,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter03-07-classification-knn">Chapter 3.7: 	K-Nearest Neighbors</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-07-classification-knn">Chapter 3.7: 	K-Nearest Neighbors</a>
 
   </h2>
   <p class="de526628">

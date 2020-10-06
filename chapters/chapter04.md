@@ -11,7 +11,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-01-evaluation-introduction">Chapter 4.1: Introduction</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-01-evaluation-introduction">Chapter 4.1: Introduction</a>
 
   </h2>
   <p class="de526628">
@@ -25,7 +25,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-02-evaluation-measuresregression">Chapter 4.2: Measures Regression</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-02-evaluation-measuresregression">Chapter 4.2: Measures Regression</a>
 
   </h2>
   <p class="de526628">
@@ -39,7 +39,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-03-evaluation-measuresclassification">Chapter 4.3: Measures Classification</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-03-evaluation-measuresclassification">Chapter 4.3: Measures Classification</a>
 
   </h2>
   <p class="de526628">
@@ -53,7 +53,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-04-evaluation-measuresclassificationroc">Chapter 4.4: Measures Classification ROC</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-04-evaluation-measuresclassificationroc">Chapter 4.4: Measures Classification ROC</a>
 
   </h2>
   <p class="de526628">
@@ -67,7 +67,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-05-evaluation-measuresclassificationrocvisualization">Chapter 4.5: Measures Classification ROC Visualisation</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-05-evaluation-measuresclassificationrocvisualization">Chapter 4.5: Measures Classification ROC Visualisation</a>
 
   </h2>
   <p class="de526628">
@@ -81,7 +81,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-06-evaluation-overfitting">Chapter 4.6: Overfitting</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-06-evaluation-overfitting">Chapter 4.6: Overfitting</a>
 
   </h2>
   <p class="de526628">
@@ -95,7 +95,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-07-evaluation-trainingerror">Chapter 4.7: Training Error</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-07-evaluation-trainingerror">Chapter 4.7: Training Error</a>
 
   </h2>
   <p class="de526628">
@@ -109,7 +109,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-08-evaluation-testerror">Chapter 4.8: Test Error</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-08-evaluation-testerror">Chapter 4.8: Test Error</a>
 
   </h2>
   <p class="de526628">
@@ -123,7 +123,7 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter04-09-evaluation-resampling">Chapter 4.9: Resampling</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-09-evaluation-resampling">Chapter 4.9: Resampling</a>
 
   </h2>
   <p class="de526628">

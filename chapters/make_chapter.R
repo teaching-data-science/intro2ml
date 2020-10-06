@@ -18,7 +18,7 @@ updateFile = function (section_file) {
     code_add = paste0("
 <section class=\"c72e2d57\">
   <h2 class=\"_5e0ebe7a\">
-  <a class=\"link-module-root-46224d00 link-module-hidden-7e2d93b5\" href=\"", link, "\">", yaml_meta$title, "</a>\n
+  <a class=\"_46224d00 _7e2d93b5\" href=\"", link, "\">", yaml_meta$title, "</a>\n
   </h2>
   <p class=\"de526628\">
   <a class=\"_46224d00 _7e2d93b5\" href=\"", link, "\">", yaml_meta$description, "</a>

@@ -11,7 +11,7 @@ id: 2
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter02-01-regression-lossfunctions">Chapter 2.1: Loss Functions for Regression</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter02-01-regression-lossfunctions">Chapter 2.1: Loss Functions for Regression</a>
 
   </h2>
   <p class="de526628">
@@ -25,7 +25,7 @@ id: 2
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter02-02-regression-linearregmodels">Chapter 2.2: Linear Regression Models</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter02-02-regression-linearregmodels">Chapter 2.2: Linear Regression Models</a>
 
   </h2>
   <p class="de526628">
@@ -39,7 +39,7 @@ id: 2
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter02-03-regression-polynomialregmodels">Chapter 2.3: Polynomial Regression Models</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter02-03-regression-polynomialregmodels">Chapter 2.3: Polynomial Regression Models</a>
 
   </h2>
   <p class="de526628">
@@ -53,7 +53,7 @@ id: 2
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="link-module-root-46224d00 link-module-hidden-7e2d93b5" href="/chapter02-04-regression-knn">Chapter 2.4: k-NN</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter02-04-regression-knn">Chapter 2.4: k-NN</a>
 
   </h2>
   <p class="de526628">
