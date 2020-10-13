@@ -8,6 +8,16 @@ type: subchapter
 id: 1
 ---
 
+<header class="e2e4acf6">
+<p>
+<b>Study Goals:</b>
+  <ul>
+    <li>Learn what machine learning is about.</li>
+    <li>Learn about the goals of supervised machine learning.</li>
+  </ul>
+</p>
+</header>
+
 
 <exercise id="1" title="Video Lecture">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/CCzx4UDkzpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
