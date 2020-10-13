@@ -4,10 +4,11 @@ import classNames from 'classnames'
 import { Button } from './button'
 import classes from '../styles/choice.module.sass'
 
-var asel = []
+//const  asel = []
 const Choice = ({ id = '0', children = [] }) => {
     //var selected_buffer
-    function updateSelection (i) {
+    const [asel, setAsel] = useState([])
+    function updateSelection (asel_tmp, i) {
       //console.log(">>> FROM CLICK")
       //console.log("> i:")
       //console.log(i)
@@ -28,57 +29,42 @@ const Choice = ({ id = '0', children = [] }) => {
       //console.log("> Selection at start of update:")
       //console.log(asel)
 
-      if (asel.includes(i)) {
+      if (asel_tmp.includes(i)) {
         // Remove i from selected items and set selection to undefined:
-        console.log("> asel includes i!")
-        for (var k = 0; k < asel.length; k++) {
-          if (asel[k] === i) {
-            asel.splice(k, 1)
+        //console.log("> asel includes i!")
+        for (var k = 0; k < asel_tmp.length; k++) {
+          if (asel_tmp[k] === i) {
+            asel_tmp.splice(k, 1)
             setSelected(undefined)
-            console.log("> Remove i from asel, new asel is:")
-            console.log(asel)
+            //console.log("> Remove i from asel, new asel is:")
+            //console.log(asel)
           }
         }
       } else {
-        console.log("> asel does not include i")
-        asel.push(i)
-        console.log("> Include i to asel:")
-        console.log(asel)
+        //console.log("> asel does not include i")
+        asel_tmp.push(i)
+        //console.log("> Include i to asel:")
+        //console.log(asel)
         setSelected(i)
-        console.log("> Set selected to i")
+        //console.log("> Set selected to i")
       }
-      console.log("selected is")
-      console.log(selected)
+      //console.log("selected is")
+      //console.log(selected)
       if (selected === undefined) {
         setSelected(i)
-        console.log("Update selected from undefined to i")
+        //console.log("Update selected from undefined to i")
       }
       //asel.push(i)
       //console.log(asel)
       //console.log(asel.includes(i))
       //console.log(options)
+      return asel_tmp
     }
-    function changeUpdate (i) {
-      console.log(">> FORM CHANGE")
-      //if (selected === undefined) {
-        //setSelected(i)
-      //}
-    }
-    //function easyUpdateSelection (i) {
-      //console.log("CLICK")
-      //console.log(options)
-      //if (asel.includes(i)) {
-        //updateSelection(i)
-      //} else {
-        //setSelected(i)
-        //selected_buffer = i
-      //}
-    //}
+    function changeUpdate (i) { }
     var rr_corr = []
     const [selected, setSelected] = useState(null)
     const [answer, setAnswer] = useState(null)
     const handleAnswer = useCallback(() => setAnswer(selected), [selected])
-    //const handleAnswer = useCallback(() => setAnswer(selected_buffer), [selected_buffer])
     const options = children.filter(child => child !== '\n')
     // Required to prevent the "Submit" button from not reacting due to undefined selected:
     //const options = children
@@ -86,7 +72,7 @@ const Choice = ({ id = '0', children = [] }) => {
        const isCorrect = props.correct
        if (isCorrect) { rr_corr.push(i) }
     })}
-    const [correct, setCorrect] = useState(null)
+    const [all_correct, setCorrect] = useState(null)
     function updateAnswer () {
       setAnswer(1)
       var has_equal_length = asel.length === rr_corr.length
@@ -114,7 +100,7 @@ const Choice = ({ id = '0', children = [] }) => {
                         type="radio"
                         checked={asel.includes(i)}
                         onChange={() => changeUpdate(i)}
-                        onClick={() => updateSelection(i)}
+                        onClick={() => setAsel(updateSelection(asel, i))}
                     />
                     <label
                         className={classes.label}
@@ -132,23 +118,19 @@ const Choice = ({ id = '0', children = [] }) => {
                 return answer === i ? (
                     <div
                         key={key}
-                        className={classNames(classes.answer, { [classes.correct]: isCorrect && correct })}
+                        className={classNames(classes.answer, { [classes.correct]: isCorrect && all_correct })}
                     >
                         <strong
                             className={classNames(classes.answerLabel, {
-                                [classes.answerLabelCorrect]: isCorrect && correct,
+                                [classes.answerLabelCorrect]: isCorrect && all_correct,
                             })}
                         >
-                            {isCorrect && correct ? "That's correct! " : 'Incorrect. '}
+                            {isCorrect && all_correct ? "That's correct! " : 'Incorrect. '}
                         </strong>
                         {props.children}
                     </div>
                 ) : null
             })}
-
-
-
-
         </>
     )
 }
