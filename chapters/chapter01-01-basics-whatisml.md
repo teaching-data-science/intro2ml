@@ -9,13 +9,13 @@ id: 1
 ---
 
 <header class="e2e4acf6">
-<p>
-<b>Study Goals:</b>
+<p style="margin-bottom:0cm;">
+  <b>Study Goals:</b>
+</p>
   <ul>
     <li>Learn what machine learning is about.</li>
     <li>Learn about the goals of supervised machine learning.</li>
   </ul>
-</p>
 </header>
 
 
