@@ -44,43 +44,43 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-#### *(P)* Overfitting k-NN
+<!--#### *(P)* Overfitting k-NN-->
 
-To visually see how the number of nearest neighbors affects the overfitting behavior we simulate data as followed:
-
-
-A. Draw 100 observations of a binary target variable with equal distributed classes `1` and `2`:
-
-```
-class <- sample(c(1, 2), size = 100, replace = TRUE)
-```
-
-B. Simulate data with two normally distributed features `x` and `y` and a target variable `class`, where class `1` should have a mean of $2$ and standard deviation of $1$; class `2` should have a mean of $4$ and standard deviation of $2$, and `class` should contain the classes as factor or character variable:
-
-```
-df_sim <- data.frame(x = rnorm(100, mean = 2*class, sd = class), y = rnorm(100, mean = 2*class, sd = class), class = as.character(class))
-```
+<!--To visually see how the number of nearest neighbors affects the overfitting behavior we simulate data as followed:-->
 
 
-C. Generate a task out of the simulated data with `target = "class"` and define the k-NN learner with `k = 1`
+<!--A. Draw 100 observations of a binary target variable with equal distributed classes `1` and `2`:-->
 
-```
-task_sim <- TaskClassif$new(id = "2_gaussians", backend = df_sim, target = "class")
-kknn_learner <- lrn("classif.kknn", k = 1)
-```
+<!--```-->
+<!--class <- sample(c(1, 2), size = 100, replace = TRUE)-->
+<!--```-->
+
+<!--B. Simulate data with two normally distributed features `x` and `y` and a target variable `class`, where class `1` should have a mean of $2$ and standard deviation of $1$; class `2` should have a mean of $4$ and standard deviation of $2$, and `class` should contain the classes as factor or character variable:-->
+
+<!--```-->
+<!--df_sim <- data.frame(x = rnorm(100, mean = 2*class, sd = class), y = rnorm(100, mean = 2*class, sd = class), class = as.character(class))-->
+<!--```-->
 
 
-D. Finally, call `plot_learner_prediction()` on the learner and task:
-```
-plot_learner_prediction(learner = kknn_learner, task = task_sim)
-```
+<!--C. Generate a task out of the simulated data with `target = "class"` and define the k-NN learner with `k = 1`-->
 
-E. Now, put all together and vary `k` to see how the overfitting behavior of k-NN reacts on the choice of `k`:
+<!--```-->
+<!--task_sim <- TaskClassif$new(id = "2_gaussians", backend = df_sim, target = "class")-->
+<!--kknn_learner <- lrn("classif.kknn", k = 1)-->
+<!--```-->
 
-<codeblock id="04_08">
 
-</codeblock>
+<!--D. Finally, call `plot_learner_prediction()` on the learner and task:-->
+<!--```-->
+<!--plot_learner_prediction(learner = kknn_learner, task = task_sim)-->
+<!--```-->
 
-</exercise>
+<!--E. Now, put all together and vary `k` to see how the overfitting behavior of k-NN reacts on the choice of `k`:-->
+
+<!--<codeblock id="04_08">-->
+
+<!--</codeblock>-->
+
+<!--</exercise>-->

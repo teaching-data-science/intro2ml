@@ -46,95 +46,95 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-#### *(P)* The sonar task
+<!--#### *(P)* The sonar task-->
 
-In this hands-on we want to tune a random forest using the `classif.ranger` learner. The goal is to find hyperparameter values for `mtry` and `min.node.size` to achieve a high AUC. The task we are using is the task `"sonar"`. Taking a look at the help page of the task (`??mlbench::Sonar`) gives a nice description:
+<!--In this hands-on we want to tune a random forest using the `classif.ranger` learner. The goal is to find hyperparameter values for `mtry` and `min.node.size` to achieve a high AUC. The task we are using is the task `"sonar"`. Taking a look at the help page of the task (`??mlbench::Sonar`) gives a nice description:-->
 
-> This is the data set used by Gorman and Sejnowski in their study of the classification of sonar signals using a neural network [1]. The task is to train a network to discriminate between sonar signals bounced off a metal cylinder and those bounced off a roughly cylindrical rock.
->
-> Each pattern is a set of 60 numbers in the range 0.0 to 1.0. Each number represents the energy within a particular frequency band, integrated over a certain period of time. The integration aperture for higher frequencies occur later in time, since these frequencies are transmitted later during the chirp.
->
-> The label associated with each record contains the letter "R" if the object is a rock and "M" if it is a mine (metal cylinder). The numbers in the labels are in increasing order of aspect angle, but they do not encode the angle directly.
+<!--This is the data set used by Gorman and Sejnowski in their study of the classification of sonar signals using a neural network [1]. The task is to train a network to discriminate between sonar signals bounced off a metal cylinder and those bounced off a roughly cylindrical rock.-->
 
-<codeblock id="07_06_01">
-</codeblock>
+<!-- Each pattern is a set of 60 numbers in the range 0.0 to 1.0. Each number represents the energy within a particular frequency band, integrated over a certain period of time. The integration aperture for higher frequencies occur later in time, since these frequencies are transmitted later during the chirp.-->
 
-#### *(P)* Define the learner and parameter set
+<!-- The label associated with each record contains the letter "R" if the object is a rock and "M" if it is a mine (metal cylinder). The numbers in the labels are in increasing order of aspect angle, but they do not encode the angle directly.-->
 
-As mentioned above, we want to find good values for `mtry` and `min.node.size`. Therefore, define a hyperparameter space using `ParamSet$new()`. Before defining the parameter set define the `ranger` learner (do also note that we want to optimize for the AUC which requires the estimation of probabilities):
+<!--<codeblock id="07_06_01">-->
+<!--</codeblock>-->
 
-<codeblock id="07_06_02">
-</codeblock>
+<!--#### *(P)* Define the learner and parameter set-->
 
+<!--As mentioned above, we want to find good values for `mtry` and `min.node.size`. Therefore, define a hyperparameter space using `ParamSet$new()`. Before defining the parameter set define the `ranger` learner (do also note that we want to optimize for the AUC which requires the estimation of probabilities):-->
 
-
-Now, define the parameter set with:
-
-- $\texttt{mtry} \in [1,30]$
-- $\texttt{min.node.size} \in [1,50]$
-
-
-<codeblock id="07_06_03">
-
-**Hints**
-- To see all available parameter, it's type, the range, and if it is tuneable or not
-`learner$param_set`
-
-</codeblock>
+<!--<codeblock id="07_06_02">-->
+<!--</codeblock>-->
 
 
 
-#### *(P)* Choose the general tuning scenario and resampling strategy
+<!--Now, define the parameter set with:-->
 
-Set 50 iterations as the stopping criterion for the tuner. For the resampling of each value we use a 3-fold cross-validation. As the measure optimized by the tuner use the AUC:
+<!--- $\texttt{mtry} \in [1,30]$-->
+<!--- $\texttt{min.node.size} \in [1,50]$-->
 
 
-<codeblock id="07_06_04">
+<!--<codeblock id="07_06_03">-->
 
-**Hints**
-- Use the objects as defined before
-`learner <- lrn("classif.ranger", predict_type = "prob")`
-`param_set <- ParamSet$new(list( ParamInt$new("mtry", lower = 1L, upper = 30L), ParamInt$new("min.node size", lower = 1L, upper = 50L)))`
+<!--**Hints**-->
+<!--- To see all available parameter, it's type, the range, and if it is tuneable or not-->
+<!--`learner$param_set`-->
 
-- As resampling description use 3-fold cross-validation
-`res_desc <- rsmp("cv", folds = 3L)`
-
-- To specify the number of iterations, use the 'evals' option and set n_evals to 50
-`evals50 <- term("evals", n_evals = 50L)`
-
-- The measure we want to optimize is the AUC
-`msr("classif.auc")`
-
-</codeblock>
+<!--</codeblock>-->
 
 
 
-#### *(P)* Run and visualize the tuning
+<!--#### *(P)* Choose the general tuning scenario and resampling strategy-->
 
-Finally, create a random search tuner und use it to tune the tuning scenario `instance` with `tune()`. **Note** that the tuning could take some time to finish.
+<!--Set 50 iterations as the stopping criterion for the tuner. For the resampling of each value we use a 3-fold cross-validation. As the measure optimized by the tuner use the AUC:-->
 
-<codeblock id="07_06_05">
 
-**Hints**
+<!--<codeblock id="07_06_04">-->
 
-- Use the objects defined previously
-`learner <- lrn("classif.ranger", predict_type = "prob")`
-`param_set <- ParamSet$new(list(ParamInt$new("mtry", lower = 1L, upper = 30L), ParamInt$new("min.node.size", lower = 1L, upper = 50L)))`
-`res_desc <- rsmp("cv", folds = 3L)`
-`evals50 <- term("evals", n_evals = 50L)`
-`instance <- TuningInstance$new(task = tsk("sonar"), learner = learner, resampling = res_desc,measures = msr("classif.auc"), param_set = param_set, terminator = evals50)`
+<!--**Hints**-->
+<!--- Use the objects as defined before-->
+<!--`learner <- lrn("classif.ranger", predict_type = "prob")`-->
+<!--`param_set <- ParamSet$new(list( ParamInt$new("mtry", lower = 1L, upper = 30L), ParamInt$new("min.node size", lower = 1L, upper = 50L)))`-->
 
-- Create a tuner with random search strategy
-`tuner <- tnr("random_search")`
+<!--- As resampling description use 3-fold cross-validation-->
+<!--`res_desc <- rsmp("cv", folds = 3L)`-->
 
-- Tune the tuning scenario
-`tuner$tune(instance)`
+<!--- To specify the number of iterations, use the 'evals' option and set n_evals to 50-->
+<!--`evals50 <- term("evals", n_evals = 50L)`-->
 
-</codeblock>
+<!--- The measure we want to optimize is the AUC-->
+<!--`msr("classif.auc")`-->
 
-</exercise>
+<!--</codeblock>-->
+
+
+
+<!--#### *(P)* Run and visualize the tuning-->
+
+<!--Finally, create a random search tuner und use it to tune the tuning scenario `instance` with `tune()`. **Note** that the tuning could take some time to finish.-->
+
+<!--<codeblock id="07_06_05">-->
+
+<!--**Hints**-->
+
+<!--- Use the objects defined previously-->
+<!--`learner <- lrn("classif.ranger", predict_type = "prob")`-->
+<!--`param_set <- ParamSet$new(list(ParamInt$new("mtry", lower = 1L, upper = 30L), ParamInt$new("min.node.size", lower = 1L, upper = 50L)))`-->
+<!--`res_desc <- rsmp("cv", folds = 3L)`-->
+<!--`evals50 <- term("evals", n_evals = 50L)`-->
+<!--`instance <- TuningInstance$new(task = tsk("sonar"), learner = learner, resampling = res_desc,measures = msr("classif.auc"), param_set = param_set, terminator = evals50)`-->
+
+<!--- Create a tuner with random search strategy-->
+<!--`tuner <- tnr("random_search")`-->
+
+<!--- Tune the tuning scenario-->
+<!--`tuner$tune(instance)`-->
+
+<!--</codeblock>-->
+
+<!--</exercise>-->
 
 
 <exercise id="5" title="Kaggle Challenge">

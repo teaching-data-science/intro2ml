@@ -40,20 +40,20 @@ Which statements are true?
 
 
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-For this exercise, take a look at the [`iris` dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). Define a new classification task called `iris_task` based on the `iris` dataset with target variable `Species` and just two features `Sepal.Width` and `Petal.Width`:
+<!--For this exercise, take a look at the [`iris` dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). Define a new classification task called `iris_task` based on the `iris` dataset with target variable `Species` and just two features `Sepal.Width` and `Petal.Width`:-->
 
-<codeblock id="01_03">
+<!--<codeblock id="01_03">-->
 
-**Hints**
-- Use the `TaskClassif$new()` function of mlr3. The identifier for the task `id` can be arbitrarily chosen, but must be set.
-`iris_task <- TaskClassif$new(id = ..., backend = ..., target = ...)`
+<!--**Hints**-->
+<!--- Use the `TaskClassif$new()` function of mlr3. The identifier for the task `id` can be arbitrarily chosen, but must be set.-->
+<!--`iris_task <- TaskClassif$new(id = ..., backend = ..., target = ...)`-->
 
-- Select just the three columns Sepal.Width, Petal.Width, and Species
-`iris[, c("Species", "Sepal.Width", "Petal.Width")]`
+<!--- Select just the three columns Sepal.Width, Petal.Width, and Species-->
+<!--`iris[, c("Species", "Sepal.Width", "Petal.Width")]`-->
 
-- The target variable has to be specified as character of length 1 "Species"
+<!--- The target variable has to be specified as character of length 1 "Species"-->
 
-</codeblock>
-</exercise>
+<!--</codeblock>-->
+<!--</exercise>-->

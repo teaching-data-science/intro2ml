@@ -53,66 +53,66 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-#### *(P)* Create the `mlr3` learner
+<!--#### *(P)* Create the `mlr3` learner-->
 
-Create a k-NN learner with `k = 3` using the `kknn` function from the same named package `kknn`:
+<!--Create a k-NN learner with `k = 3` using the `kknn` function from the same named package `kknn`:-->
 
-<codeblock id="02_04_01">
+<!--<codeblock id="02_04_01">-->
 
-**Hints**
-- Use the `lrn()` function of mlr:
-`lrn(...)`
+<!--**Hints**-->
+<!--- Use the `lrn()` function of mlr:-->
+<!--`lrn(...)`-->
 
-- Use the `classif.kknn` learner:
-`classif.kknn`
+<!--- Use the `classif.kknn` learner:-->
+<!--`classif.kknn`-->
 
-- You can specify how many neighbors by setting `k`
+<!--- You can specify how many neighbors by setting `k`-->
 
-</codeblock>
+<!--</codeblock>-->
 
-#### *(P)* Train the `mlr3` learner
+<!--#### *(P)* Train the `mlr3` learner-->
 
-Now train the learner `kknn_learner` defined above on the task `iris_task` defined in session 2:
+<!--Now train the learner `kknn_learner` defined above on the task `iris_task` defined in session 2:-->
 
-<codeblock id="02_04_02">
+<!--<codeblock id="02_04_02">-->
 
-**Hints**
-- Use `iris_task` and `kknn_learner` from above:
-`iris_task <- TaskClassif$new(id = "iris_task", backend = iris[,c("Species", "Sepal.Width", "Petal.Width")],target = "Species")`
-`kknn_learner <- lrn("classif.kknn", k = 3)`
+<!--**Hints**-->
+<!--- Use `iris_task` and `kknn_learner` from above:-->
+<!--`iris_task <- TaskClassif$new(id = "iris_task", backend = iris[,c("Species", "Sepal.Width", "Petal.Width")],target = "Species")`-->
+<!--`kknn_learner <- lrn("classif.kknn", k = 3)`-->
 
-- Use the class method `train()` of the learner object:
-`kknn_learner$train(...)`
+<!--- Use the class method `train()` of the learner object:-->
+<!--`kknn_learner$train(...)`-->
 
-- Just pass the `iris_task` to train the `kknn_learner`
+<!--- Just pass the `iris_task` to train the `kknn_learner`-->
 
-</codeblock>
+<!--</codeblock>-->
 
-#### *(P)* Visualize decision boundaries
+<!--#### *(P)* Visualize decision boundaries-->
 
-Again, define the `kknn_learner` and visualize the prediction of the learner with `plot_learner_prediction()`. Rerun the code for different `k`. What can you observe by varying the hyperparameter?
+<!--Again, define the `kknn_learner` and visualize the prediction of the learner with `plot_learner_prediction()`. Rerun the code for different `k`. What can you observe by varying the hyperparameter?-->
 
-<codeblock id="02_04_03">
-</codeblock>
-</exercise>
-
-
-<exercise id="5" title="KNN">
-<object data="code-demos/code_demo_knn.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="code-demos/code_demo_knn.pdf" type="application/pdf" />
-</object>
-
-You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found [here](https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_knn.Rmd). If you want to render the Rmd files to PDF, you need the accompanying [style files](https://github.com/compstat-lmu/lecture_i2ml/tree/master/style).
-</exercise>
+<!--<codeblock id="02_04_03">-->
+<!--</codeblock>-->
+<!--</exercise>-->
 
 
-<exercise id="6" title="Splines">
-<object data="code-demos/code_demo_splines.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="code-demos/code_demo_splines.pdf" type="application/pdf" />
-</object>
+<!--<exercise id="5" title="KNN">-->
+<!--<object data="code-demos/code_demo_knn.pdf" type="application/pdf" style="width:100%;height:480px">-->
+  <!--<embed src="code-demos/code_demo_knn.pdf" type="application/pdf" />-->
+<!--</object>-->
 
-You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found [here](https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_splines.Rmd). If you want to render the Rmd files to PDF, you need the accompanying [style files](https://github.com/compstat-lmu/lecture_i2ml/tree/master/style).
+<!--You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found [here](https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_knn.Rmd). If you want to render the Rmd files to PDF, you need the accompanying [style files](https://github.com/compstat-lmu/lecture_i2ml/tree/master/style).-->
+<!--</exercise>-->
 
-</exercise>
+
+<!--<exercise id="6" title="Splines">-->
+<!--<object data="code-demos/code_demo_splines.pdf" type="application/pdf" style="width:100%;height:480px">-->
+  <!--<embed src="code-demos/code_demo_splines.pdf" type="application/pdf" />-->
+<!--</object>-->
+
+<!--You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found [here](https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_splines.Rmd). If you want to render the Rmd files to PDF, you need the accompanying [style files](https://github.com/compstat-lmu/lecture_i2ml/tree/master/style).-->
+
+<!--</exercise>-->

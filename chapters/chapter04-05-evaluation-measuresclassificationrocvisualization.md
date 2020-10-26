@@ -62,98 +62,98 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="5" title="Coding">
+<!--<exercise id="5" title="Coding">-->
 
-#### *(P)* The pima dataset
+<!--#### *(P)* The pima dataset-->
 
-The pima dataset contains diagnostic measurements, with which one wants to predict if an individual has diabetes or not. The task is predefined in `mlr3` and can be accessed with the query `pima`:
+<!--The pima dataset contains diagnostic measurements, with which one wants to predict if an individual has diabetes or not. The task is predefined in `mlr3` and can be accessed with the query `pima`:-->
 
-<codeblock id="04_05_01">
-</codeblock>
+<!--<codeblock id="04_05_01">-->
+<!--</codeblock>-->
 
-We only want to consider the complete cases. Use the `filter` method combined with the `complete.cases` function therefore:
+<!--We only want to consider the complete cases. Use the `filter` method combined with the `complete.cases` function therefor:-->
 
-<codeblock id="04_05_02" mremove="-0cm">
+<!--<codeblock id="04_05_02">-->
 
-**Hints**
-- With `which` we get the indices of the complete cases
-`which(complete.cases(pima_task$data()))`
+<!--**Hints**-->
+<!--- With `which` we get the indices of the complete cases-->
+<!--`which(complete.cases(pima_task$data()))`-->
 
-</codeblock>
+<!--</codeblock>-->
 
-#### *(P)* A first model
+<!--#### *(P)* A first model-->
 
-1. As a first approach, we want to train a logistic regression on the whole task. Therefore, define the model and train it. Set the `predict_type` of the learner to `"prob"`:
+<!--1. As a first approach, we want to train a logistic regression on the whole task. Therefore, define the model and train it. Set the `predict_type` of the learner to `"prob"`:-->
 
-<codeblock id="04_05_03">
+<!--<codeblock id="04_05_03">-->
 
-**Hints**
+<!--**Hints**-->
 
-- Only complete cases
-`pima_task$filter(rows = which(complete.cases(pima_task$data()))`
+<!--- Only complete cases-->
+<!--`pima_task$filter(rows = which(complete.cases(pima_task$data()))`-->
 
-- Use `classif.log_reg` as learner with `predict.type = prob`
-`learner <- lrn("classif.log_reg", predict_type = "prob")`
+<!--- Use `classif.log_reg` as learner with `predict.type = prob`-->
+<!--`learner <- lrn("classif.log_reg", predict_type = "prob")`-->
 
-- Use the pima task defined before
-`task = pima_task`
+<!--- Use the pima task defined before-->
+<!--`task = pima_task`-->
 
-</codeblock>
-
-
-2. Calculate the prediction on the whole task with the class method `predict()` of the learner object:
-
-<codeblock id="04_05_04">
-
-**Hints**
-
-- Define the model as previously
-`pima_task <-  tsk("pima")`
-`pima_task$filter(rows = which(complete.cases(pima_task$data())))`
-`learner <- lrn("classif.log_reg", predict_type = "prob")`
-`learner$train(task = pima_task)`
-
-- Predict using the learner object
-`model_prediction <- learner$predict(task = pima_task)`
-
-</codeblock>
+<!--</codeblock>-->
 
 
-3. Print the confusion matrix for the `model_prediction` by accessing its class property `confusion` (extra: use the class method `set_threshold()` to vary the decision threshold used):
+<!--2. Calculate the prediction on the whole task with the class method `predict()` of the learner object:-->
 
-<codeblock id="04_05_05">
+<!--<codeblock id="04_05_04">-->
 
-**Hints**
-- Use the `TaskClassif$new()` function of mlr3. The identifier for the task `id` can be arbitrarily chosen, but must be set.
-`iris_task <- TaskClassif$new(id = ..., backend = ..., target = ...)`
+<!--**Hints**-->
 
-</codeblock>
+<!--- Define the model as previously-->
+<!--`pima_task <-  tsk("pima")`-->
+<!--`pima_task$filter(rows = which(complete.cases(pima_task$data())))`-->
+<!--`learner <- lrn("classif.log_reg", predict_type = "prob")`-->
+<!--`learner$train(task = pima_task)`-->
+
+<!--- Predict using the learner object-->
+<!--`model_prediction <- learner$predict(task = pima_task)`-->
+
+<!--</codeblock>-->
 
 
-4. Finally, plot the ROC (with `autoplot()` using the keyword `"roc"`). Do also calculate the AUC and mmce with the class method `score()` (extra: use the class method `set_threshold()` to vary the decision threshold used):
+<!--3. Print the confusion matrix for the `model_prediction` by accessing its class property `confusion` (extra: use the class method `set_threshold()` to vary the decision threshold used):-->
 
-<codeblock id="04_05_06">
+<!--<codeblock id="04_05_05">-->
 
-**Hints**
-- Use the previously defined objects
-`pima_task <-  tsk("pima")`
-`pima_task$filter(rows = which(complete.cases(pima_task$data())))`
-`learner <- lrn("classif.log_reg", predict_type = "prob")`
-`learner$train(task = pima_task)`
-`model_prediction <- learner$predict(task = pima_task)`
+<!--**Hints**-->
+<!--- Use the `TaskClassif$new()` function of mlr3. The identifier for the task `id` can be arbitrarily chosen, but must be set.-->
+<!--`iris_task <- TaskClassif$new(id = ..., backend = ..., target = ...)`-->
 
-- The ROC can be easily plotted with
-`autoplot(model_prediction, "roc")`
+<!--</codeblock>-->
 
-- To calculate the performance on a prediction object use its class method `score()`
-`model_prediction$score(list(msr("classif.auc"), msr("classif.ce")))`
 
-- To set the threshold of a prediction object use its class method `set_threshold()`
-`model_prediction$set_threshold(0.2)`
+<!--4. Finally, plot the ROC (with `autoplot()` using the keyword `"roc"`). Do also calculate the AUC and mmce with the class method `score()` (extra: use the class method `set_threshold()` to vary the decision threshold used):-->
 
-</codeblock>
+<!--<codeblock id="04_05_06">-->
 
-</exercise>
+<!--**Hints**-->
+<!--- Use the previously defined objects-->
+<!--`pima_task <-  tsk("pima")`-->
+<!--`pima_task$filter(rows = which(complete.cases(pima_task$data())))`-->
+<!--`learner <- lrn("classif.log_reg", predict_type = "prob")`-->
+<!--`learner$train(task = pima_task)`-->
+<!--`model_prediction <- learner$predict(task = pima_task)`-->
+
+<!--- The ROC can be easily plotted with-->
+<!--`autoplot(model_prediction, "roc")`-->
+
+<!--- To calculate the performance on a prediction object use its class method `score()`-->
+<!--`model_prediction$score(list(msr("classif.auc"), msr("classif.ce")))`-->
+
+<!--- To set the threshold of a prediction object use its class method `set_threshold()`-->
+<!--`model_prediction$set_threshold(0.2)`-->
+
+<!--</codeblock>-->
+
+<!--</exercise>-->
 
 
 <exercise id="6" title="Quiz">
@@ -175,84 +175,84 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="7" title="Coding">
+<!--<exercise id="7" title="Coding">-->
 
-#### *(P)* ROC and AUC on test data
+<!--#### *(P)* ROC and AUC on test data-->
 
-Using just the train dataset for predictions leads to overoptimistic ROC and AUC estimations. In this section we use `resample()` to obtain predictions of the whole dataset obtained by
+<!--Using just the train dataset for predictions leads to overoptimistic ROC and AUC estimations. In this section we use `resample()` to obtain predictions of the whole dataset obtained by-->
 
-1. To get a correct ROC use resample to evaluate the learner with a 3-fold cross validation:
+<!--1. To get a correct ROC use resample to evaluate the learner with a 3-fold cross validation:-->
 
-<codeblock id="04_05_07">
+<!--<codeblock id="04_05_07">-->
 
-**Hints**
+<!--**Hints**-->
 
-- Use `classif.log_reg` as learner with `predict.type = prob`
-`learner <- lrn("classif.log_reg", predict_type = "prob")`
+<!--- Use `classif.log_reg` as learner with `predict.type = prob`-->
+<!--`learner <- lrn("classif.log_reg", predict_type = "prob")`-->
 
-- Access the task with the query `pima` and filter for the complete cases. Afterwards
-`task <-  tsk("pima")`
-`task$filter(rows = which(complete.cases(task$data())))`
+<!--- Access the task with the query `pima` and filter for the complete cases. Afterwards-->
+<!--`task <-  tsk("pima")`-->
+<!--`task$filter(rows = which(complete.cases(task$data())))`-->
 
-- Use a 3-fold cross validation for resampling
-`res_desc <- rsmp("cv", folds = 3L)`
+<!--- Use a 3-fold cross validation for resampling-->
+<!--`res_desc <- rsmp("cv", folds = 3L)`-->
 
-</codeblock>
+<!--</codeblock>-->
 
-2. The Resampling object has a class method `prediction()`. This method returns a Prediction object which contains the test predictions of each fold, therefore we have test based predictions of each observation. Extract the object from the `res` object and store it:
-
-
-<codeblock id="04_05_08">
-
-**Hints**
-
-- Use the objects defined previously
-`learner <- lrn("classif.log_reg", predict_type = "prob")`
-`task <-  tsk("pima")`
-`task$filter(rows = which(complete.cases(task$data())))`
-`res_desc <- rsmp("cv", folds = 3L)`
-
-`set.seed(123)`
-`res <- resample(task, learner, res_desc)`
-
-- To access the test predictions of each call the `prediction()` class method
-`test_prediction <- res$prediction()`
-
-</codeblock>
-
-3. Finally, calculate the ROC and AUC based on the `test_prediction` object:
+<!--2. The Resampling object has a class method `prediction()`. This method returns a Prediction object which contains the test predictions of each fold, therefore we have test based predictions of each observation. Extract the object from the `res` object and store it:-->
 
 
-<codeblock id="04_05_09">
+<!--<codeblock id="04_05_08">-->
 
-**Hints**
-- Use the objects defined previously
-`learner <- lrn("classif.log_reg", predict_type = "prob")`
-`task <-  tsk("pima")`
-`task$filter(rows = which(complete.cases(task$data())))`
-`res_desc <- rsmp("cv", folds = 3L)`
+<!--**Hints**-->
 
-`set.seed(123)`
-`res <- resample(task, learner, res_desc)`
-`test_prediction <- res$prediction()`
+<!--- Use the objects defined previously-->
+<!--`learner <- lrn("classif.log_reg", predict_type = "prob")`-->
+<!--`task <-  tsk("pima")`-->
+<!--`task$filter(rows = which(complete.cases(task$data())))`-->
+<!--`res_desc <- rsmp("cv", folds = 3L)`-->
 
-- The ROC can be easily plotted with
-`autoplot(test_prediction, "roc")`
+<!--`set.seed(123)`-->
+<!--`res <- resample(task, learner, res_desc)`-->
 
-- To calculate the performance on a prediction object use its class method `score()`
-`test_prediction$score(msr("classif.auc"))`
+<!--- To access the test predictions of each call the `prediction()` class method-->
+<!--`test_prediction <- res$prediction()`-->
 
-- To set the threshold of a prediction object use its class method `set_threshold()`
-`test_prediction$set_threshold(0.2)`
-</codeblock>
+<!--</codeblock>-->
+
+<!--3. Finally, calculate the ROC and AUC based on the `test_prediction` object:-->
 
 
-**Note** that the ROC and performance measures for each fold can also be directly computed from a Resampling object:
+<!--<codeblock id="04_05_09">-->
 
-<codeblock id="04_05_010">
-</codeblock>
+<!--**Hints**-->
+<!--- Use the objects defined previously-->
+<!--`learner <- lrn("classif.log_reg", predict_type = "prob")`-->
+<!--`task <-  tsk("pima")`-->
+<!--`task$filter(rows = which(complete.cases(task$data())))`-->
+<!--`res_desc <- rsmp("cv", folds = 3L)`-->
 
-</exercise>
+<!--`set.seed(123)`-->
+<!--`res <- resample(task, learner, res_desc)`-->
+<!--`test_prediction <- res$prediction()`-->
+
+<!--- The ROC can be easily plotted with-->
+<!--`autoplot(test_prediction, "roc")`-->
+
+<!--- To calculate the performance on a prediction object use its class method `score()`-->
+<!--`test_prediction$score(msr("classif.auc"))`-->
+
+<!--- To set the threshold of a prediction object use its class method `set_threshold()`-->
+<!--`test_prediction$set_threshold(0.2)`-->
+<!--</codeblock>-->
+
+
+<!--**Note** that the ROC and performance measures for each fold can also be directly computed from a Resampling object:-->
+
+<!--<codeblock id="04_05_010">-->
+<!--</codeblock>-->
+
+<!--</exercise>-->
 
 
 <exercise id="8" title="ROC">
