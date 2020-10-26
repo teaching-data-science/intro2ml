@@ -29,6 +29,7 @@ class Juniper extends React.Component {
         msgButton: 'run',
         msgLoading: 'Loading...',
         msgError: 'Connecting failed. Please reload and try again.',
+        mremove: "0cm",
         classNames: {
             cell: 'juniper-cell',
             input: 'juniper-input',
@@ -53,6 +54,7 @@ class Juniper extends React.Component {
         msgButton: PropTypes.string,
         msgLoading: PropTypes.string,
         msgError: PropTypes.string,
+        mremove: PropTypes.string,
         classNames: PropTypes.shape({
             cell: PropTypes.string,
             input: PropTypes.string,
@@ -263,15 +265,16 @@ class Juniper extends React.Component {
                 })
             })
     }
-
     render() {
         return (
-            <div className={this.props.classNames.cell}>
+            <div className={this.props.classNames.cell} style={{overflow:"hidden"}}>
                 <div
                     className={this.props.classNames.input}
                     ref={x => {
                         this.inputRef = x
                     }}
+                    style={{"margin-top": this.props.mremove}}
+                    //marginTop={this.props.mremove}
                 />
                 {this.props.msgButton && (
                     <button className={this.props.classNames.button} onClick={this.state.runCode}>

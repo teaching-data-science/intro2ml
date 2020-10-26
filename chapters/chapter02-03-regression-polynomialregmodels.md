@@ -60,7 +60,7 @@ Create a regression task using the `mtcars` dataset with target variable `mpg` a
 
 </codeblock>
 
-<codeblock id="02_03_02">
+<codeblock id="02_03_02" mremove="-6cm">
 </codeblock>
 
 

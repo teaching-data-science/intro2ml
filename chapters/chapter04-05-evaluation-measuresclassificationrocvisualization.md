@@ -71,9 +71,9 @@ The pima dataset contains diagnostic measurements, with which one wants to predi
 <codeblock id="04_05_01">
 </codeblock>
 
-We only want to consider the complete cases. Use the `filter` method combined with the `complete.cases` function therefor:
+We only want to consider the complete cases. Use the `filter` method combined with the `complete.cases` function therefore:
 
-<codeblock id="04_05_02">
+<codeblock id="04_05_02" mremove="-0cm">
 
 **Hints**
 - With `which` we get the indices of the complete cases
