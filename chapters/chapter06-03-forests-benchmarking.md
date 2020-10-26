@@ -35,75 +35,75 @@ Which statements are true?
 </choice>
 </exercise>
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-#### *(P)* Define the `mlr3` learner
+<!--#### *(P)* Define the `mlr3` learner-->
 
-For this exercise use the same task as for the tree tutorial:
+<!--For this exercise use the same task as for the tree tutorial:-->
 
-<codeblock id="06_03_01">
-</codeblock>
-
-
-Define the learner with `predict_type = "prob"` and `num.trees = 1000`. We are using the `classif.ranger`. Visualize the learner with `plot_learner_prediction()`:
-
-<codeblock id="06_03_02">
-
-**Hints**
-
-- Define the learner with hyperparameter `num.trees = 1000` and `predict_type = "prob"`
-`rf_learner <- lrn("classif.ranger", num.trees = 1000, predict_type = "prob")`
-
-- All hyperparameters can be accesed by the `param_set` field
-`rf_learner$param_set`
+<!--<codeblock id="06_03_01">-->
+<!--</codeblock>-->
 
 
-</codeblock>
+<!--Define the learner with `predict_type = "prob"` and `num.trees = 1000`. We are using the `classif.ranger`. Visualize the learner with `plot_learner_prediction()`:-->
+
+<!--<codeblock id="06_03_02">-->
+
+<!--**Hints**-->
+
+<!--- Define the learner with hyperparameter `num.trees = 1000` and `predict_type = "prob"`-->
+<!--`rf_learner <- lrn("classif.ranger", num.trees = 1000, predict_type = "prob")`-->
+
+<!--- All hyperparameters can be accesed by the `param_set` field-->
+<!--`rf_learner$param_set`-->
 
 
-#### *(P)* Benchmarking the random forest
-
-Now it's time to try different values for the number of trees and see if this has any influence on the performance. Additionally, we want to compare the random forests to a single CART. For this, we define four different learners:
-
-1. A `classif.rpart` without any custom hyperparameters
-1. A `classif.ranger` with 500 trees
-1. A `classif.ranger` with 1000 trees
-1. A `classif.ranger` with 1500 trees
-
-After defining the learners conduct the benchmark using the `benchmark()` function. Use a 10-fold cross-validation as resampling technique. Finally, visualize the benchmark with `autoplot()` for the measures `auc` and `mmce`.
-
-**Note:** Defining the same learner multiple times for a benchmark requires different ids for each learner (see `id` argument of the learners below).
+<!--</codeblock>-->
 
 
-<codeblock id="06_03_03">
+<!--#### *(P)* Benchmarking the random forest-->
 
-**Hints**
+<!--Now it's time to try different values for the number of trees and see if this has any influence on the performance. Additionally, we want to compare the random forests to a single CART. For this, we define four different learners:-->
 
-- Use the objects previously defined
-`library(mlbench)`
+<!--1. A `classif.rpart` without any custom hyperparameters-->
+<!--1. A `classif.ranger` with 500 trees-->
+<!--1. A `classif.ranger` with 1000 trees-->
+<!--1. A `classif.ranger` with 1500 trees-->
 
-`set.seed(314)`
-`spirals <- mlbench.spirals(500, sd = 0.1)`
-`spirals <- as.data.frame(spirals)`
-`spirals_task <- TaskClassif$new(id = "spirals_task", backend = spirals, target = "classes")`
+<!--After defining the learners conduct the benchmark using the `benchmark()` function. Use a 10-fold cross-validation as resampling technique. Finally, visualize the benchmark with `autoplot()` for the measures `auc` and `mmce`.-->
 
-- Define each learner separately
-`cart_learner <- lrn("classif.rpart", predict_type = "prob")`
-`rf_learner_500 <- lrn(id = "rf500", "classif.ranger", num.trees = 500, predict_type = "prob")`
-`rf_learner_1000 <- lrn(id = "rf1000", "classif.ranger", num.trees = 1000, predict_type = "prob")`
-`rf_learner_1500 <- lrn(id = "rf1500", "classif.ranger", num.trees = 1500, predict_type = "prob")`
+<!--**Note:** Defining the same learner multiple times for a benchmark requires different ids for each learner (see `id` argument of the learners below).-->
 
-- To create the benchmark design wrap the learners into a list and pass them to `benchmark_grid()` and define the task and the resampling strategy. Finally pass the design to `benchmark()` function.
 
-`design <- benchmark_grid(tasks = spirals_task, learners = list(cart_learner, rf_learner_500,rf_learner_1000, rf_learner_1500), resamplings = rsmp("cv", folds = 10))`
+<!--<codeblock id="06_03_03">-->
 
-`bmr <- benchmark(design)`
+<!--**Hints**-->
 
-- Pass the measures of interest to the `autoplot` function.
-`autoplot(bmr, measure = msr("classif.ce"))`
-`autoplot(bmr, measure = msr("classif.auc"))`
-</codeblock>
-</exercise>
+<!--- Use the objects previously defined-->
+<!--`library(mlbench)`-->
+
+<!--`set.seed(314)`-->
+<!--`spirals <- mlbench.spirals(500, sd = 0.1)`-->
+<!--`spirals <- as.data.frame(spirals)`-->
+<!--`spirals_task <- TaskClassif$new(id = "spirals_task", backend = spirals, target = "classes")`-->
+
+<!--- Define each learner separately-->
+<!--`cart_learner <- lrn("classif.rpart", predict_type = "prob")`-->
+<!--`rf_learner_500 <- lrn(id = "rf500", "classif.ranger", num.trees = 500, predict_type = "prob")`-->
+<!--`rf_learner_1000 <- lrn(id = "rf1000", "classif.ranger", num.trees = 1000, predict_type = "prob")`-->
+<!--`rf_learner_1500 <- lrn(id = "rf1500", "classif.ranger", num.trees = 1500, predict_type = "prob")`-->
+
+<!--- To create the benchmark design wrap the learners into a list and pass them to `benchmark_grid()` and define the task and the resampling strategy. Finally pass the design to `benchmark()` function.-->
+
+<!--`design <- benchmark_grid(tasks = spirals_task, learners = list(cart_learner, rf_learner_500,rf_learner_1000, rf_learner_1500), resamplings = rsmp("cv", folds = 10))`-->
+
+<!--`bmr <- benchmark(design)`-->
+
+<!--- Pass the measures of interest to the `autoplot` function.-->
+<!--`autoplot(bmr, measure = msr("classif.ce"))`-->
+<!--`autoplot(bmr, measure = msr("classif.auc"))`-->
+<!--</codeblock>-->
+<!--</exercise>-->
 
 
 <exercise id="5" title="Quiz">

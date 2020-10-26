@@ -34,68 +34,68 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-#### *(P)* Create a regression task
+<!--#### *(P)* Create a regression task-->
 
-Create a regression task using the `mtcars` dataset with target variable `mpg` and polynomial feature `hp` of degree 3 (use the helper function below to generate a dataset for polynomial regression):
+<!--Create a regression task using the `mtcars` dataset with target variable `mpg` and polynomial feature `hp` of degree 3 (use the helper function below to generate a dataset for polynomial regression):-->
 
-<codeblock id="02_03_01">
+<!--<codeblock id="02_03_01">-->
 
-**Hints**
+<!--**Hints**-->
 
-- Define the polynomialTrafo function
-`polynomialTrafo <- function (data, feature, degree) {feature_idx <- which(feature == names(data))`
+<!--- Define the polynomialTrafo function-->
+<!--`polynomialTrafo <- function (data, feature, degree) {feature_idx <- which(feature == names(data))`-->
 
-- Function `poly` creates numerically well-behaved polynomials: orthogonal, etc.
-`df_poly <- as.data.frame(poly(data[[feature]], degree))`
-`names(df_poly) <- paste0(feature, ".poly", seq_len(degree))`
-`return(cbind(data[, -feature_idx, drop = FALSE], df_poly))`
+<!--- Function `poly` creates numerically well-behaved polynomials: orthogonal, etc.-->
+<!--`df_poly <- as.data.frame(poly(data[[feature]], degree))`-->
+<!--`names(df_poly) <- paste0(feature, ".poly", seq_len(degree))`-->
+<!--`return(cbind(data[, -feature_idx, drop = FALSE], df_poly))`-->
 
-- Use `polynomialTrafo` to get the desired dataframe
-`task_data <- polynomialTrafo(data = mtcars[, c("mpg", "hp")], feature = "hp", degree = 3)`
+<!--- Use `polynomialTrafo` to get the desired dataframe-->
+<!--`task_data <- polynomialTrafo(data = mtcars[, c("mpg", "hp")], feature = "hp", degree = 3)`-->
 
-- Use the `task_data` in `TaskRegr$new()`
-`TaskRegr$new(id = ..., backend = ..., target = ...)`
+<!--- Use the `task_data` in `TaskRegr$new()`-->
+<!--`TaskRegr$new(id = ..., backend = ..., target = ...)`-->
 
-</codeblock>
+<!--</codeblock>-->
 
-<codeblock id="02_03_02">
-</codeblock>
-
-
-Now define a learner. Use a regression learner of the `lm` function.
-
-<codeblock id="02_03_03">
-
-**Hints**
-
-- To see all available learners you can simply call `mlr_learners`
-
-</codeblock>
-
-#### *(P)* Train the linear model
+<!--<codeblock id="02_03_02">-->
+<!--</codeblock>-->
 
 
-<codeblock id="02_03_04">
-</codeblock>
+<!--Now define a learner. Use a regression learner of the `lm` function.-->
 
-#### *(P)* Visualize the polynomial regression
+<!--<codeblock id="02_03_03">-->
 
-To draw the curve you can use the code below, try different values for `degree`. How does the curve change? What can you observe?
+<!--**Hints**-->
 
-<codeblock id="02_03_05">
+<!--- To see all available learners you can simply call `mlr_learners`-->
 
-**Hints**
-- `task_data <- polynomialTrafo(data = mtcars[, c("mpg", "hp")], feature = "hp", degree = degree)`
+<!--</codeblock>-->
 
-- `mtcars_task <- TaskRegr$new(id = "mtcars_task", backend = task_data, target = "mpg")`
+<!--#### *(P)* Train the linear model-->
 
-- `lm_learner <- lrn("regr.lm")`
 
-- `lm_learner$train(mtcars_task)`
+<!--<codeblock id="02_03_04">-->
+<!--</codeblock>-->
 
-</codeblock>
+<!--#### *(P)* Visualize the polynomial regression-->
 
-</exercise>
+<!--To draw the curve you can use the code below, try different values for `degree`. How does the curve change? What can you observe?-->
+
+<!--<codeblock id="02_03_05">-->
+
+<!--**Hints**-->
+<!--- `task_data <- polynomialTrafo(data = mtcars[, c("mpg", "hp")], feature = "hp", degree = degree)`-->
+
+<!--- `mtcars_task <- TaskRegr$new(id = "mtcars_task", backend = task_data, target = "mpg")`-->
+
+<!--- `lm_learner <- lrn("regr.lm")`-->
+
+<!--- `lm_learner$train(mtcars_task)`-->
+
+<!--</codeblock>-->
+
+<!--</exercise>-->
 

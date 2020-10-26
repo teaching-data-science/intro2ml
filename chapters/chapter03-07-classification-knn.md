@@ -50,24 +50,24 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="4" title="Coding">
+<!--<exercise id="4" title="Coding">-->
 
-#### *(P)* Qualitative comparison of LDA, QDA, and naive Bayes
+<!--#### *(P)* Qualitative comparison of LDA, QDA, and naive Bayes-->
 
-In this demo we want to compare LDA, QDA, and naive Bayes by looking at the decision boundaries (hint: with `mlr_learners` you get a list with all available learners. If their `properties` attribute contains `multiclass` they are suited for multiclass classification). Use `plot_learner_prediction()` to visualize the decision boundaries for the features `Sepal.Length` and `Sepal.Width`. You can use the build in iris task `"iris"` of `mlr3`. Store the plot for each model and plot them underneath each other with `grid.arrange()` from the `gridExtra` package:
+<!--In this demo we want to compare LDA, QDA, and naive Bayes by looking at the decision boundaries (hint: with `mlr_learners` you get a list with all available learners. If their `properties` attribute contains `multiclass` they are suited for multiclass classification). Use `plot_learner_prediction()` to visualize the decision boundaries for the features `Sepal.Length` and `Sepal.Width`. You can use the build in iris task `"iris"` of `mlr3`. Store the plot for each model and plot them underneath each other with `grid.arrange()` from the `gridExtra` package:-->
 
 
-<codeblock id="03_07">
+<!--<codeblock id="03_07">-->
 
-**Hints**
+<!--**Hints**-->
 
-- The mlr3 learner are:
-`lrn("classif.lda", predict_type = "prob")`
-`lrn("classif.qda", predict_type = "prob")`
-`lrn("classif.naive_bayes", predict_type = "prob")`
+<!--- The mlr3 learner are:-->
+<!--`lrn("classif.lda", predict_type = "prob")`-->
+<!--`lrn("classif.qda", predict_type = "prob")`-->
+<!--`lrn("classif.naive_bayes", predict_type = "prob")`-->
 
-</codeblock>
-</exercise>
+<!--</codeblock>-->
+<!--</exercise>-->
 
 
 <exercise id="5" title="Quiz">
