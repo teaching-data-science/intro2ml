@@ -15,14 +15,16 @@ function getFiles({ allCode }) {
     )
 }
 
-function makeTest(template, testFile, solution) {
+function makeTest(template, testFile, solution, solutionFile) {
     // Escape quotation marks in the solution code, for cases where we
     // can only place the solution in regular quotes.
     const solutionEscaped = solution.replace(/"/g, '\\"')
+    const checkEscaped = solutionFile.replace(/"/g, '\\"')
     return template
         .replace(/\${solutionEscaped}/g, solutionEscaped)
         .replace(/\${solution}/g, solution)
         .replace(/\${test}/g, testFile)
+        .replace(/\${checkEscaped}/g, checkEscaped)
 }
 
 class CodeBlock extends React.Component {
@@ -63,6 +65,7 @@ class CodeBlock extends React.Component {
     render() {
         const { Juniper, showSolution } = this.state
         const { id, source, solution, test, children } = this.props
+        console.log(this.props)
         const sourceId = source || `exc_${id}`
         const solutionId = solution || `solution_${id}`
         const testId = test || `test_${id}`
@@ -121,6 +124,7 @@ class CodeBlock extends React.Component {
                                     lang={lang}
                                     kernelType={kernelType}
                                     debug={debug}
+                                    mremove={this.props.mremove}
                                     actions={({ runCode }) => (
                                         <>
                                             <Button onClick={() => runCode()}>Run Code</Button>
@@ -129,7 +133,7 @@ class CodeBlock extends React.Component {
                                                     variant="primary"
                                                     onClick={() =>
                                                         runCode(value =>
-                                                            makeTest(testTemplate, testFile, value)
+                                                            makeTest(testTemplate, testFile, value, solutionFile)
                                                         )
                                                     }
                                                 >

@@ -15,6 +15,7 @@ id: 1
 - [Fabian Scheipl](https://www.biostat.statistik.uni-muenchen.de/personen/mitarbeiter/scheipl/index.html) 
   joined the team in fall 2018 and contributed to the slides, videos and code demos.
 - [Heidi Seibold](https://www.compstat.statistik.uni-muenchen.de/people/seibold) joined the team in fall 2019 and is in charge of the classes held in spring 2020 at LMU Munich and University of Bielefeld.
+- [Ludwig Bothmann](https://www.slds.stat.uni-muenchen.de/people/bothmann/) joined the team in summer 2020 and is in charge of the class held in winter 2020/21 at LMU Munich.
 - [Daniel Schalk](https://www.compstat.statistik.uni-muenchen.de/people/schalk) 
   is a PhD at Bernd's group and organized the second round of the inverted classroom in spring 2019; he also provided the digital platform for videos, quizzes and exercises. 
 - [Christoph Molnar](https://www.compstat.statistik.uni-muenchen.de/people/molnar) 
@@ -27,7 +28,8 @@ id: 1
 - Omid Charrakh
 - Rifat Mehreen Amin
 - Katharina Ring
-- Daria Filatova
+- Carolin Becker
+- Lisa Wimmer
 
 
 ## Help is appreciated and welcome!
