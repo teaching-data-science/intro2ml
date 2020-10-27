@@ -106,7 +106,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="5" title="Quiz">
+<exercise id="4" title="Quiz">
 Which statements are true?
 <choice>
 <opt text="CART outperforms the random forest.">

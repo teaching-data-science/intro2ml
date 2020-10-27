@@ -137,7 +137,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="5" title="Kaggle Challenge">
+<exercise id="4" title="Kaggle Challenge">
 <object data="code-demos/code_demo_kaggle.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_kaggle.pdf" type="application/pdf" />
 </object>

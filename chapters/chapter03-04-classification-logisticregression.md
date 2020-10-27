@@ -93,7 +93,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="5" title="Logistic Regression & Newton-Raphson">
+<exercise id="4" title="Logistic Regression & Newton-Raphson">
 <object data="code-demos/code_demo_logreg.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_logreg.pdf" type="application/pdf" />
 </object>
