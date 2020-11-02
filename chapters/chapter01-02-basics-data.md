@@ -15,9 +15,9 @@ id: 1
 
 
 <exercise id="2" title="Slides">
-<object data="pdfs/1/slides-basics-whatisml.pdf
+<object data="pdfs/1/slides-basics-data.pdf
 " type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/1/slides-basics-whatisml.pdf
+    <embed src="pdfs/1/slides-basics-data.pdf
 " type="application/pdf" />
 </object>
 </exercise>
