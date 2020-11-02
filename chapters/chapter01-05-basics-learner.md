@@ -1,8 +1,8 @@
 ---
-title: 'Chapter 1.1: What is ML?'
+title: 'Chapter 1.5: Learner'
 description:
-  ' As subtopic of Artificial Intelligence, Machine Learning is a mathematically well-defined discipline and usually constructs predictive or decision models from data, instead of explicitly programming them. In this Section, you will see some typical examples of where Machine Learning is applied and the main directions of Machine Learning.'
-prev: null
+  ' In this Section we introduce the concept of a learner: Roughly speaking, it takes a training set and gives back a model.'
+prev: 
 next: 
 type: subchapter
 id: 1

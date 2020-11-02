@@ -1,8 +1,8 @@
 ---
-title: 'Chapter 1.1: What is ML?'
+title: 'Chapter 1.6: Losses and Risk Minimization'
 description:
-  ' As subtopic of Artificial Intelligence, Machine Learning is a mathematically well-defined discipline and usually constructs predictive or decision models from data, instead of explicitly programming them. In this Section, you will see some typical examples of where Machine Learning is applied and the main directions of Machine Learning.'
-prev: null
+  ' In order to find "good" ML models, we need a concept to evaluate and compare models. To this end, the concepts of "loss function", "empirical risk" and "empirical risk minimization" are introduced.'
+prev: 
 next: 
 type: subchapter
 id: 1

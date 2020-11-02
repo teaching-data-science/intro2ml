@@ -1,8 +1,8 @@
 ---
-title: 'Chapter 1.1: What is ML?'
+title: 'Chapter 1.4: Models and Parameters'
 description:
-  ' As subtopic of Artificial Intelligence, Machine Learning is a mathematically well-defined discipline and usually constructs predictive or decision models from data, instead of explicitly programming them. In this Section, you will see some typical examples of where Machine Learning is applied and the main directions of Machine Learning.'
-prev: null
+  ' This Section introduces the concept of models. We will explain that a model maps features to predictions, and we will show that models can be expressed by parameters.'
+prev: 
 next: 
 type: subchapter
 id: 1
