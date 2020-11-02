@@ -2,8 +2,8 @@
 title: 'Chapter 1.6: Losses and Risk Minimization'
 description:
   ' In order to find "good" ML models, we need a concept to evaluate and compare models. To this end, the concepts of "loss function", "empirical risk" and "empirical risk minimization" are introduced.'
-prev: 
-next: 
+prev: /chapter01-05-basics-learner
+next: /chapter01-07-basics-optimization
 type: subchapter
 id: 1
 ---

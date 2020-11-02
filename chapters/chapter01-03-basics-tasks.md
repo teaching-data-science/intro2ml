@@ -2,8 +2,8 @@
 title: 'Chapter 1.3: Tasks'
 description:
   ' The tasks of supervised learning can roughly be divided in two categories: regression (for continuous outcome) and classification (for categorical outcome). We will present some examples.'
-prev: 
-next: 
+prev: /chapter01-02-basics-data
+next: /chapter01-04-basics-models-parameters
 type: subchapter
 id: 1
 ---

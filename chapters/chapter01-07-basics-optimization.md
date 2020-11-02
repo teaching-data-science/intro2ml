@@ -2,8 +2,8 @@
 title: 'Chapter 1.7: Optimization'
 description:
   ' In this Section we introduce optimization which is necessary to perform the former introduced concept of risk minimization computationally efficient.'
-prev: 
-next: 
+prev: /chapter01-06-basics-riskminimization
+next: /chapter01-08-basics-learnercomponents-hro
 type: subchapter
 id: 1
 ---
