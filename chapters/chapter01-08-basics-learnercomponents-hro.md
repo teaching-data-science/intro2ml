@@ -1,8 +1,8 @@
 ---
-title: 'Chapter 1.6: Components of a Learner'
+title: 'Chapter 1.8: Components of a Learner'
 description:
-  ' Nearly all supervised learning algorithms can be described in terms of three components: 1) hypothesis space, 2) risk, and 3) optimization. In this Section, we explain how these components work together.'
-prev: /chapter01-05-basics-lossesandriskminimization
+  ' Nearly all supervised learning algorithms can be described in terms of three components: 1) hypothesis space, 2) risk, and 3) optimization. In this Section, we explain how these components work together and why this is a very useful concept for many supervised learning approaches.'
+prev: /chapter01-07-basics-optimization
 next: /chapter02-01-regression-lossfunctions
 type: subchapter
 id: 1
@@ -11,7 +11,7 @@ id: 1
 
 
 <exercise id="1" title="Video Lecture">
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/zaB7WioK1Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/fW4B541fjVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
 

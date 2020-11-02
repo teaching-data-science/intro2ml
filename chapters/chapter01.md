@@ -15,7 +15,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-01-basics-whatisml"> Machine Learning is a branch of statistics and computer science. In this Section, you will see some typical examples of where Machine Learning is applied and several fundamental questions which we will answer later in this course.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-01-basics-whatisml"> As subtopic of Artificial Intelligence, Machine Learning is a mathematically well-defined discipline and usually constructs predictive or decision models from data, instead of explicitly programming them. In this Section, you will see some typical examples of where Machine Learning is applied and the main directions of Machine Learning.</a>
   </p>
 </section>
 
@@ -25,11 +25,11 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-02-basics-supervisedlearning">Chapter 1.2: Supervised Learning</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-02-basics-data">Chapter 1.2: Data</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-02-basics-supervisedlearning"> The primary focus of this course is supervised learning. In supervised learning, the value of a random variable shall be predicted by a ML model using input data. In this section, we explain the components of supervised learning.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-02-basics-data"> In this Section we explain the basic structure of tabular data used in Machine Learning. We will differentiate targets from features, talk about labeled and unlabeled data and introduce the concept of the data generating process.</a>
   </p>
 </section>
 
@@ -39,11 +39,11 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-03-basics-tasksanddata">Chapter 1.3: Tasks and Data</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-03-basics-tasks">Chapter 1.3: Tasks</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-03-basics-tasksanddata"> The tasks of supervised learning can roughly be divided in two categories: regression (for continuous outcome) and classification (for categorical outcome). You will see some examples and get to know the notation used in this course.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-03-basics-tasks"> The tasks of supervised learning can roughly be divided in two categories: regression (for continuous outcome) and classification (for categorical outcome). We will present some examples.</a>
   </p>
 </section>
 
@@ -53,11 +53,11 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-04-basics-modelsandlearners">Chapter 1.4: Models & Learners</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-04-basics-models-parameters">Chapter 1.4: Models and Parameters</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-04-basics-modelsandlearners"> This Section introduces the concepts of learners and models. In a nutshell, a "model" maps features to predictions, and a "learner" takes a training set and gives back a model.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-04-basics-models-parameters"> This Section introduces the concept of models. We will explain that a model maps features to predictions, and we will show that models can be expressed by parameters.</a>
   </p>
 </section>
 
@@ -67,11 +67,11 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-05-basics-lossesandriskminimization">Chapter 1.5: Losses and Risk Minimization</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-05-basics-learner">Chapter 1.5: Learner</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-05-basics-lossesandriskminimization"> In order to find "good" ML models, we need a concept to evaluate and compare models. To this end, the concepts of "loss function", "empirical risk" and "empirical risk minimization" are introduced.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-05-basics-learner"> In this Section we introduce the concept of a learner: Roughly speaking, it takes a training set and gives back a model.</a>
   </p>
 </section>
 
@@ -81,11 +81,39 @@ id: 1
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-06-basics-componentsoflearner">Chapter 1.6: Components of a Learner</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-06-basics-riskminimization">Chapter 1.6: Losses and Risk Minimization</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-06-basics-componentsoflearner"> Nearly all supervised learning algorithms can be described in terms of three components: 1) hypothesis space, 2) risk, and 3) optimization. In this Section, we explain how these components work together.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-06-basics-riskminimization"> In order to find "good" ML models, we need a concept to evaluate and compare models. To this end, the concepts of "loss function", "empirical risk" and "empirical risk minimization" are introduced.</a>
+  </p>
+</section>
+
+
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-07-basics-optimization">Chapter 1.7: Optimization</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-07-basics-optimization"> In this Section we introduce optimization which is necessary to perform the former introduced concept of risk minimization computationally efficient.</a>
+  </p>
+</section>
+
+
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-08-basics-learnercomponents-hro">Chapter 1.8: Components of a Learner</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-08-basics-learnercomponents-hro"> Nearly all supervised learning algorithms can be described in terms of three components: 1) hypothesis space, 2) risk, and 3) optimization. In this Section, we explain how these components work together and why this is a very useful concept for many supervised learning approaches.</a>
   </p>
 </section>
 
