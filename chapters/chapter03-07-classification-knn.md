@@ -70,7 +70,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="5" title="Quiz">
+<exercise id="4" title="Quiz">
 What can you observe?
 <choice>
 <opt text="The decision boundaries of all classifiers looks equal.">
@@ -85,7 +85,7 @@ What can you observe?
 </exercise>
 
 
-<exercise id="6" title="Comparison of Classification Methods">
+<exercise id="5" title="Comparison of Classification Methods">
 <object data="code-demos/code_demo_cmpclass.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_cmpclass.pdf" type="application/pdf" />
 </object>
@@ -95,7 +95,7 @@ You can run the code snippets in the demos on your local machine. The correspond
 </exercise>
 
 
-<exercise id="7" title="Generative classification methods">
+<exercise id="6" title="Generative classification methods">
 <object data="code-demos/code_demo_genclass.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_genclass.pdf" type="application/pdf" />
 </object>

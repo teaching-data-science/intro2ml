@@ -156,7 +156,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="6" title="Quiz">
+<exercise id="5" title="Quiz">
 
 Which statements are true?
 <choice>
@@ -255,7 +255,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="8" title="ROC">
+<exercise id="6" title="ROC">
 <object data="code-demos/code_demo_roc.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_roc.pdf" type="application/pdf" />
 </object>

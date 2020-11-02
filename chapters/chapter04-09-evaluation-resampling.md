@@ -119,7 +119,7 @@ Which statements are true?
 
 <!--</exercise>-->
 
-<exercise id="5" title="Quiz">
+<exercise id="4" title="Quiz">
 What can you observe?
 <choice>
 <opt text="The boxplots are drawn by taking the estimated performance of each fold." correct="true">
@@ -138,7 +138,7 @@ What can you observe?
 </exercise>
 
 
-<exercise id="6" title="Resampling">
+<exercise id="5" title="Resampling">
 <object data="code-demos/code_demo_resampling.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_resampling.pdf" type="application/pdf" />
 </object>

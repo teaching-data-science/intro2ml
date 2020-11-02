@@ -129,7 +129,7 @@ Which statements about CART are true?
 <!--</exercise>-->
 
 
-<exercise id="5" title="Quiz">
+<exercise id="4" title="Quiz">
 
 Which statements are true?
 <choice>
@@ -157,7 +157,7 @@ Which statements are true?
 <!--</exercise>-->
 
 
-<exercise id="7" title="Quiz">
+<exercise id="5" title="Quiz">
 Which statements are true?
 <choice>
 <opt text="Reducing just the complexity cp leads to bigger trees.">
@@ -173,7 +173,7 @@ Which statements are true?
 </exercise>
 
 
-<exercise id="8" title="CART">
+<exercise id="6" title="CART">
 <object data="code-demos/code_demo_cart.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_cart.pdf" type="application/pdf" />
 </object>
