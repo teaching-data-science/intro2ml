@@ -7,6 +7,9 @@ type: chapter
 id: 1
 ---
 
+We will add the cheat sheets iteratively during the winter term 20/21.
+
+<!--
 
 <exercise id="1" title="Notation, Definitions, Terms">
 <object data="cheat-sheets/CheatSheet_i2ml_1.pdf" type="application/pdf" style="width:100%;height:480px">
@@ -41,3 +44,4 @@ id: 1
     <embed src="cheat-sheets/CheatSheet_i2ml_5.pdf" type="application/pdf" />
 </object>
 </exercise>
+-->
