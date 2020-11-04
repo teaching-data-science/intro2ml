@@ -1,6 +1,7 @@
 ---
 title: 'Exercise Sheets'
-description: null
+description: 
+    " More exercise sheets and their solutions will be added during the winter term 20-21. "
 prev: null
 next: null
 type: chapter

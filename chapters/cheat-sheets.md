@@ -1,6 +1,7 @@
 ---
 title: 'Cheat Sheets'
-description: null
+description: 
+    " More cheat sheets will be added during the winter term 20-21. "
 prev: null
 next: null
 type: chapter
