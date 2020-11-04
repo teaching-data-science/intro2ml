@@ -9,13 +9,14 @@ id: 1
 
 
 
-<exercise id="1" title="Sheet 1">
-<object data="exercise-sheets/sheet_1.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="exercise-sheets/sheet_1.pdf" type="application/pdf" />
+<exercise id="1" title="Sheet 1: ML Basics">
+<object data="exercise-sheets/exercise_1_ml-basics.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_1_ml-basics.pdf" type="application/pdf" />
 </object>
 </exercise>
 
 
+<!--
 <exercise id="2" title="Solution 1">
 <object data="exercise-sheets/solution_1.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="exercise-sheets/solution_1.pdf" type="application/pdf" />
@@ -67,3 +68,4 @@ id: 1
     <embed src="exercise-sheets/sheet_5.pdf" type="application/pdf" />
 </object>
 </exercise>
+-->
