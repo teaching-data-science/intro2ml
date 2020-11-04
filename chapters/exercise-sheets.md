@@ -1,7 +1,7 @@
 ---
 title: 'Exercise Sheets'
 description: 
-    " More exercise sheets and their solutions will be added during the winter term 20-21. "
+    " Exercise sheets and their solutions will be added during the winter term 20-21. "
 prev: null
 next: null
 type: chapter
