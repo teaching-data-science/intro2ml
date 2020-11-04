@@ -7,8 +7,6 @@ type: chapter
 id: 1
 ---
 
-We will add the cheat sheets iteratively during the winter term 20/21.
-
 
 <exercise id="1" title="Notation, Definitions, Terms">
 <object data="cheat-sheets/cheatsheet_notation.pdf" type="application/pdf" style="width:100%;height:480px">
