@@ -40,11 +40,15 @@ The course is targeted at *ML beginners* with a basic, university level, educati
 - Some probability theory: probability, random variables, distributions
 - Basic statistics knowledge: descriptive statistics, estimators.  
 - (Linear) modelling from a statistics perspective will help, but is not required.
-- Working knowledge of R
+- Working knowledge of R.
 
+## References for Prerequisites
 
+- R
+  - [Introductory course on datacamp.com](https://learn.datacamp.com/courses/free-introduction-to-r)
+  - H. Wickham, G. Grolemund. R for Data Science. [link](https://r4ds.had.co.nz/) 
 
-## Major References
+## Major References for the Course Topics
 
 The course material covers all exam relevant topics. For a deeper study of the courses and additional machine learning topics, we recommend the following literature:
 
