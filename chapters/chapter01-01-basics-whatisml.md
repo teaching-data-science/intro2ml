@@ -15,10 +15,8 @@ id: 1
 
 
 <exercise id="2" title="Slides">
-<object data="pdfs/1/slides-basics-whatisml.pdf
-" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/1/slides-basics-whatisml.pdf
-" type="application/pdf" />
+<object data="https://github.com/compstat-lmu/lecture_i2ml/raw/master/slides-pdf/slides-basics-whatisml.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="https://github.com/compstat-lmu/lecture_i2ml/raw/master/slides-pdf/slides-basics-whatisml.pdf" type="application/pdf" />
 </object>
 </exercise>
 
