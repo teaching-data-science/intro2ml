@@ -16,7 +16,7 @@ id: 1
 </object>
 </exercise>
 
-<exercise id="1" title="Exercise 1: ML Basics - Solution">
+<exercise id="2" title="Exercise 1: ML Basics - Solution">
 <object data="exercise-sheets/exercise_1_ml-basics_solution.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="exercise-sheets/exercise_1_ml-basics_solution.pdf" type="application/pdf" />
 </object>
