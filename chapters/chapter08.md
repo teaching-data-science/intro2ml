@@ -15,7 +15,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-01-mlr3-intro"> In this Section, we introduce the basic concepts of the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-01-mlr3-intro"> In this section, we introduce the basic concepts of the R package mlr3.</a>
   </p>
 </section>
 
@@ -29,7 +29,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-02-mlr3-resampling"> In this Section, we explain how to implement resampling with the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-02-mlr3-resampling"> In this section, we explain how to implement resampling with the R package mlr3.</a>
   </p>
 </section>
 
@@ -43,7 +43,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-03-mlr3-tuning"> In this Section, we explain how to implement tuning with the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-03-mlr3-tuning"> In this section, we explain how to implement tuning with the R package mlr3.</a>
   </p>
 </section>
 
@@ -57,7 +57,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-04-mlr3-pipielines"> In this Section, we explain how to implement pipelines with the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-04-mlr3-pipielines"> In this section, we explain how to implement pipelines with the R package mlr3.</a>
   </p>
 </section>
 

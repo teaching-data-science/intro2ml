@@ -15,7 +15,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter06-01-forests-baggingensembles"> Bagging (bootstrap aggregation) is a method for combining many models into a meta-model, which often works much better than its individual components. In this Section, we present the basic idea of bagging and explain why and when bagging works.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-01-forests-baggingensembles"> Bagging (bootstrap aggregation) is a method for combining many models into a meta-model, which often works much better than its individual components. In this section, we present the basic idea of bagging and explain why and when bagging works.</a>
   </p>
 </section>
 
@@ -29,7 +29,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter06-02-forests-introduction"> In this Section we investigate random forests, a modification of bagging for trees. We illustrate the effect of the ensemble size and show how to compute out-of-bag error estimates.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-02-forests-introduction"> In this section we investigate random forests, a modification of bagging for trees. We illustrate the effect of the ensemble size and show how to compute out-of-bag error estimates.</a>
   </p>
 </section>
 
@@ -43,7 +43,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter06-03-forests-benchmarking"> In this Section we compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-03-forests-benchmarking"> In this section we compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.</a>
   </p>
 </section>
 
@@ -85,7 +85,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter06-06-forests-discussion"> In this Section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter06-06-forests-discussion"> In this section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.</a>
   </p>
 </section>
 

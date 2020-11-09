@@ -29,7 +29,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter04-02-evaluation-measuresregression"> In this Section we make you familiar with essential performance measures for regression. In particular, mean squared error (MSE), mean absolute error (MAE), and a straightforward generalization of R2 are discussed.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-02-evaluation-measuresregression"> In this section we make you familiar with essential performance measures for regression. In particular, mean squared error (MSE), mean absolute error (MAE), and a straightforward generalization of R2 are discussed.</a>
   </p>
 </section>
 
@@ -43,7 +43,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter04-03-evaluation-measuresclassification"> In this Section we make you familiar with essential performance measures for classification. A classifier predicts either class labels or class probabilities. Hence, its performance can be evaluated based on these two notions. We show you some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). Additionally you will see the confusion matrix and learn about costs.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-03-evaluation-measuresclassification"> In this section we make you familiar with essential performance measures for classification. A classifier predicts either class labels or class probabilities. Hence, its performance can be evaluated based on these two notions. We show you some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). Additionally you will see the confusion matrix and learn about costs.</a>
   </p>
 </section>
 
@@ -57,7 +57,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter04-04-evaluation-measuresclassificationroc"> From the confusion matrix, we can calculate a variety of "ROC" metrics. Among others, we will explain True Positive Rate, Negative Predictive Value and the F1-Measure.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-04-evaluation-measuresclassificationroc"> From the confusion matrix, we can calculate a variety of "ROC" metrics. Among others, we will explain true positive rate, negative predictive value and the F1-Measure.</a>
   </p>
 </section>
 
@@ -71,7 +71,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter04-05-evaluation-measuresclassificationrocvisualization"> In this Section, we explain the ROC curve and how to calculate it. Additionally, we will present AUC and partial AUC as global performance measures.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-05-evaluation-measuresclassificationrocvisualization"> In this section, we explain the ROC curve and how to calculate it. Additionally, we will present AUC and partial AUC as global performance measures.</a>
   </p>
 </section>
 
@@ -99,7 +99,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter04-07-evaluation-trainingerror"> There are two types of errors: training error and test error. The focus of this Section is on the training error and difficulties related with it.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-07-evaluation-trainingerror"> There are two types of errors: training error and test error. The focus of this section is on the training error and difficulties related with it.</a>
   </p>
 </section>
 
@@ -113,7 +113,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter04-08-evaluation-testerror"> There are two types of errors: training error and test error. The focus of this Section is on the test error and difficulties related with it.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter04-08-evaluation-testerror"> There are two types of errors: training error and test error. The focus of this section is on the test error and difficulties related with it.</a>
   </p>
 </section>
 
