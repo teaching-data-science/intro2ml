@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.4: Measures Classification ROC'
 description:
-  ' From the confusion matrix, we can calculate a variety of "ROC" metrics. Among others, we will explain True Positive Rate, Negative Predictive Value and the F1-Measure.'
+  ' From the confusion matrix, we can calculate a variety of "ROC" metrics. Among others, we will explain true positive rate, negative predictive value and the F1-Measure.'
 prev: /chapter04-03-evaluation-measuresclassification
 next: /chapter04-05-evaluation-measuresclassificationrocvisualization
 type: subchapter

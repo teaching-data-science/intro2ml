@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 8: mlr'
 description:
-  " This Chapter introduces the R package mlr3. After an introduction of the basic concepts we focus on resampling, tuning and pipelines."
+  " This chapter introduces the R package mlr3. After an introduction of the basic concepts we focus on resampling, tuning and pipelines."
 type: chapter
 prev: dummy
 next: /chapter02

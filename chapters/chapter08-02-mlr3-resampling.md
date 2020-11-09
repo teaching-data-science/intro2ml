@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 8.2: Resampling with mlr3'
 description:
-  ' In this Section, we explain how to implement resampling with the R package mlr3.'
+  ' In this section, we explain how to implement resampling with the R package mlr3.'
 prev: /chapter08-01-mlr3-intro
 next: /chapter08-03-mlr3-tuning
 type: subchapter

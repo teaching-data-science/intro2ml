@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.2: Introduction'
 description:
-  ' In this Section we investigate random forests, a modification of bagging for trees. We illustrate the effect of the ensemble size and show how to compute out-of-bag error estimates.'
+  ' In this section we investigate random forests, a modification of bagging for trees. We illustrate the effect of the ensemble size and show how to compute out-of-bag error estimates.'
 prev: /chapter06-01-forests-baggingensembles
 next: /chapter06-03-forests-benchmarking
 type: subchapter

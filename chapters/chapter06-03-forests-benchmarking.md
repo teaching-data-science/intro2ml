@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.3: Benchmarking Trees, Forests, and Bagging K-NN'
 description:
-  ' In this Section we compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.'
+  ' In this section we compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.'
 prev: /chapter06-02-forests-introduction
 next: /chapter06-04-forests-featureimportance
 type: subchapter

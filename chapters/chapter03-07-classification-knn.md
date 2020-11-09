@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.7: 	K-Nearest Neighbors'
 description:
-  '  This Section introduces k-nearest neighbors classification. We will explain in which sense this approach is fundamentally different to the previous Sections and illustrate the effect of the hyperparameter k.'
+  '  This section introduces k-nearest neighbors classification. We will explain in which sense this approach is fundamentally different to the previous sections and illustrate the effect of the hyperparameter k.'
 prev: /chapter03-06-classification-naviebayes
 next: /chapter04-01-evaluation-introduction
 type: subchapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 6.6: Discussion'
 description:
-  ' In this Section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.'
+  ' In this section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.'
 prev: /chapter06-05-forests-proximitis
 next: /chapter07-01-tuning-introduction
 type: subchapter

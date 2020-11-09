@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 8.3: Tuning with mlr3'
 description:
-  ' In this Section, we explain how to implement tuning with the R package mlr3.'
+  ' In this section, we explain how to implement tuning with the R package mlr3.'
 prev: /chapter08-02-mlr3-resampling
 next: /chapter08-04-mlr3-pipielines
 type: subchapter

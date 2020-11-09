@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 8.1: Intro to mlr3'
 description:
-  ' In this Section, we introduce the basic concepts of the R package mlr3.'
+  ' In this section, we introduce the basic concepts of the R package mlr3.'
 prev: /chapter07-06-tuning-nestedresampling
 next: /chapter08-02-mlr3-resampling
 type: subchapter

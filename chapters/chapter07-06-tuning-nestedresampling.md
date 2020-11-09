@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.6: Nested Resampling'
 description:
-  '  In this Section, we will explain why and how nested resampling is done.'
+  '  In this section, we will explain why and how nested resampling is done.'
 prev: /chapter07-05-tuning-trainingvalidationtesting
 next: /chapter08-01-mlr3-intro
 type: subchapter

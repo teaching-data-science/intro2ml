@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.8: Test Error'
 description:
-  ' There are two types of errors: training error and test error. The focus of this Section is on the test error and difficulties related with it.'
+  ' There are two types of errors: training error and test error. The focus of this section is on the test error and difficulties related with it.'
 prev: /chapter04-07-evaluation-trainingerror
 next: /chapter04-09-evaluation-resampling
 type: subchapter

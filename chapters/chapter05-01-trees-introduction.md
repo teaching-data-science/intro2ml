@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.1: Introduction'
 description:
-  ' Decision trees are an important type of machine learning models and are of two main types: classification trees and regression trees. In this Section, we explain the general idea of CART - Classification And Regression Trees.'
+  ' Decision trees are an important type of machine learning models and are of two main types: classification trees and regression trees. In this section, we explain the general idea of CART - Classification And Regression Trees.'
 prev: /chapter04-09-evaluation-resampling
 next: /chapter05-02-trees-splittingcriteria
 type: subchapter

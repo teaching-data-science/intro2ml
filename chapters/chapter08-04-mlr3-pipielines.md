@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 8.4: Pipelines with mlr3'
 description:
-  ' In this Section, we explain how to implement pipelines with the R package mlr3.'
+  ' In this section, we explain how to implement pipelines with the R package mlr3.'
 prev: /chapter08-03-mlr3-tuning
 next: null
 type: subchapter
