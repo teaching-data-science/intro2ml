@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.2: Data'
 description:
-  ' In this section we explain the basic structure of tabular data used in Machine Learning. We will differentiate targets from features, talk about labeled and unlabeled data and introduce the concept of the data generating process.'
+  ' In this section we explain the basic structure of tabular data used in machine learning. We will differentiate targets from features, talk about labeled and unlabeled data and introduce the concept of the data generating process.'
 prev: /chapter01-01-basics-whatisml
 next: /chapter01-03-basics-tasks
 type: subchapter

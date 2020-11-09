@@ -15,7 +15,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-01-basics-whatisml"> As subtopic of Artificial Intelligence, Machine Learning is a mathematically well-defined discipline and usually constructs predictive or decision models from data, instead of explicitly programming them. In this section, you will see some typical examples of where Machine Learning is applied and the main directions of Machine Learning.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-01-basics-whatisml"> As subtopic of artificial intelligence, machine learning is a mathematically well-defined discipline and usually constructs predictive or decision models from data, instead of explicitly programming them. In this section, you will see some typical examples of where machine learning is applied and the main directions of machine learning.</a>
   </p>
 </section>
 
@@ -29,7 +29,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter01-02-basics-data"> In this section we explain the basic structure of tabular data used in Machine Learning. We will differentiate targets from features, talk about labeled and unlabeled data and introduce the concept of the data generating process.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter01-02-basics-data"> In this section we explain the basic structure of tabular data used in machine learning. We will differentiate targets from features, talk about labeled and unlabeled data and introduce the concept of the data generating process.</a>
   </p>
 </section>
 

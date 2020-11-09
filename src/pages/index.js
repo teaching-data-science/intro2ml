@@ -21,7 +21,7 @@ export default ({ data }) => {
                 <h1 className={classes.subtitle}>Introduction to Machine Learning (I2ML)</h1>
                 <div className={classes.introduction}>
                 <p>
-                    This course offers an introductory and applied overview of <strong>supervised</strong> Machine Learning. The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. 
+                    This course offers an introductory and applied overview of <strong>supervised</strong> machine learning. The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. 
                 </p>
                 <p>
                 The course is organized as a digital lecture, which should be self-contained and enabling self-study as much as possible. 
