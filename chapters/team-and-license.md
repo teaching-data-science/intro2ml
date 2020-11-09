@@ -7,22 +7,25 @@ type: chapter
 id: 1
 ---
 
+<section class="c72e2d57">
+<p class="de526628">
+
 
 ## Team and Contributors
 
-- [Bernd Bischl](https://www.compstat.statistik.uni-muenchen.de/people/bischl/) 
+- [Bernd Bischl](https://www.compstat.statistik.uni-muenchen.de/people/bischl/)
   wrote the initial version of most of the course material, and teaches various master courses in ML and DL at the LMU for stats and data science.
-- [Fabian Scheipl](https://www.biostat.statistik.uni-muenchen.de/personen/mitarbeiter/scheipl/index.html) 
+- [Fabian Scheipl](https://www.biostat.statistik.uni-muenchen.de/personen/mitarbeiter/scheipl/index.html)
   joined the team in fall 2018 and contributed to the slides, videos and code demos.
 - [Heidi Seibold](https://www.compstat.statistik.uni-muenchen.de/people/seibold) joined the team in fall 2019 and is in charge of the classes held in spring 2020 at LMU Munich and University of Bielefeld.
 - [Ludwig Bothmann](https://www.slds.stat.uni-muenchen.de/people/bothmann/) joined the team in summer 2020 and is in charge of the class held in winter 2020/21 at LMU Munich.
-- [Daniel Schalk](https://www.compstat.statistik.uni-muenchen.de/people/schalk) 
-  is a PhD at Bernd's group and organized the second round of the inverted classroom in spring 2019; he also provided the digital platform for videos, quizzes and exercises. 
-- [Christoph Molnar](https://www.compstat.statistik.uni-muenchen.de/people/molnar) 
+- [Daniel Schalk](https://www.compstat.statistik.uni-muenchen.de/people/schalk)
+  is a PhD at Bernd's group and organized the second round of the inverted classroom in spring 2019; he also provided the digital platform for videos, quizzes and exercises.
+- [Christoph Molnar](https://www.compstat.statistik.uni-muenchen.de/people/molnar)
   is a PhD at Bernd's group and organized the first round of the inverted classroom in spring 2018, including the first round of videos.
-- [Tobias Pielok](https://www.slds.stat.uni-muenchen.de/people/pielok/) 
+- [Tobias Pielok](https://www.slds.stat.uni-muenchen.de/people/pielok/)
   is a PhD at Bernd's group and contributed to the code demos and exercises; he also presented the code demos at the classes held in spring 2020.
-  
+
 ### Student Assistants
 
 - Omid Charrakh
@@ -34,21 +37,21 @@ id: 1
 
 ## Help is appreciated and welcome!
 
-We hope to continously improve and expand this course over the coming years. 
-We strongly believe in open source and collaborative work. Please contact us if 
-you think likewise and would like to contribute. 
+We hope to continously improve and expand this course over the coming years.
+We strongly believe in open source and collaborative work. Please contact us if
+you think likewise and would like to contribute.
 See also our [contributing guidelines](CONTRIBUTING.md)
 
-- Are you an ML expert and like the course, but have some feedback or consider 
-  extending it? 
+- Are you an ML expert and like the course, but have some feedback or consider
+  extending it?
   Write an email to Bernd and Fabian (see [Team page](vignettes/team.Rmd)) or
   Open an [issue](https://github.com/compstat-lmu/lecture_i2ml/issues).
-- Are you a student taking the lecture - either at the LMU or online - and you 
-  spotted a typo, think we should rephrase something be or even would like to 
-  provide a new quiz question or coding example? Please consider providing a 
-  pull request. To do so, please check out the *devel* branch of the repo and 
-  add your fixes there. Writing an e-mail or opening an 
-  [issue](https://github.com/compstat-lmu/lecture_i2ml/issues) with suggested 
+- Are you a student taking the lecture - either at the LMU or online - and you
+  spotted a typo, think we should rephrase something be or even would like to
+  provide a new quiz question or coding example? Please consider providing a
+  pull request. To do so, please check out the *devel* branch of the repo and
+  add your fixes there. Writing an e-mail or opening an
+  [issue](https://github.com/compstat-lmu/lecture_i2ml/issues) with suggested
   improvements is obviously very welcome as well!
 - You are none of the above but would like to contribute, get in touch / open
   [issues](https://github.com/compstat-lmu/lecture_i2ml/issues) / create pull
@@ -64,3 +67,8 @@ We are developing the course on [GitHub](https://github.com/compstat-lmu/lecture
 
 We would appreciate if you contact us in case you are re-using our course.
 Knowing this helps us to keep the project alive. Thank you!
+
+
+</p>
+</section>
+

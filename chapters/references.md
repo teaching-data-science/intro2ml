@@ -7,6 +7,8 @@ type: chapter
 id: 1
 ---
 
+<section class="c72e2d57">
+<p class="de526628">
 
 
 ## Major References for the Course Topics
@@ -32,6 +34,11 @@ We use the *mlr3* package for machine learning in R.
 * Github page: https://github.com/mlr-org/mlr3
 
 The first link contains a section "Ressources" which lists all available background information to enable you to learn the toolkits.
-Please study those. Most important (for you as new users) are the book, the gallery, the cheatsheets. 
+Please study those. Most important (for you as new users) are the book, the gallery, the cheatsheets.
 Use the usual R package manuals for formal library documentation.
 It might be good to watch the 2 short intro video from the UseR 2019 to get a quick overview in less than an hour.
+
+
+</p>
+</section>
+
