@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.4: Models and Parameters'
 description:
-  ' This Section introduces the concept of models. We will explain that a model maps features to predictions, and we will show that models can be expressed by parameters.'
+  ' This section introduces the concept of models. We will explain that a model maps features to predictions, and we will show that models can be expressed by parameters.'
 prev: /chapter01-03-basics-tasks
 next: /chapter01-05-basics-learner
 type: subchapter

@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 7.1: Introduction'
 description:
-  ' While model parameters are optimizied during training, hyperparameters are specified before the training. In this Section, we will motivate why it is crucial to find good values for the hyperparameters, i.e. to "tune" the hyperparameters.'
+  ' While model parameters are optimizied during training, hyperparameters are specified before the training. In this section, we will motivate why it is crucial to find good values for the hyperparameters, i.e. to "tune" the hyperparameters.'
 prev: /chapter06-06-forests-discussion
 next: /chapter07-02-tuning-problemdefinition
 type: subchapter

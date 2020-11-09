@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 5.6: Discussion'
 description:
-  ' In this Section we discuss the advantages and disadvantages of CART and mention other tree methodologies.'
+  ' In this section we discuss the advantages and disadvantages of CART and mention other tree methodologies.'
 prev: /chapter05-05-trees-stoppingcriteria
 next: /chapter06-01-forests-baggingensembles
 type: subchapter

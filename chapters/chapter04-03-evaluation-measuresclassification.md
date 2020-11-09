@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 4.3: Measures Classification'
 description:
-  ' In this Section we make you familiar with essential performance measures for classification. A classifier predicts either class labels or class probabilities. Hence, its performance can be evaluated based on these two notions. We show you some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). Additionally you will see the confusion matrix and learn about costs.'
+  ' In this section we make you familiar with essential performance measures for classification. A classifier predicts either class labels or class probabilities. Hence, its performance can be evaluated based on these two notions. We show you some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). Additionally you will see the confusion matrix and learn about costs.'
 prev: /chapter04-02-evaluation-measuresregression
 next: /chapter04-04-evaluation-measuresclassificationroc
 type: subchapter

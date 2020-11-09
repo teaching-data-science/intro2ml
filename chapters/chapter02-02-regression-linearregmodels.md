@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 2.2: Linear Regression Models'
 description:
-  ' In this Section, we explain how the linear regression model can be used from a Machine Learning perspective to predict a numerical target variable. We use the concepts of loss function and empirical risk minimization to find the linear model that fits the data best.'
+  ' In this section, we explain how the linear regression model can be used from a Machine Learning perspective to predict a numerical target variable. We use the concepts of loss function and empirical risk minimization to find the linear model that fits the data best.'
 prev: /chapter02-01-regression-lossfunctions
 next: /chapter02-03-regression-polynomialregmodels
 type: subchapter

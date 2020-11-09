@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 1.5: Learner'
 description:
-  ' In this Section we introduce the concept of a learner: Roughly speaking, it takes a training set and gives back a model.'
+  ' In this section we introduce the concept of a learner: Roughly speaking, it takes a training set and gives back a model.'
 prev: /chapter01-04-basics-models-parameters
 next: /chapter01-06-basics-riskminimization
 type: subchapter

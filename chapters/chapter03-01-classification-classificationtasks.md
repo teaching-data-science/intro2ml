@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3.1: Classification Tasks'
 description:
-  ' In classification, the task is to predict a categorical (binary or multiclass) label. In this Section, we illustrate the concept of classification with some typical examples.'
+  ' In classification, the task is to predict a categorical (binary or multiclass) label. In this section, we illustrate the concept of classification with some typical examples.'
 prev: /chapter02-04-regression-knn
 next: /chapter03-02-classification-basicdefinitions
 type: subchapter

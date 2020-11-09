@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 2.4: k-NN'
 description:
-  ' This Section introduces k-nearest neighbors regression. We will explain in which sense this approach is fundamentally different to the previous Sections. We will introduce the concept of distance measures and give examples for different types of data.'
+  ' This section introduces k-nearest neighbors regression. We will explain in which sense this approach is fundamentally different to the previous sections. We will introduce the concept of distance measures and give examples for different types of data.'
 prev: /chapter02-03-regression-polynomialregmodels
 next: /chapter03-01-classification-classificationtasks
 type: subchapter

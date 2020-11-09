@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 3: Supervised Classification'
 description:
-  " This Chapter treats the supervised classification task in more detail. We will see examples of binary and multiclass classification and the difference of the discriminative and the generative approach. Especially, we will treat logistic regression, linear and quadratic discriminant analysis, naive bayes and k-NN classification."
+  " This chapter treats the supervised classification task in more detail. We will see examples of binary and multiclass classification and the difference of the discriminative and the generative approach. Especially, we will treat logistic regression, linear and quadratic discriminant analysis, naive bayes and k-NN classification."
 type: chapter
 prev: /chapter02
 next: /chapter04
@@ -15,7 +15,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter03-01-classification-classificationtasks"> In classification, the task is to predict a categorical (binary or multiclass) label. In this Section, we illustrate the concept of classification with some typical examples.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-01-classification-classificationtasks"> In classification, the task is to predict a categorical (binary or multiclass) label. In this section, we illustrate the concept of classification with some typical examples.</a>
   </p>
 </section>
 
@@ -43,7 +43,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter03-03-classification-linearclassifiers"> Linear classifiers are an essential subclass of classification models. This Section provides the definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-03-classification-linearclassifiers"> Linear classifiers are an essential subclass of classification models. This section provides the definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.</a>
   </p>
 </section>
 
@@ -99,7 +99,7 @@ id: 1
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter03-07-classification-knn">  This Section introduces k-nearest neighbors classification. We will explain in which sense this approach is fundamentally different to the previous Sections and illustrate the effect of the hyperparameter k.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter03-07-classification-knn">  This section introduces k-nearest neighbors classification. We will explain in which sense this approach is fundamentally different to the previous sections and illustrate the effect of the hyperparameter k.</a>
   </p>
 </section>
 
