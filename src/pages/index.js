@@ -24,6 +24,16 @@ export default ({ data }) => {
                     This course offers an introductory and applied overview of <strong>supervised</strong> Machine Learning. The course is of an introductory nature and geared towards students with some statistics background. It is aimed at a practical and operational understanding of the covered algorithms and models, with less emphasis on theory and formalism. 
                 </p>
                 <p>
+                The course is organized as a digital lecture, which should be self-contained and enabling self-study as much as possible. 
+The major part of the material is provided as slide sets with lecture videos.
+We have also prepared interactive tutorials where you can answer multiple choice 
+questions, and learn how to apply the covered methods in R on some short 
+coding exercises. 
+                </p>
+                <p>
+                The course material is developed in a public github repository: <a href="https://github.com/compstat-lmu/lecture_i2ml">https://github.com/compstat-lmu/lecture_i2ml</a>.
+                </p>
+                <p>
                     The accompanying exercises, demos and tutorials are a mix of theoretical and practical assignments, the latter in R (mostly with <strong>mlr3</strong>). Now let's get started!
                 </p>
                 </div>
