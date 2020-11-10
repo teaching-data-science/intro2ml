@@ -31,7 +31,7 @@ Which statements are true?
 </opt>
 <opt text="k-NN can only be used for classification tasks.">
 </opt>
-<opt text="`Nk(x)` contains the subset of the feature space `X` that is at least as close to `x` as the `k`-th closest neighbor of `x` in the training data set." correct="true">
+<opt text="`N_k(x)` contains the subset of the feature space `\mathcal{X}` that is at least as close to `x` as the `k`-th closest neighbor of `x` in the training data set." correct="true">
 </opt>
 <opt text="1-NN always 'predicts' perfectly on observations of the training data set." correct="true">
 </opt>
