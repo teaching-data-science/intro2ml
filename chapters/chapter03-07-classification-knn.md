@@ -73,11 +73,11 @@ Which statements are true?
 <exercise id="4" title="Quiz">
 What can you observe?
 <choice>
-<opt text="The decision boundaries of all classifiers looks equal.">
+<opt text="The decision boundaries of all classifiers look equal.">
 </opt>
 <opt text="The naive Bayes classifier has linear decision boundaries due to the simple construction.">
 </opt>
-<opt text="LDA is the only classifier with linear decision boundaries." correct="true">
+<opt text="LDA is the only classifier with linear decision boundaries.">
 </opt>
 <opt text="QDA has non-linear decision boundaries due to the different covariances in each class." correct="true">
 </opt>
