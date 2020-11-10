@@ -30,7 +30,7 @@ Which statements are true?
 </opt>
 <opt text="Providing two different training data sets to a learner will result in the same optimal model `f`.">
 </opt>
-<opt text="The representation of a learner defines its hypothesis class `H`." correct="true">
+<opt text="The parametrization of a model defines its hypothesis class `H`." correct="true">
 </opt>
 <opt text="Supervised learning consists of three components: Hypothesis Space, Risk, and Optimization." correct="true">
 </opt>
