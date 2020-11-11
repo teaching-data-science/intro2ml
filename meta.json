@@ -18,8 +18,9 @@
     "showProfileImage": true,
     "footerLinks": [
         { "text": "Main Course Website", "url": "https://introduction-to-machine-learning.netlify.app/" },
-        { "text": "Source Code", "url": "https://github.com/teaching-data-science/intro2ml" },
-        { "text": "Course Template", "url": "https://github.com/ines/course-starter-r" }
+        { "text": "Course content", "url": "https://github.com/compstat-lmu/lecture_i2ml"},
+        { "text": "Website source code", "url": "https://github.com/teaching-data-science/intro2ml" },
+        { "text": "Website template", "url": "https://github.com/ines/course-starter-r" }
     ],
     "theme": "#de7878"
 }
