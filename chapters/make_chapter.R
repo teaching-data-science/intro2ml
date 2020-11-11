@@ -6,6 +6,7 @@
 #'   new subchapters where added and the next and prev yaml section changes.
 updateChapter = function (section_file, file_pre = "", write_sub = TRUE) {
 
+  ch_nbr = as.integer(stringr::str_extract(section_file, "[0-9]+"))
   lns = readLines(section_file)
   yaml_idx = grep("---", lns)
   lns = lns[seq_len(yaml_idx[2])]
@@ -35,17 +36,19 @@ updateChapter = function (section_file, file_pre = "", write_sub = TRUE) {
     link = strsplit(x = fn, split = "[.]")[[1]][2]
     lns_sub = readLines(fn)
 
-    # Write new prev and next:
+    ### Write new prev and next:
     subch_idx = which(df_files$subch == link)
     subch_order = df_files$order[subch_idx]
 
     if (write_sub) {
+      # If subchapter is the very last then there is no next:
       if (subch_order == max(df_files$order)) {
         yaml_meta$`next` = "null"
       } else {
         yaml_meta$`next` = df_files$subch[df_files$order == subch_order + 1]
       }
 
+      # If subchapter is the very first one (01_01_xxx) then there is no prev:
       if (subch_order == 1L) {
         yaml_meta$prev = "null"
       } else {
@@ -74,6 +77,12 @@ updateChapter = function (section_file, file_pre = "", write_sub = TRUE) {
 
     lns = c(lns, code_add, "", "")
   }
+
+  ch_prev = if (ch_nbr > 1) paste0("/chapter0", ch_nbr - 1) else "null"
+  ch_next = if (ch_nbr < max(df_files$ch)) paste0("/chapter0", ch_nbr + 1) else "null"
+
+  lns[grep("prev:", lns)[1]] = paste0("prev: ", ch_prev)
+  lns[grep("next:", lns)[1]] = paste0("next: ", ch_next)
 
   fileConn = file(paste0(file_pre , section_file))
   writeLines(text = lns, con = fileConn)
