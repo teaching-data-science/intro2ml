@@ -4,7 +4,7 @@ description:
   " This chapter introduces and formalizes the problem of hyperparameter tuning and defines the untouched test principle. Additionally, the concepts of train-val-test split and nested resampling are explained."
 type: chapter
 prev: /chapter06
-next: null
+next: /chapter08
 id: 1
 ---
 

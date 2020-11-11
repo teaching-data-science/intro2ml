@@ -55,6 +55,7 @@ const Layout = ({ isHome, title, description, children }) => {
 
                             <footer className={classes.footer}>
                                 <div className={classes.footerContent}>
+                                    {/*
                                     <section className={classes.footerSection}>
                                         <H3>About this course</H3>
                                         <p>{meta.description}</p>
@@ -71,6 +72,7 @@ const Layout = ({ isHome, title, description, children }) => {
                                         )}
                                         <p>{meta.bio}</p>
                                     </section>
+                                    */}
 
                                     {meta.footerLinks && (
                                         <ul className={classes.footerLinks}>

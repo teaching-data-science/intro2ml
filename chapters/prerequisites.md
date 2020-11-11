@@ -7,15 +7,17 @@ type: chapter
 id: 1
 ---
 
+<section class="c72e2d57">
+<p class="de526628">
 
 ## Prerequisites
 
 The course is targeted at *ML beginners* with a basic, university level, education in maths and statistics:
 
-- Basic linear algebra: vectors, matrices, determinants 
+- Basic linear algebra: vectors, matrices, determinants
 - Simple calculus: derivatives, integrals, gradients
 - Some probability theory: probability, random variables, distributions
-- Basic statistics knowledge: descriptive statistics, estimators.  
+- Basic statistics knowledge: descriptive statistics, estimators.
 - (Linear) modelling from a statistics perspective will help, but is not required.
 - Working knowledge of R.
 
@@ -23,4 +25,10 @@ The course is targeted at *ML beginners* with a basic, university level, educati
 
 - R
   - [Introductory course on datacamp.com](https://learn.datacamp.com/courses/free-introduction-to-r)
-  - H. Wickham, G. Grolemund. R for Data Science. [link](https://r4ds.had.co.nz/) 
+  - H. Wickham, G. Grolemund. R for Data Science. [link](https://r4ds.had.co.nz/)
+
+</p>
+</section>
+
+
+
