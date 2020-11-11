@@ -3,7 +3,7 @@ title: 'Chapter 1: ML Basics'
 description:
   " This chapter introduces the basic concepts of Machine Learning. We focus on supervised learning, explain the difference between regression and classification, show how to evaluate and compare Machine Learning models and formalize the concept of learning."
 type: chapter
-prev: dummy
+prev: null
 next: /chapter02
 id: 1
 ---

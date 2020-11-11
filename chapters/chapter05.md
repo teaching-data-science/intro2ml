@@ -4,7 +4,7 @@ description:
   " This chapter introduces Classification And Regression Trees (CART), a well-established machine learning procedure. We explain the main idea and give details on splitting criteria, discuss computational aspects of growing a tree, and illustrate the idea of stopping criteria and pruning."
 type: chapter
 prev: /chapter04
-next: /chapter05
+next: /chapter06
 id: 1
 ---
 
