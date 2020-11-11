@@ -79,6 +79,20 @@ yarn global add gatsby-cli
 3. Do the fourth and fifth steps of the local installation on ubuntu. 
 
 
+## How to update the chapter content?
+
+**Update existing files**
+
+1. All necessary files are located in `chapters`
+2. Please just update the subchapter files, e.g. `chapter04-08-evaluation-testerror.md`
+3. To update the chapter files `chapter0x.md` run the `make_chapter.R` skript. **Important:** The working directory in `R` needs to be at the chapters direcotry! The `make_chapter.R` skript automatically creates the `chapter0x.md` files and links `prev` and `next` correctly in the subchapter files.
+
+**Create new (sub)chapters**
+
+1. Just add a new subchapter file, e.g. `chapter09-01-my-new-subchapter.md`. Have a look at existing files for the structure of the YAML header. Also create a `chapter0x.md` file with a description if a entirely new chapter is added (see existing ones, e.g. `chapter02.md`, for the structure of the YAML header).
+2. If the new file is placed between already existing ones, e.g. `chapter04-04-new-resampling.md`, then rename the other files of the chapter to keep the correct ordering of the files! You do not have to update `next` and `prev` of the new/renamed files, this is done automatically by running `make_chapter.R`.
+
+
 ## How to access different homepage parts?
 
 ![code-execution](https://github.com/teaching-data-science/intro2ml/blob/master/static/screenshot.png)
