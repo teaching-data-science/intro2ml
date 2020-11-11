@@ -13,6 +13,8 @@ id: 1
 
 ## Team and Contributors
 
+<center><img src="/profile.jpg" alt="intro2ml Team" style="width:250px;"></center>
+
 - [Bernd Bischl](https://www.compstat.statistik.uni-muenchen.de/people/bischl/)
   wrote the initial version of most of the course material, and teaches various master courses in ML and DL at the LMU for stats and data science.
 - [Fabian Scheipl](https://www.biostat.statistik.uni-muenchen.de/personen/mitarbeiter/scheipl/index.html)
@@ -25,6 +27,9 @@ id: 1
   is a PhD at Bernd's group and organized the first round of the inverted classroom in spring 2018, including the first round of videos.
 - [Tobias Pielok](https://www.slds.stat.uni-muenchen.de/people/pielok/)
   is a PhD at Bernd's group and contributed to the code demos and exercises; he also presented the code demos at the classes held in spring 2020.
+
+
+
 
 ### Student Assistants
 
