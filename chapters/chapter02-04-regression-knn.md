@@ -37,6 +37,12 @@ Which statements are true?
 </opt>
 <opt text="k-NN with `k=n` always predicts the same target variable value for all possible inputs `x`." correct="true">
 </opt>
+</choice>
+</exercise>
+
+<exercise id="4" title="Quiz">
+Which statements are true?
+<choice>
 <opt text="The Gower distance between two observations which have different values for all features is always `1`.">
 </opt>
 <opt text="The Gower distance between two observations which have the same values for all features is always `0`." correct="true">

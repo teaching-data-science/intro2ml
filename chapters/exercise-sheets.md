@@ -22,6 +22,17 @@ id: 11
 </object>
 </exercise>
 
+<exercise id="3" title="Exercise 2: Supervised Regression">
+<object data="exercise-sheets/exercise_2_supervised-regression.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_2_supervised-regression.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="4" title="Exercise 2: Supervised Regression - Solution">
+<object data="exercise-sheets/exercise_2_supervised-regression_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_2_supervised-regression_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
 
 <!--
 <exercise id="2" title="Solution 1">
