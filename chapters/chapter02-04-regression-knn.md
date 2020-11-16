@@ -27,13 +27,13 @@ id: 1
 <exercise id="3" title="Quiz">
 Which statements are true?
 <choice>
-<opt text="The properties of k-NN are induced by the chosen distance metric." correct="true">
+<opt text="Choosing the distance metric is a crucial design decision for k-NN." correct="true">
 </opt>
 <opt text="k-NN can only be used for classification tasks.">
 </opt>
 <opt text="`N_k(x)` contains the subset of the feature space `\mathcal{X}` that is at least as close to `x` as the `k`-th closest neighbor of `x` in the training data set." correct="true">
 </opt>
-<opt text="1-NN always 'predicts' perfectly on observations of the training data set." correct="true">
+<opt text="1-NN always 'predicts' perfectly on observations of the training data set (if there are no observations with equal feature values but different target value)." correct="true">
 </opt>
 <opt text="k-NN with `k=n` always predicts the same target variable value for all possible inputs `x`." correct="true">
 </opt>
