@@ -34,6 +34,18 @@ id: 11
 </object>
 </exercise>
 
+<exercise id="5" title="Exercise 3: Supervised Classification">
+<object data="exercise-sheets/exercise_3_supervised-classification_1.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_3_supervised-classification_1.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="6" title="Exercise 3: Supervised Classification - Solution">
+<object data="exercise-sheets/exercise_3_supervised-classification_1_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_3_supervised-classification_1_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
+
 <!--
 <exercise id="2" title="Solution 1">
 <object data="exercise-sheets/solution_1.pdf" type="application/pdf" style="width:100%;height:480px">
