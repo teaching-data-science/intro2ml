@@ -35,7 +35,7 @@ Which statements are true?
 </opt>
 <opt text="1-NN always 'predicts' perfectly on observations of the training data set (if there are no observations with equal feature values but different target value)." correct="true">
 </opt>
-<opt text="k-NN with `k=n` always predicts the same target variable value for all possible inputs `x`." correct="true">
+<opt text="k-NN with `k=n` always predicts the same target variable value for all possible inputs `x` (if no weights are used)." correct="true">
 </opt>
 </choice>
 </exercise>
