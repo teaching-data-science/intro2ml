@@ -27,7 +27,7 @@ Which statements are true?
 </opt>
 <opt text="The features in linear regression have to be numeric">
 </opt>
-<opt text="The linear model is linear regression with `L2`-loss" correct="true">
+<opt text="The classical linear model from statistics with gaussian errors is linear regression with `L2`-loss" correct="true">
 </opt>
 <opt text="The hypothesis space of linear regression consists of linear functions of the features" correct="true">
 </opt>
