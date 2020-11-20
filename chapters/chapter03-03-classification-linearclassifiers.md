@@ -34,13 +34,13 @@ Which statements are true?
 <opt text="With scoring classifiers one can obtain class labels by using a threshold" correct="true">
 </opt>
 <opt text="The decision boundary is independent of the used model.">
+</opt>
 </choice>
 </exercise>
 
 <exercise id="4" title="Quiz">
 Which statements are true?
 <choice>
-</opt>
 <opt text="For the discriminant approach we must have a loss function for minimization." correct="true">
 </opt>
 <opt text="The generative and discriminant approach are basically the same.">
