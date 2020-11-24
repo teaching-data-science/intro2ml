@@ -28,7 +28,7 @@ Which statements are true?
 <choice>
 <opt text="We want to know how accurately a fitted model will predict target variable values in new, previously unseen data." correct="true">
 </opt>
-<opt text="All outer losses can also be used as inner loss.">
+<opt text="Outer loss and inner loss are the same thing.">
 </opt>
 <opt text="The data generating process is the true underlying phenomenon creating the data." correct="true">
 </opt>
