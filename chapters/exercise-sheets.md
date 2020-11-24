@@ -34,15 +34,27 @@ id: 11
 </object>
 </exercise>
 
-<exercise id="5" title="Exercise 3: Supervised Classification">
+<exercise id="5" title="Exercise 3: Supervised Classification I">
 <object data="exercise-sheets/exercise_3_supervised-classification_1.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="exercise-sheets/exercise_3_supervised-classification_1.pdf" type="application/pdf" />
 </object>
 </exercise>
 
-<exercise id="6" title="Exercise 3: Supervised Classification - Solution">
+<exercise id="6" title="Exercise 3: Supervised Classification I - Solution">
 <object data="exercise-sheets/exercise_3_supervised-classification_1_solution.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="exercise-sheets/exercise_3_supervised-classification_1_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="7" title="Exercise 4: Supervised Classification II">
+<object data="exercise-sheets/exercise_4_supervised-classification_2.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_4_supervised-classification_2.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="8" title="Exercise 4: Supervised Classification II - Solution">
+<object data="exercise-sheets/exercise_4_supervised-classification_2_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_4_supervised-classification_2_solution.pdf" type="application/pdf" />
 </object>
 </exercise>
 
