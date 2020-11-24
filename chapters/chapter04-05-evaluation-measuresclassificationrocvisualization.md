@@ -155,15 +155,15 @@ Which statements are true?
 
 <!--</exercise>-->
 
+<!--<opt text="The AUC with about `86%` is good." correct="true">
+</opt>
+<opt text="The model is able to classify `74` out of `130` correct as negative.">
+</opt>-->
 
 <exercise id="5" title="Quiz">
 
 Which statements are true?
 <choice>
-<!--<opt text="The AUC with about `86%` is good." correct="true">
-</opt>
-<opt text="The model is able to classify `74` out of `130` correct as negative.">
-</opt>-->
 <opt text="Using the prediction of the train data is the ordinary and correct way of calculating the ROC.">
 </opt>
 <opt text="The calculation of the ROC should be done on a test set." correct="true">
