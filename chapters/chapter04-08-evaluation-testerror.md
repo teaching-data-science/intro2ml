@@ -30,13 +30,13 @@ Which statements are true?
 </opt>
 <opt text="Overfitting means that the model performs much better on the training data than on the test data." correct="true">
 </opt>
-<opt text="A good test performance is an indicator of overfishing.">
+<opt text="A good test performance is an indicator of overfitting.">
 </opt>
 <opt text="The linear model is well known to overfit very fast.">
 </opt>
 <opt text="Overfitting risk increases with model complexity" correct="true">
 </opt>
-<opt text="Constraining the hypothesis space helps the learner to find a good hypothesis.">
+<opt text="Constraining the hypothesis space helps the learner to find a good hypothesis." correct="true">
 </opt>
 <opt text="Goodness-of-fit measures like `R2`, likelihood, AIC, BIC and deviance are all based on the test error">
 </opt>
