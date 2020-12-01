@@ -58,6 +58,18 @@ id: 11
 </object>
 </exercise>
 
+<exercise id="9" title="Exercise 5: Performance Evaluation I">
+<object data="exercise-sheets/exercise_5_evaluation_1.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_5_evaluation_1.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="10" title="Exercise 5: Performance Evaluation I - Solution">
+<object data="exercise-sheets/exercise_5_evaluation_1_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_5_evaluation_1_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
+
 <!--
 <exercise id="2" title="Solution 1">
 <object data="exercise-sheets/solution_1.pdf" type="application/pdf" style="width:100%;height:480px">
