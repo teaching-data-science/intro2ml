@@ -70,6 +70,18 @@ id: 11
 </object>
 </exercise>
 
+<exercise id="11" title="Exercise 6: Performance Evaluation II">
+<object data="exercise-sheets/exercise_6_evaluation_2.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_6_evaluation_2.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="12" title="Exercise 6: Performance Evaluation II - Solution">
+<object data="exercise-sheets/exercise_6_evaluation_2_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_6_evaluation_2_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
+
 <!--
 <exercise id="2" title="Solution 1">
 <object data="exercise-sheets/solution_1.pdf" type="application/pdf" style="width:100%;height:480px">
