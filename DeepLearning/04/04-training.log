@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  20 DEC 2020 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  21 DEC 2020 21:11
 entering extended mode
 **./04-training.tex
 (04-training.tex
@@ -1867,149 +1867,106 @@ Non-PDF special ignored!
 {/Users/omid/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdfte
 x.map} <../style/LMU-hintergrund1.png>]
 [LECTURE]=[4][\insertlecture ][2][1]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 2
-05.
-
-("/Users/omid/Library/Application Support/MiKTeX/texmfs/install/tex/latex/doubl
-estroke/Udsrom.fd"
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 206.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.59999pt on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.27998pt on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.59999pt on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 8.27998pt on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 207.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 4.59999pt on input line 207.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 211.
+(Font)              scaled to size 7.35999pt on input line 222.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 3.68pt on input line 224.
+(Font)              scaled to size 3.68pt on input line 246.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.68pt on input line 224.
- [2
+(Font)              scaled to size 3.68pt on input line 246.
+[2
 
 ] [3
+
+
+] [4
 
 
 ]
 <plots/hill.pdf, id=54, 578.16pt x 289.08pt>
 File: plots/hill.pdf Graphic file (type pdf)
 <use plots/hill.pdf>
-Package pdftex.def Info: plots/hill.pdf  used on input line 232.
+Package pdftex.def Info: plots/hill.pdf  used on input line 254.
 (pdftex.def)             Requested size: 286.80176pt x 143.39719pt.
- [4
-
- <./plots/hill.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 241.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.19998pt on input line 243.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.19998pt on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.43999pt on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.43999pt on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 4.59999pt on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.19998pt on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 245.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 6.43999pt on input line 245.
-<plots/gdes3.png, id=68, 605.26125pt x 895.345pt>
-File: plots/gdes3.png Graphic file (type png)
-<use plots/gdes3.png>
-Package pdftex.def Info: plots/gdes3.png  used on input line 254.
-(pdftex.def)             Requested size: 143.40086pt x 212.12749pt.
  [5
 
- <./plots/gdes3.png>]
-[6
-
+ <./plots/hill.pdf>] [6
 
 ]
-<plots/stepsize_small.png, id=83, 156.585pt x 160.80075pt>
-File: plots/stepsize_small.png Graphic file (type png)
-<use plots/stepsize_small.png>
-Package pdftex.def Info: plots/stepsize_small.png  used on input line 274.
-(pdftex.def)             Requested size: 95.6022pt x 98.17908pt.
-<plots/stepsize_large.png, id=84, 162.6075pt x 164.41425pt>
-File: plots/stepsize_large.png Graphic file (type png)
-<use plots/stepsize_large.png>
-Package pdftex.def Info: plots/stepsize_large.png  used on input line 275.
-(pdftex.def)             Requested size: 95.6022pt x 96.66737pt.
- [7
-
- <./plots/stepsize_small.png> <./plots/stepsize_large.png>]
-File: plots/stepsize_small.png Graphic file (type png)
-<use plots/stepsize_small.png>
-Package pdftex.def Info: plots/stepsize_small.png  used on input line 285.
-(pdftex.def)             Requested size: 95.6022pt x 98.17908pt.
-<plots/stepsize_adaptive.png, id=94, 187.29974pt x 193.9245pt>
-File: plots/stepsize_adaptive.png Graphic file (type png)
-<use plots/stepsize_adaptive.png>
-Package pdftex.def Info: plots/stepsize_adaptive.png  used on input line 285.
-(pdftex.def)             Requested size: 95.6022pt x 98.98303pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.27998pt on input line 287.
- [8
-
- <./plots/stepsize_adaptive.png>]
-<plots/SGD.png, id=102, 709.65125pt x 405.515pt>
+<plots/SGD.png, id=74, 709.65125pt x 405.515pt>
 File: plots/SGD.png Graphic file (type png)
 <use plots/SGD.png>
-Package pdftex.def Info: plots/SGD.png  used on input line 314.
+Package pdftex.def Info: plots/SGD.png  used on input line 293.
 (pdftex.def)             Requested size: 286.80176pt x 163.89235pt.
- [9
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 301.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.27998pt on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 4.59999pt on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 8.27998pt on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 304.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 4.59999pt on input line 304.
+ [7
 
-] [10
+] [8
 
 
-] [11
-
-
- <./plots/SGD.png>] [12
-
-
-] [13
-
-
-] [14
+ <./plots/SGD.png>] [9
 
 
 ]
+<plots/momentum.png, id=101, 648.17157pt x 383.18156pt>
+File: plots/momentum.png Graphic file (type png)
+<use plots/momentum.png>
+Package pdftex.def Info: plots/momentum.png  used on input line 328.
+(pdftex.def)             Requested size: 286.80176pt x 169.54759pt.
+ [10
+
+ <./plots/momentum.png>]
+<plots/earlystop.png, id=108, 312.56775pt x 202.95825pt>
+File: plots/earlystop.png Graphic file (type png)
+<use plots/earlystop.png>
+Package pdftex.def Info: plots/earlystop.png  used on input line 340.
+(pdftex.def)             Requested size: 286.80176pt x 186.22835pt.
+ [11
+
+ <./plots/earlystop.png>]
+<plots/weight_decay.png, id=117, 582.175pt x 586.19pt>
+File: plots/weight_decay.png Graphic file (type png)
+<use plots/weight_decay.png>
+Package pdftex.def Info: plots/weight_decay.png  used on input line 352.
+(pdftex.def)             Requested size: 286.80176pt x 288.78302pt.
+<plots/subnet1.png, id=118, 523.20468pt x 396.7322pt>
+File: plots/subnet1.png Graphic file (type png)
+<use plots/subnet1.png>
+Package pdftex.def Info: plots/subnet1.png  used on input line 363.
+(pdftex.def)             Requested size: 286.80176pt x 217.47693pt.
+ [12
+
+ <./plots/weight_decay.png>]
+[13
+
+
+ <./plots/subnet1.png>]
 \tf@nav=\write10
 \openout10 = `04-training.nav'.
 
@@ -2019,8 +1976,7 @@ Package pdftex.def Info: plots/SGD.png  used on input line 314.
 \tf@snm=\write12
 \openout12 = `04-training.snm'.
 
-
-(04-training.aux)
+ (04-training.aux)
 Package rerunfilecheck Info: File `04-training.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2029,11 +1985,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 34718 strings out of 481630
- 740204 string characters out of 2916546
- 1051248 words of memory out of 3000000
- 50711 multiletter control sequences out of 15000+200000
- 494969 words of font info for 141 fonts, out of 3000000 for 9000
+ 34683 strings out of 481630
+ 740044 string characters out of 2916546
+ 1045248 words of memory out of 3000000
+ 50687 multiletter control sequences out of 15000+200000
+ 475782 words of font info for 112 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  125i,13n,130p,461b,898s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvip
@@ -2055,17 +2011,14 @@ port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss9.pfb></Users/omi
 d/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/install/f
 onts/type1/public/amsfonts/cm/cmsy6.pfb></Users/omid/Library/Application Suppor
-t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/omid/L
-ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmsy9.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts
-/type1/public/doublestroke/dsrom10.pfb></Users/omid/Library/Application Support
-/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/omid/Library
-/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb>
-</Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/
-helvetic/uhvro8a.pfb>
-Output written on 04-training.pdf (14 pages, 550309 bytes).
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb></Users/omid/L
+ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvb8
+a.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/urw/helvetic/uhvr8a.pfb></Users/omid/Library/Application Support/MiKTeX/texmf
+s/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on 04-training.pdf (13 pages, 583476 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
