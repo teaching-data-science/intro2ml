@@ -1,0 +1,57 @@
+## Stochastic Gradient descent
+```{r, include=FALSE, cache=FALSE}
+#library(mxnet)
+ap = adjust_path(paste0(getwd(), "/figure"))
+
+source("code/functions.R")
+```
+
+- Optimization algorithms that use the entire training set to compute updates in one huge step are called batch or deterministic. This is computationally very costly or often impossible.
+
+- Instead of letting the sum run over the whole dataset (batch mode) one can also let it run only over small subsets of size $m$ (minibatches).
+
+- With minibatches of size $m$, a full pass over the training set (called an epoch) consists of $\frac{n}{m}$ gradient updates.
+
+## Stochastic Gradient descent
+
+  \begin{algorithm}[H]
+  \footnotesize
+    \caption{Basic SGD pseudo code}
+    \begin{algorithmic}[1]
+    \State Initialize parameter vector $\thetab^{[0]}$
+
+    \State $t \leftarrow 0$
+    \While{stopping criterion not met}
+    \State Randomly shuffle data and partition into minibatches $J_1, ..., J_K$ of size $m$
+      \For{$k\in\{1,...,K\}$}
+      \State $t \leftarrow t + 1$
+      \State Compute gradient estimate with $J_k$:
+      \[\hat{g}^{[t]} \leftarrow \frac{1}{m} \sum_{i \in J_k} \nabla_\theta L(\yi, f(\xi ~|~ \thetab^{[t-1]}))
+      \]
+      \State Apply update: $\thetab^{[t]} \leftarrow \thetab^{[t-1]} - \alpha \hat{g}^{[t]}$
+
+      \EndFor
+
+
+      \EndWhile
+    \end{algorithmic}
+  \end{algorithm}
+
+<!--
+## Stochastic gradient descent
+
+
+- For the mnist example of chapter one, we used SGD
+    -  with a minibatch of size 100
+    -  and trained for 10 epochs.
+
+- Consequently we feed our algorithm successively with 100 training samples
+  before updating the weights.
+
+- An epoch means that the model gets to see the whole training set one time.
+
+- Thus, one epoch involves $\frac{\text{training samples}}{\text{batch size}}$
+  gradient updates.
+
+- We repeat this procedure for 10 times.
+-->

@@ -1,0 +1,44 @@
+## Early Stopping
+```{r, include=FALSE, cache=FALSE}
+ap = adjust_path(paste0(getwd(), "/figure"))
+```
+
+- When training with an iterative optimizer such as SGD, it is commonly the case that after a certain number of iterations, generalization error begins to increase even though training error continues to decrease.
+- \textbf{Early stopping} refers to stopping the algorithm early, before the generalization error increases.
+
+\begin{figure}
+    \centering
+      \includegraphics[width=7cm]{`r ap("earlystop.png")`}
+      \caption{After a certain number of iterations, the algorithm begins to overfit.}
+\end{figure}
+
+
+## Early Stopping
+
+How early stopping works:
+
+1. Split training data $(X^{(train)}, y^{(train)})$ into
+   $(X^{(subtrain)}, y^{(subtrain)})$ and $(X^{(validation)}, y^{(validation)})$
+   (e.g. with a ratio of 2:1).
+
+2. Use $(X^{(subtrain)}, y^{(subtrain)})$ and evaluate model using the
+   $(X^{(validation)}, y^{(validation)})$.
+
+3. Stop training when validation error stops decreasing (after a range of
+   "patience" steps).
+
+4. Use parameters of the previous step for the actual model.
+
+## Early Stopping
+
+Strengths:
+
+- Effective and simple & Periodical evaluation of validation error
+- Applicable to almost any model without adjustment
+- Combinable with other regularization methods
+
+Weaknesses:
+
+- Periodical evaluation of validation error
+- Less data for training $\rightarrow$ include $(X^{(validation)}, y^{(validation)})$ afterwards
+

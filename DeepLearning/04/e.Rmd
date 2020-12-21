@@ -1,0 +1,26 @@
+## Further Regularization Strategies
+
+```{r, include=FALSE, cache=FALSE}
+ap = adjust_path(paste0(getwd(), "/figure"))
+```
+
+- Parameter penalties
+    - Same as Rigde Regression/L2-Regularization
+    - Often referred to as _weight decay_ since weights are pulled to zero if they are not updated by large enough values.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=5cm]{`r ap("weight_decay.png")`}
+\end{figure}
+
+
+## Further Regularization Strategies
+
+- Dropout
+    - Force the network to generalize by reducing its capacity to memorize data
+    - Each neuron has a fixed probability to be deactivated at each training step
+
+\begin{figure}
+  \centering
+    \includegraphics[width=5cm]{`r ap("subnet1.png")`}
+\end{figure}
