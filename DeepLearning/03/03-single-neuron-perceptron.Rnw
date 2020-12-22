@@ -4,7 +4,7 @@ set_parent("../style/preamble.Rnw")
 @
 
 <<size = "scriptsize", include=FALSE>>=
-source("code/functions.R")
+source("../code/functions.R")
 @
 
 \input{../latex-math/basic-math}
