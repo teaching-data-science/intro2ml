@@ -79,26 +79,32 @@ source("../code/functions.R")
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \item \pkg{1985:} The second \enquote{AI Winter} kicked in.
+
 \begin{itemize}
-\item Overly optimistic expectations concerning potential of AI/DL.
-\item The phrase \enquote{AI} even reached a pseudoscience status.
-\item Kernel machines and graphical models both achieved good results on many important tasks.
-\item Some fundamental mathematical difficulties in modeling long sequences were identified.
+\footnotesize\item Overly optimistic expectations concerning potential of AI/DL.
+\footnotesize\item The phrase \enquote{AI} even reached a pseudoscience status.
+\footnotesize\item Kernel machines and graphical models both achieved good results on many important tasks.
+\footnotesize\item Some fundamental mathematical difficulties in modeling long sequences were identified.
 \end{itemize}
 \begin{figure}
-\includegraphics[width=7cm]{../plots/ai_winter.jpg}
+\includegraphics[width=8cm]{../plots/ai_winter.jpg}
+\\
+\tiny{Credit: https://emerj.com/ai-executive-guides/will-there-be-another-artificial-intelligence-winter-probably-not/}
 \end{figure}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \item \pkg{2006:} Age of deep neural networks began.
+
 \begin{itemize}
-\item Geoffrey Hinton showed that a deep belief network could be efficiently trained using \textit{greedy layer-wise pretraining}.
-\item This wave of research popularized the use of the term deep learning to emphasize that researchers were now able to train deeper neural networks than had been possible before.
-\item At this time, deep neural networks outperformed competing AI systems based on other ML technologies as well as hand-designed functionality.
+\footnotesize\item Geoffrey Hinton showed that a deep belief network could be efficiently trained using \textit{greedy layer-wise pretraining}.
+\footnotesize\item This wave of research popularized the use of the term deep learning to emphasize that researchers were now able to train deeper neural networks than had been possible before.
+\footnotesize\item At this time, deep neural networks outperformed competing AI systems based on other ML technologies as well as hand-designed functionality.
 \end{itemize}
 \begin{figure}
-\includegraphics[width=6.5cm]{../plots/dl_feature2.png}
+\includegraphics[width=7cm]{../plots/dl_feature2.png}
+\\
+\tiny{Credit: https://towardsdatascience.com/cnn-application-on-structured-data-automated-feature-extraction-8f2cd28d9a7e}
 \end{figure}
 \end{itemize}
 \framebreak

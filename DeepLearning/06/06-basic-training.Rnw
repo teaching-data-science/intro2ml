@@ -164,7 +164,7 @@ Understanding machine learning: From theory to algorithms. Cambridge University 
 \item Often referred to as \textit{weight decay} since weights are pulled to zero if they are not updated by large enough values.
 \end{itemize}
 \begin{figure}
-\scalebox{.5}{\includegraphics{../plots/weight_decay.png}}
+\scalebox{1}{\includegraphics{../plots/weight_decay.png}}
 \end{figure}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
