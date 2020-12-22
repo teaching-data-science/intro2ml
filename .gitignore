@@ -15,3 +15,6 @@ public/screenshot.png
 public/index.html
 public/manifest.webmanifest
 DeepLearning/latex-math/
+.DS_Store
+DeepLearning/.DS_Store
+DeepLearning/03/.DS_Store

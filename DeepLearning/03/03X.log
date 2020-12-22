@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  21 DEC 2020 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.8)  22 DEC 2020 03:07
 entering extended mode
 **./03X.tex
 (03X.tex
@@ -1917,270 +1917,185 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 279.
+(Font)              scaled to size 7.35999pt on input line 283.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/m/n' instead on input line 302.
+(Font)              using `OT1/cmss/m/n' instead on input line 284.
 
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 302.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 284.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 10.07397pt on input line 302.
+(Font)              scaled to size 10.07397pt on input line 284.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <8> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 302.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 284.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 7.35999pt on input line 302.
+(Font)              scaled to size 7.35999pt on input line 284.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <6> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 302.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 284.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 5.51999pt on input line 302.
+(Font)              scaled to size 5.51999pt on input line 284.
 [7
 
-] [8
-
-
-] [9
-
-
 ]
-<plots/sinlay_one.png, id=101, 963.6pt x 722.7pt>
-File: plots/sinlay_one.png Graphic file (type png)
-<use plots/sinlay_one.png>
-Package pdftex.def Info: plots/sinlay_one.png  used on input line 345.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
+<plots/singlelay_1.png, id=85, 419.166pt x 341.1144pt>
+File: plots/singlelay_1.png Graphic file (type png)
+<use plots/singlelay_1.png>
+Package pdftex.def Info: plots/singlelay_1.png  used on input line 307.
+(pdftex.def)             Requested size: 286.80176pt x 233.40169pt.
+ [8
 
-Overfull \vbox (27.76439pt too high) detected at line 345
- []
+ <./plots/singlelay_1.png>]
+<plots/singlelay_2.png, id=93, 419.166pt x 341.1144pt>
+File: plots/singlelay_2.png Graphic file (type png)
+<use plots/singlelay_2.png>
+Package pdftex.def Info: plots/singlelay_2.png  used on input line 307.
+(pdftex.def)             Requested size: 286.80176pt x 233.40169pt.
+ [9
 
-[10
+ <./plots/singlelay_2.png>]
+<plots/singlelay_3.png, id=101, 419.166pt x 343.0416pt>
+File: plots/singlelay_3.png Graphic file (type png)
+<use plots/singlelay_3.png>
+Package pdftex.def Info: plots/singlelay_3.png  used on input line 307.
+(pdftex.def)             Requested size: 286.80176pt x 234.72034pt.
+ [10
 
- <./plots/sinlay_one.png (PNG copy)>]
-<plots/sinlay_two.png, id=108, 963.6pt x 722.7pt>
-File: plots/sinlay_two.png Graphic file (type png)
-<use plots/sinlay_two.png>
-Package pdftex.def Info: plots/sinlay_two.png  used on input line 345.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
+ <./plots/singlelay_3.png>]
+<plots/singlelay_4.png, id=109, 419.166pt x 341.1144pt>
+File: plots/singlelay_4.png Graphic file (type png)
+<use plots/singlelay_4.png>
+Package pdftex.def Info: plots/singlelay_4.png  used on input line 307.
+(pdftex.def)             Requested size: 286.80176pt x 233.40169pt.
+ [11
 
-Overfull \vbox (27.76439pt too high) detected at line 345
- []
+ <./plots/singlelay_4.png>]
+<plots/singlelay_5.png, id=117, 419.166pt x 268.8444pt>
+File: plots/singlelay_5.png Graphic file (type png)
+<use plots/singlelay_5.png>
+Package pdftex.def Info: plots/singlelay_5.png  used on input line 307.
+(pdftex.def)             Requested size: 286.80176pt x 183.9522pt.
+ [12
 
-[11
-
- <./plots/sinlay_two.png (PNG copy)>]
-<plots/sinlay_three.png, id=115, 963.6pt x 722.7pt>
-File: plots/sinlay_three.png Graphic file (type png)
-<use plots/sinlay_three.png>
-Package pdftex.def Info: plots/sinlay_three.png  used on input line 345.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (14.16438pt too high) detected at line 345
- []
-
-[12
-
- <./plots/sinlay_three.png (PNG copy)>]
-<plots/sinlay_four.png, id=122, 963.6pt x 722.7pt>
-File: plots/sinlay_four.png Graphic file (type png)
-<use plots/sinlay_four.png>
-Package pdftex.def Info: plots/sinlay_four.png  used on input line 345.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (14.16438pt too high) detected at line 345
- []
+ <./plots/singlelay_5.png>]
+<plots/singlelay_6.png, id=125, 419.166pt x 330.9966pt>
+File: plots/singlelay_6.png Graphic file (type png)
+<use plots/singlelay_6.png>
+Package pdftex.def Info: plots/singlelay_6.png  used on input line 307.
+(pdftex.def)             Requested size: 286.80176pt x 226.47876pt.
 
 [13
 
- <./plots/sinlay_four.png (PNG copy)>]
-<plots/sinlay_five.png, id=130, 963.6pt x 722.7pt>
-File: plots/sinlay_five.png Graphic file (type png)
-<use plots/sinlay_five.png>
-Package pdftex.def Info: plots/sinlay_five.png  used on input line 345.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (14.16438pt too high) detected at line 345
- []
-
-[14
-
- <./plots/sinlay_five.png (PNG copy)>]
-<plots/sinlay_six.png, id=137, 963.6pt x 722.7pt>
-File: plots/sinlay_six.png Graphic file (type png)
-<use plots/sinlay_six.png>
-Package pdftex.def Info: plots/sinlay_six.png  used on input line 345.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (14.16438pt too high) detected at line 345
- []
-
-[15
-
- <./plots/sinlay_six.png (PNG copy)>]
+ <./plots/singlelay_6.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 359.
-<plots/sinlay_seven.png, id=144, 963.6pt x 722.7pt>
-File: plots/sinlay_seven.png Graphic file (type png)
-<use plots/sinlay_seven.png>
-Package pdftex.def Info: plots/sinlay_seven.png  used on input line 359.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
+(Font)              scaled to size 9.19998pt on input line 318.
+<plots/singlelay_7.png, id=134, 419.166pt x 330.033pt>
+File: plots/singlelay_7.png Graphic file (type png)
+<use plots/singlelay_7.png>
+Package pdftex.def Info: plots/singlelay_7.png  used on input line 318.
+(pdftex.def)             Requested size: 286.80176pt x 225.81944pt.
+ [14
 
-Overfull \vbox (4.26991pt too high) detected at line 359
- []
+ <./plots/singlelay_7.png>]
+<plots/singlelay_8.png, id=142, 525.6438pt x 357.0138pt>
+File: plots/singlelay_8.png Graphic file (type png)
+<use plots/singlelay_8.png>
+Package pdftex.def Info: plots/singlelay_8.png  used on input line 318.
+(pdftex.def)             Requested size: 286.80176pt x 194.80017pt.
+ [15
 
-[16
+ <./plots/singlelay_8.png>]
+<plots/singlelay_9.png, id=150, 419.166pt x 363.2772pt>
+File: plots/singlelay_9.png Graphic file (type png)
+<use plots/singlelay_9.png>
+Package pdftex.def Info: plots/singlelay_9.png  used on input line 318.
+(pdftex.def)             Requested size: 286.80176pt x 248.56622pt.
+ [16
 
- <./plots/sinlay_seven.png (PNG copy)>]
-<plots/sinlay_eight.png, id=151, 963.6pt x 722.7pt>
-File: plots/sinlay_eight.png Graphic file (type png)
-<use plots/sinlay_eight.png>
-Package pdftex.def Info: plots/sinlay_eight.png  used on input line 359.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
+ <./plots/singlelay_9.png>]
+<plots/relu.png, id=158, 1201.48875pt x 449.68pt>
+File: plots/relu.png Graphic file (type png)
+<use plots/relu.png>
+Package pdftex.def Info: plots/relu.png  used on input line 328.
+(pdftex.def)             Requested size: 286.80176pt x 107.34216pt.
+<plots/tanh.png, id=159, 1191.45125pt x 444.66125pt>
+File: plots/tanh.png Graphic file (type png)
+<use plots/tanh.png>
+Package pdftex.def Info: plots/tanh.png  used on input line 338.
+(pdftex.def)             Requested size: 286.80176pt x 107.03297pt.
+<plots/sigmoid.png, id=160, 1033.8625pt x 348.30125pt>
+File: plots/sigmoid.png Graphic file (type png)
+<use plots/sigmoid.png>
+Package pdftex.def Info: plots/sigmoid.png  used on input line 348.
+(pdftex.def)             Requested size: 286.80176pt x 96.6202pt.
+ [17
 
-Overfull \vbox (4.26991pt too high) detected at line 359
- []
+ <./plots/relu.png>] [18
 
-[17
 
- <./plots/sinlay_eight.png (PNG copy)>]
-<plots/sinlay_nine.png, id=158, 963.6pt x 722.7pt>
-File: plots/sinlay_nine.png Graphic file (type png)
-<use plots/sinlay_nine.png>
-Package pdftex.def Info: plots/sinlay_nine.png  used on input line 359.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
+ <./plots/tanh.png>] [19
 
-Overfull \vbox (4.26991pt too high) detected at line 359
- []
 
-[18
+ <./plots/sigmoid.png>]
+<plots/deepneuralnet_new.png, id=183, 505.89pt x 271.0125pt>
+File: plots/deepneuralnet_new.png Graphic file (type png)
+<use plots/deepneuralnet_new.png>
+Package pdftex.def Info: plots/deepneuralnet_new.png  used on input line 357.
+(pdftex.def)             Requested size: 298.75394pt x 160.04898pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.19998pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 6.43999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.43999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 4.59999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 9.19998pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 6.43999pt on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 358.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 4.59999pt on input line 358.
+ [20
 
- <./plots/sinlay_nine.png (PNG copy)>]
-<plots/sinlay_ten.png, id=165, 963.6pt x 722.7pt>
-File: plots/sinlay_ten.png Graphic file (type png)
-<use plots/sinlay_ten.png>
-Package pdftex.def Info: plots/sinlay_ten.png  used on input line 359.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (4.26991pt too high) detected at line 359
- []
-
-[19
-
- <./plots/sinlay_ten.png (PNG copy)>]
-<plots/sinlay_eleven.png, id=173, 963.6pt x 722.7pt>
-File: plots/sinlay_eleven.png Graphic file (type png)
-<use plots/sinlay_eleven.png>
-Package pdftex.def Info: plots/sinlay_eleven.png  used on input line 359.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (4.26991pt too high) detected at line 359
- []
-
-[20
-
- <./plots/sinlay_eleven.png (PNG copy)>]
-<plots/sinlay_twelve.png, id=180, 963.6pt x 722.7pt>
-File: plots/sinlay_twelve.png Graphic file (type png)
-<use plots/sinlay_twelve.png>
-Package pdftex.def Info: plots/sinlay_twelve.png  used on input line 359.
-(pdftex.def)             Requested size: 286.80176pt x 215.09137pt.
-
-Overfull \vbox (4.26991pt too high) detected at line 359
- []
+ <./plots/deepneuralnet_new.png>]
+<plots/folding.png, id=191, 688.07062pt x 192.72pt>
+File: plots/folding.png Graphic file (type png)
+<use plots/folding.png>
+Package pdftex.def Info: plots/folding.png  used on input line 374.
+(pdftex.def)             Requested size: 298.75394pt x 83.67665pt.
 
 [21
 
- <./plots/sinlay_twelve.png (PNG copy)>] [22
+ <./plots/folding.png>] [22
 
-]
-<plots/relu.png, id=193, 1201.48875pt x 449.68pt>
-File: plots/relu.png Graphic file (type png)
-<use plots/relu.png>
-Package pdftex.def Info: plots/relu.png  used on input line 384.
-(pdftex.def)             Requested size: 286.80176pt x 107.34216pt.
- [23
-
- <./plots/relu.png>]
-<plots/tanh.png, id=201, 1191.45125pt x 444.66125pt>
-File: plots/tanh.png Graphic file (type png)
-<use plots/tanh.png>
-Package pdftex.def Info: plots/tanh.png  used on input line 395.
-(pdftex.def)             Requested size: 286.80176pt x 107.03297pt.
-
-[24
-
- <./plots/tanh.png>]
-<plots/sigmoid.png, id=209, 1033.8625pt x 348.30125pt>
-File: plots/sigmoid.png Graphic file (type png)
-<use plots/sigmoid.png>
-Package pdftex.def Info: plots/sigmoid.png  used on input line 406.
-(pdftex.def)             Requested size: 286.80176pt x 96.6202pt.
- [25
-
- <./plots/sigmoid.png>]
-<plots/deepneuralnet_new.png, id=218, 505.89pt x 271.0125pt>
-File: plots/deepneuralnet_new.png Graphic file (type png)
-<use plots/deepneuralnet_new.png>
-Package pdftex.def Info: plots/deepneuralnet_new.png  used on input line 436.
-(pdftex.def)             Requested size: 298.75394pt x 160.04898pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.19998pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.59999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.19998pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.43999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.59999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.43999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 4.59999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.19998pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 6.43999pt on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <5> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 437.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 4.59999pt on input line 437.
- [26
-
-] [27
-
-
-] [28
-
-
- <./plots/deepneuralnet_new.png>]
-<plots/folding.png, id=238, 688.07062pt x 192.72pt>
-File: plots/folding.png Graphic file (type png)
-<use plots/folding.png>
-Package pdftex.def Info: plots/folding.png  used on input line 450.
-(pdftex.def)             Requested size: 298.75394pt x 83.67665pt.
- [29
-
- <./plots/folding.png>] [30
-
-] [31
+] [23
 
 
 ]
@@ -2205,31 +2120,28 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 34860 strings out of 481630
- 743371 string characters out of 2916546
- 1046136 words of memory out of 3000000
- 50815 multiletter control sequences out of 15000+200000
- 482135 words of font info for 121 fonts, out of 3000000 for 9000
+ 34821 strings out of 481630
+ 742777 string characters out of 2916546
+ 1045135 words of memory out of 3000000
+ 50795 multiletter control sequences out of 15000+200000
+ 482078 words of font info for 121 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 125i,13n,130p,475b,898s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 125i,13n,130p,453b,896s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvip
 s/base/8r.enc}</Users/omid/Library/Application Support/MiKTeX/texmfs/install/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb></Users/omid/Library/Application Suppor
-t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/omid/L
-ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmss10.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/install/font
-s/type1/public/amsfonts/cm/cmss8.pfb></Users/omid/Library/Application Support/M
-iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/omid/Lib
-rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb></Users/omid/Library/Application Support/MiKTeX/te
-xmfs/install/fonts/type1/urw/helvetic/uhvbo8a.pfb></Users/omid/Library/Applicat
-ion Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/o
-mid/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/
-uhvro8a.pfb>
-Output written on 03X.pdf (31 pages, 1318471 bytes).
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></Users/omid/
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmss8.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/install/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></Users/omid/Library/Application Support/
+MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/omid/Library/
+Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+</Users/omid/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/
+helvetic/uhvr8a.pfb></Users/omid/Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on 03X.pdf (23 pages, 1200152 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

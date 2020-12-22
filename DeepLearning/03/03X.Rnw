@@ -85,59 +85,21 @@ source("code/functions.R")
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{vbframe}{Single Hidden Layer Networks}
 
-\begin{vbframe}{Single Hidden Layer Networks: Notation}
-  \textbf{General notation}:
-  \begin{itemize}
-    \vspace{4mm}
-    \item The network has $m$ hidden neurons $z_1, \dots, z_m$ with
-    $$ z_j = \sigma(\Wmat_j^\top \xv + b_j)$$
-    \vspace{-0.5cm}
-    \begin{itemize}
-    \item $z_{in,j}  = \Wmat_j^\top \xv + b_j$
-    \vspace{2mm}
-    \item $z_{out,j} = \sigma(z_{in,j}) = \sigma(\Wmat_j^\top \xv + b_j)$
-    \end{itemize}
-    \vspace{4mm}
-    for $j \in \{1,\ldots,m\}$.
-    \vspace{4mm}
-    \end{itemize}
-\framebreak 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Recall:} a single neuron performs a 2-step computation:
+\begin{enumerate}
+\item \textbf{Affine Transformation:} weighted sum of inputs plus bias.
+\item \textbf{Non-linear Activation:} a non-linear transformation applied to the weighted sum.
+\end{enumerate}
 
-  \textbf{General notation: Multiple inputs}
-  \begin{itemize}
-    \item It is possible to feed multiple inputs to a neural network simultaneously.
-    \vspace{2mm}
-    \item The inputs $\xi$, for $i \in \nset$, are arranged as rows in the \textbf{design matrix} $\Xmat$.
-    \begin{itemize}
-      \item $\Xmat$ is a ($n \times p$)-matrix.
-    \end{itemize}
-    \vspace{2mm}
-    \item The weighted sum in the hidden layer is now computed as $\Xmat\Wmat + \bm{B}$, where,
-      \begin{itemize}
-        \item $\Wmat$, as usual, is a ($p \times m$) matrix, and,
-        \vspace{2mm}
-        \item $\bm{B}$ is a ($n \times m$) matrix containing the bias vector $\biasb$ (duplicated) as the rows of the matrix.
-      \end{itemize}
-    \vspace{2mm}
-    \item The \textit{matrix} of hidden activations $\bm{Z} = \sigma(\Xmat\Wmat + \bm{B})$
-    \begin{itemize}
-      \item $\bm{Z}$ is a ($n \times m$) matrix.
-    \end{itemize}
-  \end{itemize}
-\framebreak
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \begin{itemize}
-    \vspace{15mm}
-    \item The final output of the network, which contains a prediction for each input, is $\tau(\bm{Z}\wtu + \bm{C})$, where
-      \begin{itemize}
-        \vspace{2mm}
-        \item $\wtu$ is the vector of weights of the output neuron, and,
-        \vspace{2mm}
-        \item $\bm{C}$ is a ($n \times 1$) matrix whose elements are the (scalar) bias $c$ of the output neuron.
-      \end{itemize}
-  \end{itemize}
+\begin{itemize}
+\item It is possible to feed multiple inputs to a neural network simultaneously.
+\item The inputs $\xi$, for $i \in \nset$, are arranged as rows in the \textbf{design matrix} $\Xmat$.
+\item The weighted sum in the hidden layer is now computed as $\Xmat\Wmat + \bm{B}$, where,
+\item The \textit{matrix} of hidden activations $\bm{Z} = \sigma(\Xmat\Wmat + \bm{B})$
+\item The final output of the network, which contains a prediction for each input, is $\tau(\bm{Z}\wtu + \bm{C})$, where
+\end{itemize}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -146,12 +108,12 @@ source("code/functions.R")
     \item Weights (and biases) of the network.
   \begin{figure}
     \centering
-      \only<1>{\scalebox{1}{\includegraphics{plots/sinlay_one.png}}}
-      \only<2>{\scalebox{1}{\includegraphics{plots/sinlay_two.png}}}
-      \only<3>{\scalebox{1}{\includegraphics{plots/sinlay_three.png}}}
-      \only<4>{\scalebox{1}{\includegraphics{plots/sinlay_four.png}}}
-      \only<5>{\scalebox{1}{\includegraphics{plots/sinlay_five.png}}}
-      \only<6>{\scalebox{1}{\includegraphics{plots/sinlay_six.png}}}
+      \only<1>{\scalebox{.8}{\includegraphics{plots/singlelay_1.png}}}
+      \only<2>{\scalebox{.8}{\includegraphics{plots/singlelay_2.png}}}
+      \only<3>{\scalebox{.8}{\includegraphics{plots/singlelay_3.png}}}
+      \only<4>{\scalebox{.8}{\includegraphics{plots/singlelay_4.png}}}
+      \only<5>{\scalebox{.8}{\includegraphics{plots/singlelay_5.png}}}
+      \only<6>{\scalebox{.8}{\includegraphics{plots/singlelay_6.png}}}
   \end{figure}
   \begin{figure}
     \centering
@@ -164,92 +126,51 @@ source("code/functions.R")
 \small{Forward pass through the shallow neural network.}
   \begin{figure}
     \centering
-    \only<1>{\scalebox{1}{\includegraphics{plots/sinlay_seven.png}}}
-    \only<2>{\scalebox{1}{\includegraphics{plots/sinlay_eight.png}}}
-    \only<3>{\scalebox{1}{\includegraphics{plots/sinlay_nine.png}}}
-    \only<4>{\scalebox{1}{\includegraphics{plots/sinlay_ten.png}}}
-    \only<5>{\scalebox{1}{\includegraphics{plots/sinlay_eleven.png}}}
-    \only<6>{\scalebox{1}{\includegraphics{plots/sinlay_twelve.png}}}
+    \only<1>{\scalebox{.8}{\includegraphics{plots/singlelay_7.png}}}
+    \only<2>{\scalebox{.8}{\includegraphics{plots/singlelay_8.png}}}
+    \only<3>{\scalebox{.8}{\includegraphics{plots/singlelay_9.png}}}
   \end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame} {Hidden Layer: Activation Function}
-  \begin{itemize}
-    \item It is important to note that if the hidden layer does not have a non-linear activation, the network can only learn linear decision boundaries.
-    \item For simplification purposes, we drop the bias terms in notation and let $\sigma = \text{id}$. Then:
-    \begin{eqnarray*}
-        f(\xv) & = & \tau(\wtu^\top \hidz) = \tau(\wtu^\top \sigma(\Wmat^\top \xv)) \\
-         & = & \tau(\wtu^\top \sigma(\Wmat^\top \xv)) \\
-         & = & \tau(\wtu^\top\Wmat^\top \xv) = \tau(\mathbf{v}^\top \xv)
-      \end{eqnarray*}
-      where $ \mathbf{v} = \Wmat\wtu$. It can be seen that $f(\xv)$ can only yield a linear decision boundary.
-  \end{itemize}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame} {Hidden Layer: Activation Function}
-  \begin{blocki}{ReLU activation:}
-    \item Currently the most popular choice is the ReLU (rectified linear unit):
-    $$ \sigma (v) = \max(0,v) $$
-  \end{blocki}
+\begin{vbframe}{Hidden Layer: Activation Function}
+\textbf{Note:} if the hidden layer does not have a non-linear activation, the network can only learn linear decision boundaries.
+\begin{blocki}{ReLU Activation:}
+\item Currently the most popular choice is the ReLU (rectified linear unit):
+$$ \sigma (v) = \max(0,v) $$
+\end{blocki}
 \begin{figure}
-\scalebox{.7}{\includegraphics{plots/relu.png}}
+\scalebox{1}{\includegraphics{plots/relu.png}}
 \end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame} {Hidden Layer: Activation Function}
-  \begin{blocki}{Hyperbolic tangent activation:}
-    \item Another choice might be the hyperbolic tangent function:
-    $$ \sigma (v) = \text{tanh}(v) = \frac{\text{sinh}(v)}{\text{cosh}(v)} = 1 - \frac{2}{\exp(2v) + 1}$$
-  \end{blocki}
-\begin{figure}
-\scalebox{.7}{\includegraphics{plots/tanh.png}}
-\end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame} {Hidden Layer: Activation Function}
-  \begin{blocki}{Sigmoid activation function:}
-  \item Of course, as seen in the previous example, the sigmoid function can be used even in the hidden layer:
-    $$ \sigma(v) = \frac{1}{1+\exp (-v)} $$
-  \end{blocki}
-\begin{figure}
-\scalebox{.7}{\includegraphics{plots/sigmoid.png}}
-\end{figure}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{vbframe}{Feedforward neural networks}
-  \begin{itemize}
-    \vspace{15mm}
-    \item We will now extend the model class once again, such that we allow an arbitrary amount of $l$ (hidden) layers.
-    \vspace{5mm}
-    \item The general term for this model class is (multi-layer) \textbf{feedforward networks} (inputs are passed through the network from left to right, no feedback-loops are allowed)
-\end{itemize}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}
-\item We can characterize those models by the following chain structure: $$f(\xv) = \tau \circ \phi \circ \sigma^{(l)} \circ \phi^{(l)} \circ \sigma^{(l-1)} \circ \phi^{(l-1)} \circ \ldots \circ \sigma^{(1)} \circ \phi^{(1)}$$ where $\sigma^{(i)}$ and $\phi^{(i)}$ are the activation function and the weighted sum of hidden layer $i$, respectively. $\tau$ and $\phi$ are the corresponding components of the output layer.
 
-\item Each hidden layer has: 
-      \begin{itemize}
-        \vspace{2mm}
-        \item an associated weight matrix $\Wmat^{(i)}$, bias $\biasb^{(i)}$ and activations $\hidz^{(i)}$ for $i \in \{ 1 \ldots l\}$
-        \vspace{2mm}
-        \item $\hidz^{(i)} = \sigma^{(i)}(\phi^{(i)}) = \sigma^{(i)}(\Wmat^{(i)T}\hidz^{(i - 1)} + \biasb^{(i)})$ , where $\hidz^{(0)} = \xv$.
-      \end{itemize}
-    \vspace{5mm}
-    \item Again, without non-linear activations in the hidden layers, the network can only learn linear decision boundaries.
-  \end{itemize}
+\begin{blocki}{Hyperbolic Tangent Activation:}
+\item Another choice might be the hyperbolic tangent function:
+$$ \sigma (v) = \text{tanh}(v) = \frac{\text{sinh}(v)}{\text{cosh}(v)} = 1 - \frac{2}{\exp(2v) + 1}$$
+\end{blocki}
+\begin{figure}
+\scalebox{1}{\includegraphics{plots/tanh.png}}
+\end{figure}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{blocki}{Sigmoid Activation Function:}
+\item The sigmoid function can be used even in the hidden layer:
+$$ \sigma(v) = \frac{1}{1+\exp (-v)} $$
+\end{blocki}
+\begin{figure}
+\scalebox{1}{\includegraphics{plots/sigmoid.png}}
+\end{figure}
+\end{vbframe}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{vbframe}{Deep Feedforward Network}
   \lz
   \begin{figure}
     \centering
       \includegraphics[width=10.5cm]{plots/deepneuralnet_new.png}
-      \caption{Structure of a deep neural network with $l$ hidden layers (bias terms omitted).}
+      \caption{Structure of a deep neural network with $l$ hidden layers.}
   \end{figure}
 \end{vbframe}  
 
@@ -257,29 +178,40 @@ source("code/functions.R")
 
 \begin{vbframe}{Why add more layers?}
 \begin{itemize}
-\item Multiple layers allow for the extraction of more and more abstract representations.
+\item Multiple layers allow for the extraction of more and more abstract
+representations.
+\lz
 \item Each layer in a feed-forward neural network adds its own degree of non-linearity to the model.
 \end{itemize}
-  \begin{figure}
-    \centering
-      \includegraphics[width=10.5cm]{plots/folding}
-      \caption{An intuitive, geometric explanation of the exponential advantage of deeper networks formally (Mont\'{u}far et al. (2014)).}
-  \end{figure}
+\lz
+\begin{figure}
+\centering
+\includegraphics[width=10.5cm]{plots/folding}
+\caption{An intuitive, geometric explanation of the exponential advantage of deeper networks formally (Mont\'{u}far et al. (2014)).}
+\end{figure}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{vbframe}{Deep neural networks}
-  \begin{itemize}
-    \item Neural networks today can have dozens or even hundreds of hidden layers. The greater the number of layers, the "deeper" the network. 
-    \item Historically, deep neural networks were very challenging to train for several reasons.
-    \item For one thing, the use of sigmoid activations (such as logistic sigmoid and tanh) significantly slowed down training due to a phenomenon known as \enquote{vanishing gradients}. The introduction of the ReLU activation largely solved this problem.
-    \item Additionally, training deep neural networks on CPUs was too slow to be practical. Switching over to GPUs (Graphics Processing Units) cut down training time by more than an order of magnitude.
-    \item Another reason neural networks were not popular until the late '00s is that when dataset sizes are small, other models (such as SVMs) and techniques (such as feature engineering) outperform them. 
-    \item Therefore, the availability of large datasets (such as ImageNet) and novel architectures that are capable to handle even complex tensor-shaped data (e.g. CNNs for image data), significantly faster hardware, and equally better optimization and regularization methods made it feasible to successfully implement deep neural networks in the last decade.
-    \item An increase in depth often translates to an increase in performance on a given task. 
-    \item State-of-the-art neural networks, however, are much more sophisticated than the simple architectures we have encountered so far. (Stay tuned!)
-    \item The term "\textbf{deep learning}" encompasses all of these developments and refers to the field as a whole.
-  \end{itemize}
+
+Neural networks today can have dozens or even hundreds of hidden layers. The greater the number of layers, the "deeper" the network. Historically, however, deep neural networks were very challenging to train for several reasons:
+\lz
+\begin{enumerate}
+\item For one thing, the use of sigmoid activations (e.g., logistic sigmoid and tanh) significantly slowed down training due to a phenomenon known as \enquote{vanishing gradients}. The introduction of the ReLU activation largely solved this problem.
+\item Training deep neural networks on CPUs was too slow to be practical. Switching over to GPUs cut down training time by more than an order of magnitude.
+\item Another reason neural networks were not popular until the late '00s is that when dataset sizes are small, other models (such as SVMs) and techniques (such as feature engineering) outperform them. 
+\end{enumerate}
+\framebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item The availability of large datasets and novel architectures that are capable to handle even complex tensor-shaped data (e.g. CNNs for image data), faster hardware, and better optimization and regularization methods made it feasible to successfully implement deep neural networks in the last decade.
+\lz
+
+\item An increase in depth often translates to an increase in performance on a given task. State-of-the-art neural networks, however, are much more sophisticated than the simple architectures we have encountered so far.
+
+\lz
+\item The term "\textbf{deep learning}" encompasses all of these developments and refers to the field as a whole.
+\end{itemize}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
