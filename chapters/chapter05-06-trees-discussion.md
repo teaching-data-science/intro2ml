@@ -128,6 +128,7 @@ Which statements about CART are true?
 
 <!--</exercise>-->
 
+<!--
 
 <exercise id="4" title="Quiz">
 
@@ -142,7 +143,7 @@ Which statements are true?
 </choice>
 
 </exercise>
-
+-->
 
 <!--<exercise id="6" title="Coding">-->
 
@@ -156,7 +157,7 @@ Which statements are true?
 
 <!--</exercise>-->
 
-
+<!--
 <exercise id="5" title="Quiz">
 Which statements are true?
 <choice>
@@ -171,7 +172,7 @@ Which statements are true?
 </choice>
 
 </exercise>
-
+-->
 
 <exercise id="6" title="CART">
 <object data="code-demos/code_demo_cart.pdf" type="application/pdf" style="width:100%;height:480px">
