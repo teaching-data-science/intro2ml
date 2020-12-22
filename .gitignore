@@ -19,3 +19,16 @@ DeepLearning/latex-math/
 DeepLearning/.DS_Store
 DeepLearning/03/.DS_Store
 DeepLearning/.DS_Store
+.DS_Store
+DeepLearning/.DS_Store
+DeepLearning/01/.DS_Store
+*.rdx
+*.toc
+*.RData
+*.tex
+*.nav
+*.gz
+*.log
+*.snm
+DeepLearning/01/cache/__packages
+*.rdb
