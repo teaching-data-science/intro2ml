@@ -65,7 +65,7 @@ $$\thetab^{[t + 1 ]}  = \thetab^{[t]} - \alpha \nabla \risk\left(\thetab^{[t]}\r
 \begin{center}
 \begin{figure}
 \centering
-\scalebox{1}{\includegraphics{plots/hill.pdf}}
+\scalebox{1}{\includegraphics{../plots/hill.pdf}}
 \end{figure}
 \vspace{1 cm}
 "Walking down the hill, towards the valley."
@@ -105,7 +105,7 @@ $$\thetab^{[t + 1]} = \thetab^{[t]} - \alpha \cdot \frac{1}{n} \cdot \sumin \nab
 An illustration of the SGD algorithm: on the left is GD and on the right is SGD. The black line depicts the averaged value of $\thetab$.
 
 \begin{figure}
-\scalebox{1}{\includegraphics{plots/SGD.png}}
+\scalebox{1}{\includegraphics{../plots/SGD.png}}
 \tiny{\\ source : Shalev-Shwartz and  Ben-David.
 Understanding machine learning: From theory to algorithms. Cambridge University Press, 2014.}
 \end{figure}
@@ -140,7 +140,7 @@ Understanding machine learning: From theory to algorithms. Cambridge University 
 \end{itemize}
 \begin{figure}
 \centering
-\scalebox{.8}{\includegraphics{plots/momentum.png}}
+\scalebox{.8}{\includegraphics{../plots/momentum.png}}
 \\GD (black) versus momentum (red) when dealing with ravines
 \end{figure}
 \end{vbframe}
@@ -152,7 +152,7 @@ Understanding machine learning: From theory to algorithms. Cambridge University 
 \item \textbf{Early stopping} refers to stopping the algorithm, before the generalization error increases, i.e., before the algorithm begins to overfit.
 \end{itemize}
 \begin{figure}
-\scalebox{.7}{\includegraphics{plots/earlystop.png}}
+\scalebox{.7}{\includegraphics{../plots/earlystop.png}}
 \end{figure}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,7 +164,7 @@ Understanding machine learning: From theory to algorithms. Cambridge University 
 \item Often referred to as \textit{weight decay} since weights are pulled to zero if they are not updated by large enough values.
 \end{itemize}
 \begin{figure}
-\scalebox{.5}{\includegraphics{plots/weight_decay.png}}
+\scalebox{.5}{\includegraphics{../plots/weight_decay.png}}
 \end{figure}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -175,7 +175,7 @@ Understanding machine learning: From theory to algorithms. Cambridge University 
 \item Each neuron has a fixed probability to be deactivated at each training step.
 \end{itemize}
 \begin{figure}
-\scalebox{.6}{\includegraphics{plots/subnet1.png}}
+\scalebox{.6}{\includegraphics{../plots/subnet1.png}}
 \end{figure}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

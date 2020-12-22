@@ -33,12 +33,12 @@ source("../code/functions.R")
 \item As a single neuron is restricted to learning only linear decision boundaries, its performance on the following task is quite poor:
 \begin{figure}
 \centering
-\scalebox{0.25}{\includegraphics{plots/cartesian.png}}
+\scalebox{0.25}{\includegraphics{../plots/cartesian.png}}
 \end{figure}
 \item However, the neuron can easily separate the classes if the original features are transformed (e.g., from Cartesian to polar coordinate): 
 \begin{figure}
 \centering
-\scalebox{0.25}{\includegraphics{plots/polar.png}}
+\scalebox{0.25}{\includegraphics{../plots/polar.png}}
 \end{figure}
 \end{itemize}
 \framebreak
@@ -48,12 +48,12 @@ source("../code/functions.R")
 \item Instead of classifying the data in the original representation,
 \begin{figure}
 \centering
-\scalebox{1}{\includegraphics{plots/repold_f.png}}
+\scalebox{1}{\includegraphics{../plots/repold_f.png}}
 \end{figure}
 \item we classify it in a new feature space.
 \begin{figure}
 \centering
-\scalebox{1}{\includegraphics{plots/repnew_f.png}}
+\scalebox{1}{\includegraphics{../plots/repnew_f.png}}
 \end{figure}
 \end{itemize}
 \framebreak
@@ -62,12 +62,12 @@ source("../code/functions.R")
 \item Analogously, instead of a single neuron, 
 \begin{figure}
 \centering
-\scalebox{0.6}{\includegraphics{plots/oldrep_n_f.png}}
+\scalebox{0.6}{\includegraphics{../plots/oldrep_n_f.png}}
 \end{figure}
 \item we use more complex networks.
 \begin{figure}
 \centering
-\scalebox{0.65}{\includegraphics{plots/newrep_n_f.png}}
+\scalebox{0.65}{\includegraphics{../plots/newrep_n_f.png}}
 \end{figure}
 \end{itemize}
 \end{vbframe}
@@ -112,12 +112,12 @@ source("../code/functions.R")
     \item Weights (and biases) of the network.
   \begin{figure}
     \centering
-      \only<1>{\scalebox{.8}{\includegraphics{plots/singlelay_1.png}}}
-      \only<2>{\scalebox{.8}{\includegraphics{plots/1.png}}}
-      \only<3>{\scalebox{.8}{\includegraphics{plots/singlelay_3.png}}}
-      \only<4>{\scalebox{.8}{\includegraphics{plots/singlelay_4.png}}}
-      \only<5>{\scalebox{.8}{\includegraphics{plots/singlelay_5.png}}}
-      \only<6>{\scalebox{.8}{\includegraphics{plots/singlelay_6.png}}}
+      \only<1>{\scalebox{.8}{\includegraphics{../plots/singlelay_1.png}}}
+      \only<2>{\scalebox{.8}{\includegraphics{../plots/singlelay_2.png}}}
+      \only<3>{\scalebox{.8}{\includegraphics{../plots/singlelay_3.png}}}
+      \only<4>{\scalebox{.8}{\includegraphics{../plots/singlelay_4.png}}}
+      \only<5>{\scalebox{.8}{\includegraphics{../plots/singlelay_5.png}}}
+      \only<6>{\scalebox{.8}{\includegraphics{../plots/singlelay_6.png}}}
   \end{figure}
   \begin{figure}
     \centering
@@ -130,9 +130,9 @@ source("../code/functions.R")
 \small{Forward pass through the shallow neural network.}
   \begin{figure}
     \centering
-    \only<1>{\scalebox{.8}{\includegraphics{plots/singlelay_7.png}}}
-    \only<2>{\scalebox{.8}{\includegraphics{plots/singlelay_8.png}}}
-    \only<3>{\scalebox{.8}{\includegraphics{plots/singlelay_9.png}}}
+    \only<1>{\scalebox{.8}{\includegraphics{../plots/singlelay_7.png}}}
+    \only<2>{\scalebox{.8}{\includegraphics{../plots/singlelay_8.png}}}
+    \only<3>{\scalebox{.8}{\includegraphics{../plots/singlelay_9.png}}}
   \end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -144,7 +144,7 @@ source("../code/functions.R")
 $$ \sigma (v) = \max(0,v) $$
 \end{blocki}
 \begin{figure}
-\scalebox{1}{\includegraphics{plots/relu.png}}
+\scalebox{1}{\includegraphics{../plots/relu.png}}
 \end{figure}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -154,7 +154,7 @@ $$ \sigma (v) = \max(0,v) $$
 $$ \sigma (v) = \text{tanh}(v) = \frac{\text{sinh}(v)}{\text{cosh}(v)} = 1 - \frac{2}{\exp(2v) + 1}$$
 \end{blocki}
 \begin{figure}
-\scalebox{1}{\includegraphics{plots/tanh.png}}
+\scalebox{1}{\includegraphics{../plots/tanh.png}}
 \end{figure}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,7 +164,7 @@ $$ \sigma (v) = \text{tanh}(v) = \frac{\text{sinh}(v)}{\text{cosh}(v)} = 1 - \fr
 $$ \sigma(v) = \frac{1}{1+\exp (-v)} $$
 \end{blocki}
 \begin{figure}
-\scalebox{1}{\includegraphics{plots/sigmoid.png}}
+\scalebox{1}{\includegraphics{../plots/sigmoid.png}}
 \end{figure}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -173,7 +173,7 @@ $$ \sigma(v) = \frac{1}{1+\exp (-v)} $$
   \lz
   \begin{figure}
     \centering
-      \includegraphics[width=10.5cm]{plots/deepneuralnet_new.png}
+      \includegraphics[width=10.5cm]{../plots/deepneuralnet_new.png}
       \caption{Structure of a deep neural network with $l$ hidden layers.}
   \end{figure}
 \end{vbframe}  
@@ -190,7 +190,7 @@ representations.
 \lz
 \begin{figure}
 \centering
-\includegraphics[width=10.5cm]{plots/folding}
+\includegraphics[width=10.5cm]{../plots/folding}
 \caption{An intuitive, geometric explanation of the exponential advantage of deeper networks formally (Mont\'{u}far et al. (2014)).}
 \end{figure}
 \end{vbframe}
