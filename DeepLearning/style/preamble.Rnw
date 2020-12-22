@@ -174,7 +174,7 @@ plotAnimation = function(plotFunction, iterations) {
 }
 @
 
-\title{Introduction to Machine Learning}
+\title{Introduction to Deep Learning}
 \author{Bernd Bischl}
 \institute{Department of Statistics -- LMU Munich}
 \date{Winter term 2021}
