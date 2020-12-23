@@ -58,6 +58,7 @@ source("../code/functions.R")
 \end{itemize}
 \framebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{itemize}
 \item Analogously, instead of a single neuron, 
 \begin{figure}
@@ -86,54 +87,67 @@ source("../code/functions.R")
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{vbframe}{Single Hidden Layer Networks}
-
-\textbf{Recall:} a single neuron performs a 2-step computation:
+\textbf{Single neurons} perform a 2-step computation:
 \begin{enumerate}
-\item \textbf{Affine Transformation:} weighted sum of inputs plus bias.
-\item \textbf{Non-linear Activation:} a non-linear transformation applied to the weighted sum.
+\item \textbf{Affine Transformation:} a weighted sum of inputs plus bias.
+\item \textbf{Activation:} a non-linear transformation on the weighted sum.
 \end{enumerate}
-
+\vspace{.5cm}
+\textbf{Single hidden layer networks} consist of two layers:
+\begin{enumerate}
+\item \textbf{Hidden Layer:} having a set of neurons.
+\item \textbf{Output Layer:} having one (potentially more) output neuron.
+\end{enumerate}
+\vspace{.5cm}
 \begin{itemize}
-\item A single hidden layer network is composed of a \textbf{hidden layer} having a set of neuron. 
-
-\item Each neuron located in the hidden layer performs a 2-step computation.
-
-\item It is possible to feed multiple inputs to a neural network simultaneously.
-\item The inputs $\xi$, for $i \in \nset$, are arranged as rows in the \textbf{design matrix} $\Xmat$.
-\item The weighted sum in the hidden layer is now computed as $\Xmat\Wmat + \bm{B}$, where,
-\item The \textit{matrix} of hidden activations $\bm{Z} = \sigma(\Xmat\Wmat + \bm{B})$
-\item The final output of the network, which contains a prediction for each input, is $\tau(\bm{Z}\wtu + \bm{C})$, where
+\item Multiple inputs are simultaneously fed to the network.
+\vspace{.2cm}
+\item Each neuron in the hidden layer performs a 2-step computation.
+\vspace{.2cm}
+\item The final output of the network is then calculated by another 2-step computation performed by the neuron in the output layer.
 \end{itemize}
 \end{vbframe}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame} {Single Hidden Layer Networks: Example}
-  \begin{itemize}
-    \item Weights (and biases) of the network.
-  \begin{figure}
-    \centering
-      \only<1>{\scalebox{.8}{\includegraphics{../plots/singlelay_1.png}}}
-      \only<2>{\scalebox{.8}{\includegraphics{../plots/singlelay_2.png}}}
-      \only<3>{\scalebox{.8}{\includegraphics{../plots/singlelay_3.png}}}
-      \only<4>{\scalebox{.8}{\includegraphics{../plots/singlelay_4.png}}}
-      \only<5>{\scalebox{.8}{\includegraphics{../plots/singlelay_5.png}}}
-      \only<6>{\scalebox{.8}{\includegraphics{../plots/singlelay_6.png}}}
-  \end{figure}
-  \begin{figure}
-    \centering
-  \end{figure}
-  \end{itemize}
+Each neuron in the hidden layer performs an \textbf{affine transformation} on the inputs:
+\begin{figure}
+\centering
+\only<1>{\scalebox{.8}{\includegraphics{../plots/singlelay_1.png}}}
+\only<2>{\scalebox{.8}{\includegraphics{../plots/singlelay_2.png}}}
+\only<3>{\scalebox{.8}{\includegraphics{../plots/singlelay_3.png}}}
+\only<4>{\scalebox{.8}{\includegraphics{../plots/singlelay_4.png}}}
+\only<5>{\scalebox{.8}{\includegraphics{../plots/singlelay_5.png}}}
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame} {Single Hidden Layer Networks: Example}
+Each hidden neurons perform a non-linear \textbf{activation} transformation on the weight sum:
+\begin{figure}
+\centering
+\only<1>{\scalebox{.83}{\includegraphics{../plots/singlelay_6.png}}}
+\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame} {Single Hidden Layer Networks: Example}
-\small{Forward pass through the shallow neural network.}
-  \begin{figure}
-    \centering
-    \only<1>{\scalebox{.8}{\includegraphics{../plots/singlelay_7.png}}}
-    \only<2>{\scalebox{.8}{\includegraphics{../plots/singlelay_8.png}}}
-    \only<3>{\scalebox{.8}{\includegraphics{../plots/singlelay_9.png}}}
-  \end{figure}
+The output neuron performs an \textbf{affine transformation} on its inputs:
+\begin{figure}
+\centering
+\only<1>{\scalebox{.83}{\includegraphics{../plots/singlelay_7.png}}}
+\only<2>{\scalebox{1}{\includegraphics{../plots/singlelay_8.png}}}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame} {Single Hidden Layer Networks: Example}
+The output neuron performs a non-linear \textbf{activation} transformation on the weight sum:
+\begin{figure}
+\centering
+\only<1>{\scalebox{.8}{\includegraphics{../plots/singlelay_9.png}}}
+\end{figure}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -177,7 +191,6 @@ $$ \sigma(v) = \frac{1}{1+\exp (-v)} $$
       \caption{Structure of a deep neural network with $l$ hidden layers.}
   \end{figure}
 \end{vbframe}  
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{vbframe}{Why add more layers?}
