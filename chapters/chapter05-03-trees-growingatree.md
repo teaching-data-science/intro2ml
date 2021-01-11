@@ -23,20 +23,4 @@ id: 1
 </exercise>
 
 
-<exercise id="3" title="Quiz">
-Which statements about CART are true?
-<choice>
-<opt text="To find optimal splits, one iterates over all features, and for each feature over all possible split points." correct="true">
-</opt>
-<opt text="To find optimal splits, we use the one that splits the data approximately in half in each step.">
-</opt>
-<opt text="To find optimal splits, we evaluate the possible splits only on the data that ended up in the parent node we are trying to split." correct="true">
-</opt>
-<opt text="The optimal split results in the lowest sum of empirical risks in the child nodes." correct="true">
-</opt>
-<opt text="Monotone transformations of several features will change the structure of the tree.">
-</opt>
-<opt text="The CART algorithm cannot go on training if every node contains exactly one observation" correct="true">
-</opt>
-</choice>
-</exercise>
+

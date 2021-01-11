@@ -82,6 +82,18 @@ id: 11
 </object>
 </exercise>
 
+<exercise id="13" title="Exercise 7: CART">
+<object data="exercise-sheets/exercise_7_trees.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_7_trees.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="14" title="Exercise 7: CART - Solution">
+<object data="exercise-sheets/exercise_7_trees_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_7_trees_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
+
 <!--
 <exercise id="2" title="Solution 1">
 <object data="exercise-sheets/solution_1.pdf" type="application/pdf" style="width:100%;height:480px">
