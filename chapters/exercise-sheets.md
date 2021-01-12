@@ -94,6 +94,18 @@ id: 11
 </object>
 </exercise>
 
+<exercise id="15" title="Exercise 8: Random Forests">
+<object data="exercise-sheets/exercise_8_forests.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_8_forests.pdf" type="application/pdf" />
+</object>
+</exercise>
+
+<exercise id="16" title="Exercise 8: Random Forests - Solution">
+<object data="exercise-sheets/exercise_8_forests_solution.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="exercise-sheets/exercise_8_forests_solution.pdf" type="application/pdf" />
+</object>
+</exercise>
+
 <!--
 <exercise id="2" title="Solution 1">
 <object data="exercise-sheets/solution_1.pdf" type="application/pdf" style="width:100%;height:480px">
