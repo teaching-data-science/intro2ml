@@ -105,7 +105,7 @@ Which statements are true?
 <!--</codeblock>-->
 <!--</exercise>-->
 
-
+<!--
 <exercise id="4" title="Quiz">
 Which statements are true?
 <choice>
@@ -117,3 +117,4 @@ Which statements are true?
 </opt>
 </choice>
 </exercise>
+-->
