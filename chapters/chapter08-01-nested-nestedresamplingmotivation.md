@@ -3,7 +3,7 @@ title: 'Chapter 8.1: Nested Resampling Motivation'
 description:
   ' Selecting the best model from a set of potential candidates is an important part of most machine learning problems. By examining an instructive and problematic example, we introduce the untouched test set principle.'
 prev: /chapter07-03-tuning-basictechniques
-next: /chapter08-02-tuning-trainingvalidationtesting
+next: /chapter08-02-nested-trainingvalidationtesting
 type: subchapter
 id: 1
 ---
@@ -16,8 +16,8 @@ id: 1
 
 <exercise id="2" title="Slides">
 
-<object data="pdfs/8/slides-tuning-nestedintro.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/8/slides-tuning-nestedintro.pdf" type="application/pdf" />
+<object data="pdfs/8/slides-nested-nestedintro.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="pdfs/8/slides-nested-nestedintro.pdf" type="application/pdf" />
 </object>
 
 </exercise>

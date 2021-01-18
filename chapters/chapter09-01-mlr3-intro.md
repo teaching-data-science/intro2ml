@@ -2,7 +2,7 @@
 title: 'Chapter 9.1: Intro to mlr3'
 description:
   ' In this section, we introduce the basic concepts of the R package mlr3.'
-prev: /chapter08-03-tuning-nestedresampling
+prev: /chapter08-03-nested-nestedresampling
 next: /chapter09-02-mlr3-resampling
 type: subchapter
 id: 1
