@@ -28,7 +28,7 @@ Which statements are true?
 <choice>
 <opt text="The OOB error shares similarities with cross-validation estimation. It can also be used for a quicker model selection." correct="true">
 </opt>
-<opt text="In random forests for regression, a good rule of thumb is to use mtry=`(√p)`" correct="true">
+<opt text="In random forests for classification, a good rule of thumb is to use mtry=`(√p)`" correct="true">
 </opt>
 </choice>
 </exercise>
