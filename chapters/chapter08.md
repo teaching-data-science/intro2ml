@@ -1,21 +1,21 @@
 ---
-title: 'Chapter 8: mlr3'
+title: 'Chapter 8: Nested Resampling'
 description:
-  " This chapter introduces the R package mlr3. After an introduction of the basic concepts we focus on resampling, tuning and pipelines."
+  " This chapter defines the untouched test principle. Additionally, the concepts of train-val-test split and nested resampling are explained."
 type: chapter
 prev: /chapter07
-next: null
-id: 8
+next: /chapter09
+id: 1
 ---
 
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-01-mlr3-intro">Chapter 8.1: Intro to mlr3</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-01-tuning-nestedresamplingmotivation">Chapter 8.1: Nested Resampling Motivation</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-01-mlr3-intro"> In this section, we introduce the basic concepts of the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-01-tuning-nestedresamplingmotivation"> Selecting the best model from a set of potential candidates is an important part of most machine learning problems. By examining an instructive and problematic example, we introduce the untouched test set principle.</a>
   </p>
 </section>
 
@@ -25,11 +25,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-02-mlr3-resampling">Chapter 8.2: Resampling with mlr3</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-02-tuning-trainingvalidationtesting">Chapter 8.2: Training - Validation - Testing</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-02-mlr3-resampling"> In this section, we explain how to implement resampling with the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-02-tuning-trainingvalidationtesting"> The simplest method to achieve an untouched test set is a 3-way split: the models are first learned on the "training set" and then evaluated and compared on the "validation set." After selecting the best model, the performance will be evaluated on the "test set." </a>
   </p>
 </section>
 
@@ -39,25 +39,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-03-mlr3-tuning">Chapter 8.3: Tuning with mlr3</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-03-tuning-nestedresampling">Chapter 8.3: Nested Resampling</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-03-mlr3-tuning"> In this section, we explain how to implement tuning with the R package mlr3.</a>
-  </p>
-</section>
-
-
-
-
-
-<section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-04-mlr3-pipielines">Chapter 8.4: Pipelines with mlr3</a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter08-04-mlr3-pipielines"> In this section, we explain how to implement pipelines with the R package mlr3.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter08-03-tuning-nestedresampling">  In this section, we will explain why and how nested resampling is done.</a>
   </p>
 </section>
 

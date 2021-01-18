@@ -1,9 +1,9 @@
 ---
-title: 'Chapter 7.6: Nested Resampling'
+title: 'Chapter 8.3: Nested Resampling'
 description:
   '  In this section, we will explain why and how nested resampling is done.'
-prev: /chapter07-05-tuning-trainingvalidationtesting
-next: /chapter08-01-mlr3-intro
+prev: /chapter08-02-tuning-trainingvalidationtesting
+next: /chapter09-01-mlr3-intro
 type: subchapter
 id: 1
 ---
@@ -16,8 +16,8 @@ id: 1
 
 <exercise id="2" title="Slides">
 
-<object data="pdfs/7/slides-tuning-nestedresampling.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/7/slides-tuning-nestedresampling.pdf" type="application/pdf" />
+<object data="pdfs/8/slides-tuning-nestedresampling.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="pdfs/8/slides-tuning-nestedresampling.pdf" type="application/pdf" />
 </object>
 
 </exercise>
