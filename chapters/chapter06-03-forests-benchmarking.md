@@ -30,8 +30,6 @@ Which statements are true?
 </opt>
 <opt text="In random forests for regression, a good rule of thumb is to use mtry=`(√p)`" correct="true">
 </opt>
-<opt text="Proximities are used in replacing missing data, but not in locating outliers.">
-</opt>
 </choice>
 </exercise>
 

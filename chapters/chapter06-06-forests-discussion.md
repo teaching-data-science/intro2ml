@@ -35,6 +35,8 @@ Which statements are true?
 </opt>
 <opt text="Random forests and trees can be used for high-dimensional data." correct="true">
 </opt>
+<opt text="Proximities are used in replacing missing data, but not in locating outliers.">
+</opt>
 </choice>
 </exercise>
 
