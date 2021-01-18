@@ -29,7 +29,7 @@ Which statements are true?
 <choice>
 <opt text="Bagging works best for unstable learners." correct="true">
 </opt>
-<opt text="For stable estimation methods, bagging mostly degrades performance.">
+<opt text="For stable estimation methods, bagging always reduces performance.">
 </opt>
 </choice>
 </exercise>
