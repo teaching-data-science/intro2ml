@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10.1: Risk Minimizer'
 description:
-  ' In this section, we introduce important theoretical concepts in releation to risk minimization: Risk minimizer, Bayes risk, consistent learners, and the optimal constant model. '
+  ' In this section, we introduce important theoretical concepts in relation to risk minimization: Risk minimizer, Bayes risk, consistent learners, and the optimal constant model. '
 prev: /chapter09-04-mlr3-pipielines
 next: /chapter10-02-pseudoresiduals
 type: subchapter
