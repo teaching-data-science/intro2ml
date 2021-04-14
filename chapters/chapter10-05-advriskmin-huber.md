@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10.5: Huber loss'
 description:
-  ' In this section, we introduce the Huber loss and discuss the risk minimizer and the optimal constant model. '
+  ' In this section, we introduce the Huber loss and discuss risk minimizer and optimal constant model. '
 prev: /chapter10-04-advriskmin-l1
 next: /chapter10-06-advriskmin-furtherlosses
 type: subchapter

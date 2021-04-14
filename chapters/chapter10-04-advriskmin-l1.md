@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10.4: L1-loss'
 description:
-  ' In this section, we revisit the L1 loss and discuss the risk minimizer and the optimal constant model. '
+  ' In this section, we revisit the L1 loss and derive risk minimizer and optimal constant model. '
 prev: /chapter10-03-advriskmin-l2
 next: /chapter10-05-advriskmin-huber
 type: subchapter

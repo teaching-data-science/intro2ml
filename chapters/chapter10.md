@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10: Advanced Risk Minimization'
 description:
-  " This chapter treats risk minimization in more theoretical depth. We will introduce advanced threotical concepts like (theoretical) risk minimizers, we discuss known losses like the L1 and L2 loss in more depth, and we introduce further advanced loss functions. "
+  " This chapter treats the theory of risk minimization in more depth. We introduce advanced threotical concepts like (theoretical) risk minimizers and the Bayes, we cover known losses like the L1 and L2 loss in more depth, and we introduce further advanced loss functions. "
 type: chapter
 prev: /chapter09
 next: null
@@ -43,7 +43,7 @@ id: 8
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-03-advriskmin-l2"> In this section, we revisit the L2 loss and discuss the risk minimizer and the optimal constant model.</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-03-advriskmin-l2"> In this section, we revisit the L2 loss and derive risk minimizer and optimal constant model.</a>
   </p>
 </section>
 
@@ -57,7 +57,7 @@ id: 8
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-04-advriskmin-l1"> In this section, revisit the L1 loss and discuss the risk minimizer and the optimal constant model. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-04-advriskmin-l1"> In this section, revisit the L1 loss and derive risk minimizer and optimal constant model. </a>
   </p>
 </section>
 
@@ -71,7 +71,7 @@ id: 8
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-05-advriskmin-huber"> In this section, we introduce the Huber loss and discuss the risk minimizer and the optimal constant model. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-05-advriskmin-huber"> In this section, we introduce the Huber loss and discuss risk minimizer and optimal constant model. </a>
   </p>
 </section>
 

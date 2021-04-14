@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 10.2: Pseudo-residuals'
+title: 'Chapter 10.2: Pseudo-Residuals'
 description:
   ' In this section, we introduce pseudo-residuals as a concept in supervised regression and discuss the relation to gradient descent. '
 prev: /chapter10-01-advriskmin-riskminimizer

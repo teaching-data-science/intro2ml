@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10.3: L2-loss'
 description:
-  ' In this section, we revisit the L2 loss and discuss the risk minimizer and the optimal constant model. '
+  ' In this section, we revisit the L2 loss and derive risk minimizer and optimal constant model. '
 prev: /chapter10-02-advriskmin-pseudoresiduals
 next: /chapter10-04-advriskmin-l1
 type: subchapter

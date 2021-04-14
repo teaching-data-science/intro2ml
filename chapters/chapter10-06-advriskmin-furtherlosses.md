@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 10.6: Further loss functions'
+title: 'Chapter 10.6: Advanced Regression Losses'
 description:
   ' In this section, we introduce the Log-Barrier loss, the Epsilon-insensitive loss and the Quantile loss. '
 prev: /chapter10-05-huber
