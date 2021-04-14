@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10: Advanced Risk Minimization'
 description:
-  " This chapter treats the theory of risk minimization in more depth. We introduce advanced threotical concepts like (theoretical) risk minimizers and the Bayes, we cover known losses like the L1 and L2 loss in more depth, and we introduce further advanced loss functions. "
+  " This chapter treats the theory of risk minimization in more depth. We introduce advanced theoretical concepts like (theoretical) risk minimizers and the Bayes risk, we cover known losses like the L1 and L2 loss in more depth, and we introduce further advanced loss functions. "
 type: chapter
 prev: /chapter09
 next: null
