@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 8: Nested Resampling'
+title: 'Chapter 08: Nested Resampling'
 description:
   " This chapter defines the untouched test principle. Additionally, the concepts of train-val-test split and nested resampling are explained."
 type: chapter

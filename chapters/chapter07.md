@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 7: Tuning'
+title: 'Chapter 07: Tuning'
 description:
   " This chapter introduces and formalizes the problem of hyperparameter tuning."
 type: chapter
