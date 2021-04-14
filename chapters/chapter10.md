@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 10: Advanced Risk Minimization'
 description:
-  " This chapter ....... text ........."
+  " This chapter treats risk minimization in more theoretical depth. We will introduce advanced threotical concepts like (theoretical) risk minimizers, we discuss known losses like the L1 and L2 loss in more depth, and we introduce further advanced loss functions. "
 type: chapter
 prev: /chapter09
 next: null
