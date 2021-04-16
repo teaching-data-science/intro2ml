@@ -11,11 +11,11 @@ id: 1
 
 <!-- Hier jetzt die neuen Links einpflegen -->
 
-<!---
+
 <exercise id="1" title="Video Lecture">
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/OVD0HDZ39IU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/agQQzTI_6HI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
--->
+
 
 
 <exercise id="2" title="Slides">
