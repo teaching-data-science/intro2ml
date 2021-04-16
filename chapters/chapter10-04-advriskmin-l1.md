@@ -19,8 +19,8 @@ id: 1
 
 
 <exercise id="2" title="Slides">
-<object data="pdfs/10/slides-regression-l1.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/10/slides-regression-l1.pdf" type="application/pdf" />
+<object data="pdfs/10/slides-advrisk-regression-l1.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="pdfs/10/slides-advrisk-regression-l1.pdf" type="application/pdf" />
 </object>
 </exercise>
 

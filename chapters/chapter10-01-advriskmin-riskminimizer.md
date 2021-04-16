@@ -18,8 +18,8 @@ id: 1
 
 
 <exercise id="2" title="Slides">
-<object data="pdfs/10/slides-risk-minimizer.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/10/slides-risk-minimizer.pdf" type="application/pdf" />
+<object data="pdfs/10/slides-advriskmin-risk-minimizer.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="pdfs/10/slides-advriskmin-risk-minimizer.pdf" type="application/pdf" />
 </object>
 </exercise>
 

@@ -63,32 +63,3 @@ id: 8
 
 
 
-
-
-<section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-05-advriskmin-huber">Chapter 10.5: Huber loss</a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-05-advriskmin-huber"> In this section, we introduce the Huber loss and discuss risk minimizer and optimal constant model. </a>
-  </p>
-</section>
-
-
-
-
-
-<section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-furtherlosses">Chapter 10.6: Advanced Regression Losses</a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-furtherlosses"> In this section, we introduce the Log-Barrier loss, the Epsilon-insensitive loss and the Quantile loss. </a>
-  </p>
-</section>
-
-
-
-
