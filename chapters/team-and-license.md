@@ -19,7 +19,7 @@ id: 1
   wrote the initial version of most of the course material, and teaches various master courses in ML and DL at the LMU for stats and data science.
 - [Fabian Scheipl](https://www.biostat.statistik.uni-muenchen.de/personen/mitarbeiter/scheipl/index.html)
   joined the team in fall 2018 and contributed to the slides, videos and code demos.
-- [Heidi Seibold](https://www.compstat.statistik.uni-muenchen.de/people/seibold) joined the team in fall 2019 and is in charge of the classes held in spring 2020 at LMU Munich and University of Bielefeld.
+- [Heidi Seibold](https://twitter.com/HeidiBaya) joined the team in fall 2019 and was in charge of the classes held in spring 2020 at LMU Munich and University of Bielefeld and the [Helmholtz Virtual ML Summer School 2020](https://www.helmholtz-hida.de/en/activities/events/details/helmholtz-virtual-ml-summer-school-2020-1/).
 - [Ludwig Bothmann](https://www.slds.stat.uni-muenchen.de/people/bothmann/) joined the team in summer 2020 and is in charge of the class held in winter 2020/21 at LMU Munich.
 - [Daniel Schalk](https://www.compstat.statistik.uni-muenchen.de/people/schalk)
   is a PhD at Bernd's group and organized the second round of the inverted classroom in spring 2019; he also provided the digital platform for videos, quizzes and exercises.
