@@ -91,7 +91,8 @@ updateChapter = function (section_file, file_pre = "", write_sub = TRUE) {
 
 
 files = list.files(full.names = TRUE)
-chapter = paste0("chapter0", seq_len(9), ".md")
+chapter = c(paste0("chapter0", seq_len(9), ".md"), 
+            paste0("chapter", 10:10, ".md"))
 
 for (fn in chapter) {
   cat("Processing chapter", fn, "\n")
