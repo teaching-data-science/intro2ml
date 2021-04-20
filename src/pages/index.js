@@ -31,10 +31,7 @@ questions, and learn how to apply the covered methods in R on some short
 coding exercises. 
                 </p>
                 <p>
-                The course material is developed in a public github repository: <a href="https://github.com/compstat-lmu/lecture_i2ml">https://github.com/compstat-lmu/lecture_i2ml</a>.
-                </p>
-                <p>
-                You can find the changelog at: <a href="https://github.com/compstat-lmu/lecture_i2ml/blob/master/CHANGELOG.md">https://github.com/compstat-lmu/lecture_i2ml/blob/master/CHANGELOG.md</a>.
+                The course material is developed in a public github repository: <a href="https://github.com/compstat-lmu/lecture_i2ml">https://github.com/compstat-lmu/lecture_i2ml</a>. You can find the changelog at: <a href="https://github.com/compstat-lmu/lecture_i2ml/blob/master/CHANGELOG.md">https://github.com/compstat-lmu/lecture_i2ml/blob/master/CHANGELOG.md</a>.
                 </p>
                 <p>
                     The accompanying exercises, demos and tutorials are a mix of theoretical and practical assignments, the latter in R (mostly with <strong>mlr3</strong>). Now let's get started!
