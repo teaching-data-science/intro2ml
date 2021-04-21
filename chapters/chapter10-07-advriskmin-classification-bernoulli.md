@@ -2,7 +2,7 @@
 title: 'Chapter 10.7: Bernoulli Loss'
 description:
   ' In this section, we introduce the Bernoulli loss and derive risk minimizer and optimal constant model. We further discuss the connection between Bernoulli loss minimization and tree splitting according to the entropy criterion. '
-prev: /chapter10-05-advriskmin-further-losses
+prev: /chapter10-06-advriskmin-classification-01
 next: null
 type: subchapter
 id: 1
