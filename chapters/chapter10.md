@@ -85,16 +85,6 @@ id: 8
 </section>
 
 
-<section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-classification-01">Chapter 10.6: 0-1-loss </a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-classification-01"> In this section, we revisit the 0-1-loss and derive risk minimizer and optimal constant model.  </a>
-  </p>
-</section>
-
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
