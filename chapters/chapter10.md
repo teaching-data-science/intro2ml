@@ -62,4 +62,56 @@ id: 8
 </section>
 
 
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-05-advriskmin-further-losses">Chapter 10.5: Advanced Regression Losses</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-05-advriskmin-further-losses"> In this section, we introduce and discuss the following advanced regression losses: Huber, log-cosh, Cauchy, log-barrier, epsilon-insensitive, and quantile loss. </a>
+  </p>
+</section>
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-classification-01">Chapter 10.6: 0-1-loss </a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-classification-01"> In this section, we revisit the 0-1-loss and derive risk minimizer and optimal constant model.  </a>
+  </p>
+</section>
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-classification-01">Chapter 10.6: 0-1-loss </a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-06-advriskmin-classification-01"> In this section, we revisit the 0-1-loss and derive risk minimizer and optimal constant model.  </a>
+  </p>
+</section>
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-07-advriskmin-classification-bernoulli">Chapter 10.7: Bernoulli Loss </a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter10-07-advriskmin-classification-bernoulli"> In this section, we introduce the Bernoulli loss and derive risk minimizer and optimal constant model. We further discuss the connection between Bernoulli loss minimization and tree splitting according to the entropy criterion.
+ </a>
+  </p>
+</section>
+
+
+
+
+
+
+
+
 
