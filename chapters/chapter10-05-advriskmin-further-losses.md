@@ -3,7 +3,7 @@ title: 'Chapter 10.5: Advanced Regression Losses'
 description:
   ' In this section, we introduce and discuss the following advanced regression losses: Huber, log-cosh, Cauchy, log-barrier, epsilon-insensitive, and quantile loss. '
 prev: /chapter10-04-advriskmin-l1
-next: /chapter10-06-advriskmin-cassification-01
+next: /chapter10-06-advriskmin-classification-01
 type: subchapter
 id: 1
 ---

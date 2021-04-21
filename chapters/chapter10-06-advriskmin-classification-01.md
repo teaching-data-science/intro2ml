@@ -2,7 +2,7 @@
 title: 'Chapter 10.6: 0-1-loss'
 description:
   ' In this section, we revisit the 0-1-loss and derive risk minimizer and optimal constant model.  '
-prev: /chapter10-06-advriskmin-cassification-01
+prev: /chapter10-05-advriskmin-further-losses
 next: /chapter10-07-advriskmin-classification-bernoulli
 type: subchapter
 id: 1
