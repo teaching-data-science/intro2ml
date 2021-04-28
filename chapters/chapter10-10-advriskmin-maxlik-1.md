@@ -2,8 +2,8 @@
 title: 'Chapter 10.10: Maximum Likelihood Estimization vs. Empirical Risk Minimization I'
 description:
   ' In this section, we discuss the connection between maximum likelihood estimation and risk minimization. We discuss the correspondence between a Gaussian error distribution and L2 loss. '
-prev: /chapter10-06-advriskmin-classification-01
-next: null
+prev: /chapter10-09-advriskmin-classification-further-losses
+next: /chapter10-11-advriskmin-maxlik-2
 type: subchapter
 id: 1
 ---
