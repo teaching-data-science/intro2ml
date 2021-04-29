@@ -29,23 +29,11 @@ export default ({ data }) => {
                 <p>
                 One general, important goal of the course - on top of clearly explaining the most popular ML algorithms - is to clearly demonstrate the fundamental building block behind ML, instead of introducing "yet another algorithm, with yet another differently named concept". We discuss, compare and contrast risk minimization, statistical parameter estimation, the Bayesian viewpoint and information theory and demonstrate that all of these are equally valid entry points to ML - which often (confusingly) talk about the same thing with different terminology. Being able to understand these similarities and enabling to mentally switch perspectives when needed is a major goal of this course.
                 </p>
-                <p>If you want to learn more about this course, please
-                <ul>
-                    <li>read the outline further below</li>
-                    <li>read the section on prerequisites </li>
-                </ul>
+                <p>If you want to learn more about this course, please (1) read the outline further below and (2) read the section on prerequisites
                 </p>
-                <p>Later on, please note:
-                <ol>
-                    <li>The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts.</li>
-                    <li>Most sections already contain quizzes, coding demos, and exercises with worked-out solutions to enable self-study as much as possible.</li>
-                </ol>
+                <p>Later on, please note: (1) The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts. (2) Most sections already contain quizzes, coding demos, and exercises with worked-out solutions to enable self-study as much as possible.
                 </p>
-                <p>What this course does not cover - in order not have its scope grow completely out of hand:
-                <ul>
-                    <li>Neural networks and deep learning. We are currently working on a similar repo / page for that, which builds upon this course.</li>
-                    <li>An in-depth coverage of optimization. We might publish a course on that at some point, but this is currently lower priority.</li>
-                </ul>       
+                <p>What this course does not cover - in order not have its scope grow completely out of hand: (1) Neural networks and deep learning. We are currently working on a similar repo / page for that, which builds upon this course. (2) An in-depth coverage of optimization. We might publish a course on that at some point, but this is currently lower priority.
                 </p>
                 <p>While most of the course is on a conceptual, programming language-independent level - which is by design -  we offer a large variety of applied exercises in R, often using the mlr3 package and its corresponding universe. We are working on offering the exercises in python as well.
                 </p>
