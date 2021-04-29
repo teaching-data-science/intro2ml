@@ -30,7 +30,7 @@ export default ({ data }) => {
                 One general, important goal of the course - on top of clearly explaining the most popular ML algorithms - is to clearly demonstrate the fundamental building block behind ML, instead of introducing "yet another algorithm, with yet another differently named concept". We discuss, compare and contrast risk minimization, statistical parameter estimation, the Bayesian viewpoint and information theory and demonstrate that all of these are equally valid entry points to ML - which often (confusingly) talk about the same thing with different terminology. Being able to understand these similarities and enabling to mentally switch perspectives when needed is a major goal of this course.
                 </p>
                 <p>If you want to learn more about this course, please
-                <ul>
+                <ul> xxx
                     <li>read the outline further below</li>
                     <li>read the section on prerequisites </li>
                 </ul>
