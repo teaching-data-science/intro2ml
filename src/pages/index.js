@@ -36,18 +36,16 @@ export default ({ data }) => {
                 </ul>
                 </p>
                 <p>Later on, please note:
-                <ul>
+                <ol>
                     <li>The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts.</li>
                     <li>Most sections already contain quizzes, coding demos, and exercises with worked-out solutions to enable self-study as much as possible.</li>
-                </ul>
+                </ol>
                 </p>
                 <p>What this course does not cover - in order not have its scope grow completely out of hand:
-                <BLOCKQUOTE>
                 <ul>
                     <li>Neural networks and deep learning. We are currently working on a similar repo / page for that, which builds upon this course.</li>
                     <li>An in-depth coverage of optimization. We might publish a course on that at some point, but this is currently lower priority.</li>
                 </ul>       
-                </BLOCKQUOTE>
                 </p>
                 <p>While most of the course is on a conceptual, programming language-independent level - which is by design -  we offer a large variety of applied exercises in R, often using the mlr3 package and its corresponding universe. We are working on offering the exercises in python as well.
                 </p>
