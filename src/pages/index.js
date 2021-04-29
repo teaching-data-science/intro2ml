@@ -37,7 +37,7 @@ export default ({ data }) => {
                 </p>
                 <p>Later on, please note:
                 <ul>
-                    <li>The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts.</li>
+                    <tab indent=20> <li>The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts.</li>
                     <li>Most sections already contain quizzes, coding demos, and exercises with worked-out solutions to enable self-study as much as possible.</li>
                 </ul>
                 </p>
@@ -47,7 +47,7 @@ export default ({ data }) => {
                     <li>An in-depth coverage of optimization. We might publish a course on that at some point, but this is currently lower priority.</li>
                 </ul>                
                 </p>
-                <p>While most of the course is on a conceptual, programming language independent level - which is by design -  we offer a large variety of applied exercises in R, often using the mlr3 package and its corresponding universe. We are working on offering the exercises in python as well.
+                <p>While most of the course is on a conceptual, programming language-independent level - which is by design -  we offer a large variety of applied exercises in R, often using the mlr3 package and its corresponding universe. We are working on offering the exercises in python as well.
                 </p>
                 <p>Note: In summer semester 2021 we are still extending the material somewhat, so the complete first version including all advanced material will probably be available around 07/2021.
                 </p>
