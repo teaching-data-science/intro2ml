@@ -37,7 +37,7 @@ export default ({ data }) => {
                 </p>
                 <p>Later on, please note:
                 <ul>
-                    <tab indent=20> <li>The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts.</li>
+                    <li>The course uses a unified mathematical notation. We provide cheat sheets to summarize the most important symbols and concepts.</li>
                     <li>Most sections already contain quizzes, coding demos, and exercises with worked-out solutions to enable self-study as much as possible.</li>
                 </ul>
                 </p>
