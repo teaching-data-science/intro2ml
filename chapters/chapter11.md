@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 10: Multiclass classification'
+title: 'Chapter 11: Multiclass classification'
 description:
   " This chapter treats multiclass classification." 
 type: chapter

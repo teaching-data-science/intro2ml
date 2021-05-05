@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 12.03: Entropy and Optimal Code Length'
+title: 'Chapter 12.04: Entropy and Optimal Code Length'
 description:
   ' In this section, we introduce source coding and discuss how entropy can be understood as optimal code length. '
 prev: /chapter12-02-info-diffent
@@ -13,7 +13,7 @@ id: 1
 
 
 <exercise id="1" title="Video Lecture">
-<iframe width="100%" height="480" src="https://www.youtube.com/embed/kC0XXQgC4_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/-zgNBnYkWc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </exercise>
 
 <exercise id="2" title="Slides">

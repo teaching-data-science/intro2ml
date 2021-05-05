@@ -1,7 +1,7 @@
 ---
-title: 'Chapter 11: Information Theory'
+title: 'Chapter 12: Information Theory'
 description:
-  " This chapter covers basic information-theoretic concept and discusses their relation to machine learning." 
+  " This chapter covers basic information-theoretic concepts and discusses their relation to machine learning." 
 type: chapter
 prev: /chapter011
 next: null

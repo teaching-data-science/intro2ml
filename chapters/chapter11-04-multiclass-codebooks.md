@@ -19,8 +19,8 @@ id: 1
 
 
 <exercise id="2" title="Slides">
-<object data="pdfs/10/slides-advriskmin-max-likelihood-other.pdf" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/10/slides-advriskmin-max-likelihood-other.pdf" type="application/pdf" />
+<object data="pdfs/11/slides-mc-codebooks.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="pdfs/11/slides-mc-codebooks.pdf" type="application/pdf" />
 </object>
 </exercise>
 
