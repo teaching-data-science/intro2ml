@@ -1,10 +1,10 @@
 ---
-title: 'Chapter 10: Advanced Risk Minimization'
+title: 'Chapter 10: Multiclass classification'
 description:
-  " This chapter treats the theory of risk minimization in more depth." 
+  " This chapter treats multiclass classification." 
 type: chapter
 prev: /chapter010
-next: null
+next: /chapter012
 id: 8
 ---
 

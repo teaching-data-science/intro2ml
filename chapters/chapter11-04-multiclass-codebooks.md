@@ -3,7 +3,7 @@ title: 'Chapter 11.04: Designing Codebooks and ECOC'
 description:
   ' In this section, we introduce codebooks as a general concept for multiclass to binary reduction. '
 prev: /chapter11-03-multiclass-binary-reduction
-next: null
+next: /chapter12-01-info-entropy
 type: subchapter
 id: 1
 ---
