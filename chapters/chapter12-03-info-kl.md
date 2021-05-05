@@ -2,8 +2,8 @@
 title: 'Chapter 12.03: Kullback-Leibler Divergence'
 description:
   ' In this section, we introduce the Kullback-Leibler divergence. '
-prev: /chapter12-03-info-sourcecoding
-next: /chapter12-05-info-cross-entropy-kld
+prev: /chapter12-02-info-diffent
+next: /chapter12-04-info-sourcecoding
 type: subchapter
 id: 1
 ---

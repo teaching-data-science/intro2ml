@@ -2,8 +2,8 @@
 title: 'Chapter 12.04: Entropy and Optimal Code Length'
 description:
   ' In this section, we introduce source coding and discuss how entropy can be understood as optimal code length. '
-prev: /chapter12-02-info-diffent
-next: /chapter12-04-info-kl
+prev: /chapter12-03-info-kl
+next: /chapter12-05-info-cross-entropy-kld
 type: subchapter
 id: 1
 ---

@@ -39,11 +39,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter12-03-info-sourcecoding">Chapter 12.03: Entropy and Optimal Code Length</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter12-03-info-kl">Chapter 12.03: Kullback-Leibler Divergence</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter12-03-info-sourcecoding"> In this section, we introduce source coding and discuss how entropy can be understood as optimal code length. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter12-03-info-kl"> In this section, we introduce the Kullback-Leibler divergence. </a>
   </p>
 </section>
 
@@ -53,11 +53,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter12-04-info-kl">Chapter 12.04: Kullback-Leibler Divergence</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter12-04-info-sourcecoding">Chapter 12.04: Entropy and Optimal Code Length</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter12-04-info-kl"> In this section, we introduce the Kullback-Leibler divergence. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter12-04-info-sourcecoding"> In this section, we introduce source coding and discuss how entropy can be understood as optimal code length. </a>
   </p>
 </section>
 

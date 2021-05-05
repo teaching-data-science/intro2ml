@@ -2,7 +2,7 @@
 title: 'Chapter 12.05: Cross-Entropy, KL and Source Coding'
 description:
   ' In this section, we introduce the cross-entropy and discuss the connection between entropy, cross-entropy, and Kullback-Leibler-divergence. '
-prev: /chapter12-04-info-kl
+prev: /chapter12-04-info-sourcecoding
 next: /chapter12-06-info-ml
 type: subchapter
 id: 1

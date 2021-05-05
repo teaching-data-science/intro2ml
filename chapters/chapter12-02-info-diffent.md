@@ -3,7 +3,7 @@ title: 'Chapter 12.02: Differential Entropy'
 description:
   ' In this section, we introduce the differential entropy as a concept which expresses the expected information for continuous random variables. '
 prev: /chapter12-01-info-entropy
-next: /chapter12-03-info-sourcecoding
+next: /chapter12-03-info-kl
 type: subchapter
 id: 1
 ---
