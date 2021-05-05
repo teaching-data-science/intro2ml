@@ -3,7 +3,7 @@ title: 'Chapter 10.11: Maximum Likelihood Estimization vs. Empirical Risk Minimi
 description:
   ' In this section, we discuss the connection between maximum likelihood estimation and risk minimization for further losses (L1 loss, Bernoulli loss). '
 prev: /chapter10-10-advriskmin-maxlik-1
-next: null
+next: /chapter11-01-multiclass-mc-losses
 type: subchapter
 id: 1
 ---
