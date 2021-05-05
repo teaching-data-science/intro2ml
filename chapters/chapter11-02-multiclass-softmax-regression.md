@@ -2,8 +2,8 @@
 title: 'Chapter 11.02: Softmax Regression'
 description:
   ' In this section, we introduce softmax regression as a generalization of logistic regression. '
-prev: /chapter10-10-advriskmin-maxlik-1
-next: null
+prev: /chapter11-01-multiclass-mc-losses
+next: /chapter11-03-multiclass-binary-reduction
 type: subchapter
 id: 1
 ---

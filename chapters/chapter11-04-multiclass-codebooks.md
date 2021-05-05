@@ -2,7 +2,7 @@
 title: 'Chapter 11.04: Designing Codebooks and ECOC'
 description:
   ' In this section, we introduce codebooks as a general concept for multiclass to binary reduction. '
-prev: /chapter10-10-advriskmin-maxlik-1
+prev: /chapter11-03-multiclass-binary-reduction
 next: null
 type: subchapter
 id: 1
