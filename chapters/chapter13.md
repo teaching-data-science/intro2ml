@@ -4,7 +4,7 @@ description:
   " This chapter introduces the phenomenon of the curse of dimensionality and discusses its effects on the behavior of machine learning models." 
 type: chapter
 prev: /chapter012
-next: null
+next: /chapter014
 id: 8
 ---
 
@@ -18,6 +18,8 @@ id: 8
   <a class="_46224d00 _7e2d93b5" href="/chapter13-01-cod"> In this section, we discusses why our geometric fails in high-dimensional spaces and introduces the phenomenon of the curse of dimensionality. </a>
   </p>
 </section>
+
+
 
 
 

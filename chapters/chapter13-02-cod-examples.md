@@ -3,7 +3,7 @@ title: 'Chapter 13.02: Curse of Dimensionality - Examples'
 description:
   ' In this section, we show with examples how k-NN and the linear model suffer from the the curse of dimensionality. '
 prev: /chapter13-01-cod
-next: null
+next: /chapter14-01-hypospaces-examples
 type: subchapter
 id: 1
 ---
