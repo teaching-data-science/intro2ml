@@ -3,7 +3,7 @@ title: 'Chapter 15.06: L0 Regularization'
 description:
   ' In this section, we introduce LQ regularization and particularly discuss L0 regularization. '
 prev: /chapter15-05-regu-underdetermined
-next: /chapter15-07-regu-nonlin-bayes
+next: /chapter15-08-regu-geom-l2-wdecay
 type: subchapter
 id: 1
 ---

@@ -3,7 +3,7 @@ title: 'Chapter 15.08: Geometric Analysis of L2-Regularization
 and Weight Decay'
 description:
   ' In this section, we provide a geometric understanding of L2 regularization and discuss its correspondence to weight decay. '
-prev: /chapter15-07-regu-nonlin-bayes
+prev: /chapter15-06-regu-regu-l0
 next: /chapter15-09-regu-geom-l1
 type: subchapter
 id: 1
