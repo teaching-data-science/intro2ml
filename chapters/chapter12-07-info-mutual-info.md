@@ -3,7 +3,7 @@ title: 'Chapter 12.07: Joint Entropy and Mutual Information'
 description:
   ' In this section, we introduce joint entropy, conditional entropy, and mutual information. '
 prev: /chapter12-06-info-ml
-next: null
+next: /chapter13-01-cod
 type: subchapter
 id: 1
 ---

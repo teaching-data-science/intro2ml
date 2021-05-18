@@ -4,7 +4,7 @@ description:
   " This chapter covers basic information-theoretic concepts and discusses their relation to machine learning." 
 type: chapter
 prev: /chapter011
-next: null
+next: /chapter013
 id: 8
 ---
 
