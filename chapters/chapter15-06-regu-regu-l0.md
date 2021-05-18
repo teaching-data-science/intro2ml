@@ -17,8 +17,8 @@ id: 1
 </exercise>
 
 <exercise id="2" title="Slides">
-<object data="pdfs/15/slides-regu-l0" type="application/pdf" style="width:100%;height:480px">
-    <embed src="pdfs/15/slides-regu-l0" type="application/pdf" />
+<object data="pdfs/15/slides-regu-l0.pdf" type="application/pdf" style="width:100%;height:480px">
+    <embed src="pdfs/15/slides-regu-l0.pdf" type="application/pdf" />
 </object>
 </exercise>
 
