@@ -3,7 +3,7 @@ title: 'Chapter 14.04: Bias-Variance Decomposition'
 description:
   ' In this section, we derive and discuss the biance-variance decomposition of the generalization error of an inducer. '
 prev: /chapter14-03-hypospaces-complexity
-next: null
+next: /chapter15-01-regu-intro
 type: subchapter
 id: 1
 ---

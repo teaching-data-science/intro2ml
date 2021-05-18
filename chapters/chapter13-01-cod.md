@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 13.01: Curse of Dimensionality'
 description:
-  ' In this section, we discusses why our geometric fails in high-dimensional spaces and introduces the phenomenon of the curse of dimensionality. '
+  ' In this section, we discuss why our geometric intuition fails in high-dimensional spaces and introduce the phenomenon of the curse of dimensionality. '
 prev: /chapter12-07-info-mutual-info
 next: /chapter13-02-cod-examples
 type: subchapter

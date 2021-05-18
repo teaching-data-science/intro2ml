@@ -1,10 +1,10 @@
 ---
 title: 'Chapter 14: Hypothesis Spaces'
 description:
-  " This chapter discusses hypothesis spaces, how complexity of hypothesis spaces can be measured and discusses the impact of model complexity on overfitting and introduces the bias-variance trade-off of an inducer formally." 
+  " This chapter discusses hypothesis spaces in more depth." 
 type: chapter
 prev: /chapter013
-next: null
+next: /chapter015
 id: 8
 ---
 

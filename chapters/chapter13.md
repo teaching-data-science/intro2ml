@@ -15,7 +15,7 @@ id: 8
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter13-01-cod"> In this section, we discusses why our geometric fails in high-dimensional spaces and introduces the phenomenon of the curse of dimensionality. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter13-01-cod"> In this section, we discuss why our geometric intuition fails in high-dimensional spaces and introduce the phenomenon of the curse of dimensionality. </a>
   </p>
 </section>
 
@@ -29,7 +29,7 @@ id: 8
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter13-02-cod-examples"> In this section, we show with examples how k-NN and the linear model suffer from the the curse of dimensionality. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter13-02-cod-examples"> In this section, we show examples of how k-NN and the linear model suffer from the the curse of dimensionality. </a>
   </p>
 </section>
 
