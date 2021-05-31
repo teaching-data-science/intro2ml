@@ -4,7 +4,7 @@ description:
   " This chapter introduces the concept of regularization and discusses common regularization techniques in more depth." 
 type: chapter
 prev: /chapter014
-next: null
+next: /chapter016
 id: 8
 ---
 
@@ -89,19 +89,6 @@ id: 8
   </p>
 </section>
 
-
-
-
-
-<!-- section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter15-07-regu-nonlin-bayes">Chapter 15.07: Nonlinear and Bayes</a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter15-07-regu-nonlin-bayes"> In this section, we show how regularization can be motivated form a Bayesian perspective. </a>
-  </p>
-</section -->
 
 
 
