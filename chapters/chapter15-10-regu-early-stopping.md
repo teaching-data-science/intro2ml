@@ -3,7 +3,7 @@ title: 'Chapter 15.10: Early Stopping'
 description:
   ' In this section, we introduce early stopping and show how it can act as a regularizer. '
 prev: /chapter15-09-regu-geom-l1
-next: null
+next: /chapter16-01-linsvm-hard-margin
 type: subchapter
 id: 1
 ---
