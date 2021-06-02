@@ -95,6 +95,20 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter15-07-regu-nonlin-bayes">Chapter 15.07: Regularization in Non-Linear Models and Bayesian Priors</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter15-07-regu-nonlin-bayes"> In this section, we motivate regularization from a Bayesian perspective. </a>
+  </p>
+</section>
+
+
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
   <a class="_46224d00 _7e2d93b5" href="/chapter15-08-regu-geom-l2-wdecay">Chapter 15.08: Geometric Analysis of L2-Regularization and Weight Decay</a>
 
   </h2>
