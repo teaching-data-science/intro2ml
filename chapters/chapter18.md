@@ -78,17 +78,3 @@ id: 8
 
 
 
-
-<section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter18-06-gp-mean">Chapter 18.05: Mean Functions for Gaussian Processes</a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter18-06-gp-mean"> In this section, we discuss the role of mean functions in Gaussian processes. </a>
-  </p>
-</section>
-
-
-
-

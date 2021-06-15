@@ -92,17 +92,3 @@ id: 8
 
 
 
-
-<section class="c72e2d57">
-  <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter17-07-nonlinsvm-uniapprox">Chapter 17.07: Details on Support Vector Machines</a>
-
-  </h2>
-  <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter17-07-nonlinsvm-uniapprox"> In this section, we explain why SVMs are non-parametric models and discuss their role as universal consistent models. </a>
-  </p>
-</section>
-
-
-
-
