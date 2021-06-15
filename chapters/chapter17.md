@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 17: Nonlinear Support Vector Machine'
 description:
-  " This chapter introduces the nonlinear support vector machines." 
+  " This chapter introduces  nonlinear support vector machines." 
 type: chapter
 prev: /chapter016
 next: /chapter018
@@ -81,7 +81,7 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter17-06-nonlinsvm-modelsel">Chapter 17.06: SVM Model Selection</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-06-nonlinsvm-modelsel">Chapter 17.05: SVM Model Selection</a>
 
   </h2>
   <p class="de526628">
