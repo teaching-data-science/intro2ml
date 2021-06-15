@@ -4,7 +4,7 @@ description:
   " This chapter introduces the linear support vector machines as a model class." 
 type: chapter
 prev: /chapter015
-next: null
+next: /chapter017
 id: 8
 ---
 

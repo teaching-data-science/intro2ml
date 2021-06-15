@@ -3,7 +3,7 @@ title: 'Chapter 16.05: Support Vector Machine Training'
 description:
   ' In this section, we present methods to optimize the linear SVM problem. '
 prev: /chapter16-04-linsvm-erm
-next: null
+next: /chapter17-01-nonlinsvm-featuregen
 type: subchapter
 id: 1
 ---
