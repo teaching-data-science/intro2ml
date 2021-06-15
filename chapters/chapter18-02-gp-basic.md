@@ -2,8 +2,8 @@
 title: 'Chapter 18.02: Gaussian Processes'
 description:
   ' In this section, we introduce the basic idea behind Gaussian processes. '
-prev: /chapter16-01-linsvm-hard-margin
-next: /chapter16-03-linsvm-soft-margin
+prev: /chapter18-01-gp-bayes-lm
+next: /chapter18-03-gp-covariance
 type: subchapter
 id: 1
 ---

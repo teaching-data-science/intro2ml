@@ -2,8 +2,8 @@
 title: 'Chapter 17.03: The Polynomial Kernel'
 description:
   ' In this section, we introduce the polynomial kernel in the context of SVMs. '
-prev: /chapter16-02-linsvm-hard-margin-dual
-next: /chapter16-04-linsvm-erm
+prev: /chapter17-02-nonlinsvm-kernel-trick
+next: /chapter17-04-nonlinsvm-rkhs-repr
 type: subchapter
 id: 1
 ---

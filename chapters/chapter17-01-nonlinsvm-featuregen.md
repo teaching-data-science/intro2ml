@@ -2,8 +2,8 @@
 title: 'Chapter 17.01: Feature Generation for Nonlinear Separation'
 description:
   ' In this section, we discuss how nonlinearity can be introduced in SVMs via feature maps. '
-prev: /chapter15-10-regu-early-stopping
-next: /chapter16-02-linsvm-hard-margin-dual
+prev: /chapter16-05-linsvm-optimization
+next: /chapter17-02-nonlinsvm-kernel-trick
 type: subchapter
 id: 1
 ---

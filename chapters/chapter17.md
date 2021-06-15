@@ -3,19 +3,19 @@ title: 'Chapter 17: Nonlinear Support Vector Machine'
 description:
   " This chapter introduces the nonlinear support vector machines." 
 type: chapter
-prev: /chapter015
-next: null
+prev: /chapter016
+next: /chapter018
 id: 8
 ---
 
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-01-linsvm-hard-margin">Chapter 16.01: Linear Hard Margin SVM</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-01-nonlinsvm-featuregen">Chapter 17.01: Feature Generation for Nonlinear Separation</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-01-linsvm-hard-margin"> In this section, we introduce the linear hard margin SVM problem as a quadratic optimization program. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-01-nonlinsvm-featuregen"> In this section, we discuss how nonlinearity can be introduced in SVMs via feature maps. </a>
   </p>
 </section>
 
@@ -25,11 +25,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-02-linsvm-hard-margin-dual">Chapter 16.02: Hard Margin SVM Dual</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-02-nonlinsvm-kernel-trick">Chapter 17.02: The Kernel Trick</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-02-linsvm-hard-margin-dual"> In this section, we derive the dual formulation of the linear hard-margin SVM problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-02-nonlinsvm-kernel-trick"> In this section, we show how to introduce nonlinearity in SVMs efficiently via the kernel trick. </a>
   </p>
 </section>
 
@@ -39,11 +39,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-03-linsvm-soft-margin">Chapter 16.03: Soft-Margin SVM</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-03-nonlinsvm-kernel-poly">Chapter 17.03: The Polynomial Kernel</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-03-linsvm-soft-margin"> In this section, we introduce the Soft-Margin SVM problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-03-nonlinsvm-kernel-poly"> In this section, we introduce the polynomial kernel in the context of SVMs. </a>
   </p>
 </section>
 
@@ -53,11 +53,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-04-linsvm-erm">Chapter 16.04: SVMs and Empirical Risk Minimization</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-04-nonlinsvm-rkhs-repr">Chapter 17.04: Reproducing Kernel Hilbert Space and Representer Theorem</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-04-linsvm-erm"> In this section, we show how the SVM problem can be understood as an empirical risk minimization problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-04-nonlinsvm-rkhs-repr"> In this section, we introduce important theoretical background on nonlinear SVMs. </a>
   </p>
 </section>
 
@@ -67,11 +67,39 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-05-linsvm-optimization">Chapter 16.05: Support Vector Machine Training</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-05-nonlinsvm-kernel-rbf">Chapter 17.05: The Gaussian RBF Kernel</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-05-linsvm-optimization"> In this section, we present methods to optimize the linear SVM problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-05-nonlinsvm-kernel-rbf"> In this section, we introduce the Gaussian RBF kernel and discuss its properties. </a>
+  </p>
+</section>
+
+
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-06-nonlinsvm-modelsel">Chapter 17.05: SVM Model Selection</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-06-nonlinsvm-modelsel"> In this section, we discuss the importance of selection of SVM hyperparameters. </a>
+  </p>
+</section>
+
+
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-07-nonlinsvm-uniapprox">Chapter 17.07: Details on Support Vector Machines</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter17-07-nonlinsvm-uniapprox"> In this section, we explain why SVMs are non-parametric models and discuss their role as universal consistent models. </a>
   </p>
 </section>
 

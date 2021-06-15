@@ -2,8 +2,8 @@
 title: 'Chapter 18.04: Gaussian Process Prediction'
 description:
   ' In this section, we show how to derive the posterior process and discuss further properties of GPs. '
-prev: /chapter16-03-linsvm-soft-margin
-next: /chapter16-05-linsvm-optimization
+prev: /chapter18-03-gp-covariance
+next: /chapter18-05-gp-training
 type: subchapter
 id: 1
 ---

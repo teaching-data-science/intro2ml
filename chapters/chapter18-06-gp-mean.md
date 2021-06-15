@@ -2,7 +2,7 @@
 title: 'Chapter 18.05: Mean Functions for Gaussian Processes'
 description:
   ' In this section, we discuss the role of mean functions in Gaussian processes. '
-prev: /chapter16-04-linsvm-erm
+prev: /chapter18-05-gp-training
 next: null
 type: subchapter
 id: 1

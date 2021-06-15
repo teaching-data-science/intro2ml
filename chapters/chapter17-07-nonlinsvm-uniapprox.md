@@ -2,8 +2,8 @@
 title: 'Chapter 17.07: Details on Support Vector Machines'
 description:
   ' In this section, we explain why SVMs are non-parametric models and discuss their role as universal consistent models. '
-prev: /chapter16-04-linsvm-erm
-next: null
+prev: /chapter17-06-nonlinsvm-modelsel
+next: /chapter18-01-gp-bayes-lm
 type: subchapter
 id: 1
 ---

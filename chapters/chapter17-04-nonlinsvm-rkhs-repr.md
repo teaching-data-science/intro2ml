@@ -1,10 +1,9 @@
 ---
-title: 'Chapter 17.04: Reproducing Kernel Hilbert Space and
-Representer Theorem'
+title: 'Chapter 17.04: Reproducing Kernel Hilbert Space and Representer Theorem'
 description:
-  ' In this section, we introduce important theoretical background on nonlinear SVMs (Mercer's theorem, reproducing kernel hilbert spaces, the representer theorem). '
-prev: /chapter16-03-linsvm-soft-margin
-next: /chapter16-05-linsvm-optimization
+  ' In this section, we introduce important theoretical background on nonlinear SVMs. '
+prev: /chapter17-03-nonlinsvm-kernel-poly
+next: /chapter17-05-nonlinsvm-kernel-rbf
 type: subchapter
 id: 1
 ---

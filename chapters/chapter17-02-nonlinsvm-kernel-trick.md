@@ -2,8 +2,8 @@
 title: 'Chapter 17.02: The Kernel Trick'
 description:
   ' In this section, we show how to introduce nonlinearity in SVMs efficiently via the kernel trick. '
-prev: /chapter16-01-linsvm-hard-margin
-next: /chapter16-03-linsvm-soft-margin
+prev: /chapter17-01-nonlinsvm-featuregen
+next: /chapter17-03-nonlinsvm-kernel-poly
 type: subchapter
 id: 1
 ---

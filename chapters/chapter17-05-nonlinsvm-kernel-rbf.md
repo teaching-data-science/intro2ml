@@ -2,8 +2,8 @@
 title: 'Chapter 17.05: The Gaussian RBF Kernel'
 description:
   ' In this section, we introduce the Gaussian RBF kernel and discuss its properties. '
-prev: /chapter16-04-linsvm-erm
-next: null
+prev: /chapter17-04-nonlinsvm-rkhs-repr
+next: /chapter17-06-nonlinsvm-modelsel
 type: subchapter
 id: 1
 ---

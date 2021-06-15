@@ -2,8 +2,8 @@
 title: 'Chapter 18.05: Gaussian Process Training'
 description:
   ' In this section, we show how Gaussian processes are trained. '
-prev: /chapter16-04-linsvm-erm
-next: null
+prev: /chapter18-04-gp-prediction
+next: /chapter18-06-gp-mean
 type: subchapter
 id: 1
 ---

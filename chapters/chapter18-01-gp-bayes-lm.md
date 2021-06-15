@@ -2,8 +2,8 @@
 title: 'Chapter 18.01: The Bayesian Linear Model'
 description:
   ' In this section, we discuss the Bayesian linear model. '
-prev: /chapter15-10-regu-early-stopping
-next: /chapter16-02-linsvm-hard-margin-dual
+prev: /chapter17-07-nonlinsvm-uniapprox
+next: /chapter18-02-gp-basic
 type: subchapter
 id: 1
 ---

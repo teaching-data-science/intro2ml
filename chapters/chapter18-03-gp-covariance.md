@@ -2,8 +2,8 @@
 title: 'Chapter 18.03: Covariance Functions for GPs'
 description:
   ' In this section, we discuss the role of covariance functions in GPs and introduce the most common ones. '
-prev: /chapter16-02-linsvm-hard-margin-dual
-next: /chapter16-04-linsvm-erm
+prev: /chapter18-02-gp-basic
+next: /chapter18-04-gp-prediction
 type: subchapter
 id: 1
 ---

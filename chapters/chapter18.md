@@ -3,7 +3,7 @@ title: 'Chapter 18: Gaussian Processes'
 description:
   " This chapter introduces Gaussian processes as a model class." 
 type: chapter
-prev: /chapter015
+prev: /chapter017
 next: null
 id: 8
 ---
@@ -11,11 +11,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-01-linsvm-hard-margin">Chapter 16.01: Linear Hard Margin SVM</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-01-gp-bayes-lm">Chapter 18.01: The Bayesian Linear Model</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-01-linsvm-hard-margin"> In this section, we introduce the linear hard margin SVM problem as a quadratic optimization program. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-01-gp-bayes-lm"> In this section, we discuss the Bayesian linear model. </a>
   </p>
 </section>
 
@@ -25,11 +25,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-02-linsvm-hard-margin-dual">Chapter 16.02: Hard Margin SVM Dual</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-02-gp-basic">Chapter 18.02: Gaussian Processes</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-02-linsvm-hard-margin-dual"> In this section, we derive the dual formulation of the linear hard-margin SVM problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-02-gp-basic"> In this section, we introduce the basic idea behind Gaussian processes. </a>
   </p>
 </section>
 
@@ -39,11 +39,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-03-linsvm-soft-margin">Chapter 16.03: Soft-Margin SVM</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-03-gp-covariance">Chapter 18.03: Covariance Functions for GPs</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-03-linsvm-soft-margin"> In this section, we introduce the Soft-Margin SVM problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-03-gp-covariance"> In this section, we discuss the role of covariance functions in GPs and introduce the most common ones. </a>
   </p>
 </section>
 
@@ -53,11 +53,11 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-04-linsvm-erm">Chapter 16.04: SVMs and Empirical Risk Minimization</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-04-gp-prediction">Chapter 18.04: Gaussian Process Prediction</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-04-linsvm-erm"> In this section, we show how the SVM problem can be understood as an empirical risk minimization problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-04-gp-prediction"> In this section, we show how to derive the posterior process and discuss further properties of GPs. </a>
   </p>
 </section>
 
@@ -67,11 +67,25 @@ id: 8
 
 <section class="c72e2d57">
   <h2 class="_5e0ebe7a">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-05-linsvm-optimization">Chapter 16.05: Support Vector Machine Training</a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-05-gp-training">Chapter 18.05: Gaussian Process Training</a>
 
   </h2>
   <p class="de526628">
-  <a class="_46224d00 _7e2d93b5" href="/chapter16-05-linsvm-optimization"> In this section, we present methods to optimize the linear SVM problem. </a>
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-05-gp-training"> In this section, we show how Gaussian processes are trained. </a>
+  </p>
+</section>
+
+
+
+
+
+<section class="c72e2d57">
+  <h2 class="_5e0ebe7a">
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-06-gp-mean">Chapter 18.05: Mean Functions for Gaussian Processes</a>
+
+  </h2>
+  <p class="de526628">
+  <a class="_46224d00 _7e2d93b5" href="/chapter18-06-gp-mean"> In this section, we discuss the role of mean functions in Gaussian processes. </a>
   </p>
 </section>
 
