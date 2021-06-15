@@ -2,8 +2,8 @@
 title: 'Chapter 17.06: SVM Model Selection'
 description:
   ' In this section, we discuss the importance of selection of SVM hyperparameters. '
-prev: /chapter16-04-linsvm-erm
-next: null
+prev: /chapter17-05-nonlinsvm-kernel-rbf
+next: /chapter18-01-gp-bayes-lm
 type: subchapter
 id: 1
 ---
