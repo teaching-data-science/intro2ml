@@ -3,8 +3,8 @@ title: 'Chapter 14: Hypothesis Spaces'
 description:
   " This chapter discusses hypothesis spaces in more depth." 
 type: chapter
-prev: /chapter013
-next: /chapter015
+prev: /chapter13
+next: /chapter15
 id: 8
 ---
 

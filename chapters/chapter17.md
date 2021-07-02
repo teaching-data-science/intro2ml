@@ -3,8 +3,8 @@ title: 'Chapter 17: Nonlinear Support Vector Machine'
 description:
   " This chapter introduces the nonlinear support vector machines." 
 type: chapter
-prev: /chapter016
-next: /chapter018
+prev: /chapter16
+next: /chapter18
 id: 8
 ---
 

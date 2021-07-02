@@ -3,8 +3,8 @@ title: 'Chapter 13: Curse of Dimensionality'
 description:
   " This chapter introduces the phenomenon of the curse of dimensionality and discusses its effects on the behavior of machine learning models." 
 type: chapter
-prev: /chapter012
-next: /chapter014
+prev: /chapter12
+next: /chapter14
 id: 8
 ---
 

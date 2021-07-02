@@ -3,7 +3,7 @@ title: 'Chapter 19: Boosting'
 description:
   " This chapter introduces boosting as a sequential ensemble method." 
 type: chapter
-prev: /chapter018
+prev: /chapter18
 next: null
 id: 8
 ---

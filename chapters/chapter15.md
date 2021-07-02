@@ -3,8 +3,8 @@ title: 'Chapter 15: Regularization'
 description:
   " This chapter introduces the concept of regularization and discusses common regularization techniques in more depth." 
 type: chapter
-prev: /chapter014
-next: /chapter016
+prev: /chapter14
+next: /chapter16
 id: 8
 ---
 
