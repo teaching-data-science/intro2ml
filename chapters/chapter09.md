@@ -4,7 +4,7 @@ description:
   " This chapter introduces the R package mlr3. After an introduction of the basic concepts we focus on resampling, tuning and pipelines."
 type: chapter
 prev: /chapter08
-next: /chapter010
+next: /chapter10
 id: 8
 ---
 

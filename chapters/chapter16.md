@@ -3,8 +3,8 @@ title: 'Chapter 16: Linear Support Vector Machine'
 description:
   " This chapter introduces the linear support vector machines as a model class." 
 type: chapter
-prev: /chapter015
-next: /chapter017
+prev: /chapter15
+next: /chapter17
 id: 8
 ---
 

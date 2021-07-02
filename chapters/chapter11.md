@@ -3,8 +3,8 @@ title: 'Chapter 11: Multiclass classification'
 description:
   " This chapter treats multiclass classification." 
 type: chapter
-prev: /chapter010
-next: /chapter012
+prev: /chapter10
+next: /chapter12
 id: 8
 ---
 
