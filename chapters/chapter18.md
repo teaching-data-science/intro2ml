@@ -4,7 +4,7 @@ description:
   " This chapter introduces Gaussian processes as a model class." 
 type: chapter
 prev: /chapter017
-next: null
+next: /chapter019
 id: 8
 ---
 
