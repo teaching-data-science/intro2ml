@@ -3,8 +3,8 @@ title: 'Chapter 12: Information Theory'
 description:
   " This chapter covers basic information-theoretic concepts and discusses their relation to machine learning." 
 type: chapter
-prev: /chapter011
-next: /chapter013
+prev: /chapter11
+next: /chapter13
 id: 8
 ---
 

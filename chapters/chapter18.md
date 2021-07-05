@@ -3,8 +3,8 @@ title: 'Chapter 18: Gaussian Processes'
 description:
   " This chapter introduces Gaussian processes as a model class." 
 type: chapter
-prev: /chapter017
-next: /chapter019
+prev: /chapter17
+next: /chapter19
 id: 8
 ---
 
