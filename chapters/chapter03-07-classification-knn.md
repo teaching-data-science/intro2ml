@@ -44,7 +44,7 @@ Which statements are true?
 </opt>
 <opt text="k-NN can be used in regression and classification" correct="true">
 </opt>
-<opt text="k-NN is a probabilistic classifier" correct="true">
+<opt text="k-NN is a probabilistic classifier">
 </opt>
 </choice>
 </exercise>
