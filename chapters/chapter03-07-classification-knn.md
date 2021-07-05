@@ -69,7 +69,7 @@ Which statements are true?
 <!--</codeblock>-->
 <!--</exercise>-->
 
-
+<!--
 <exercise id="4" title="Quiz">
 What can you observe?
 <choice>
@@ -84,7 +84,7 @@ What can you observe?
 </choice>
 </exercise>
 
-
+-->
 <exercise id="5" title="Comparison of Classification Methods">
 <object data="code-demos/code_demo_cmpclass.pdf" type="application/pdf" style="width:100%;height:480px">
     <embed src="code-demos/code_demo_cmpclass.pdf" type="application/pdf" />
