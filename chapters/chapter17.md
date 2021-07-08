@@ -1,7 +1,7 @@
 ---
 title: 'Chapter 17: Nonlinear Support Vector Machine'
 description:
-  " This chapter introduces the nonlinear support vector machines." 
+  " This chapter introduces  nonlinear support vector machines." 
 type: chapter
 prev: /chapter16
 next: /chapter18
